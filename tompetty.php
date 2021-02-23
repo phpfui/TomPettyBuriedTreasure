@@ -8,7 +8,7 @@ class PettyParser
 	{
 	private \App\Tools\CSVWriter $songWriter;
 	private \App\Tools\CSVWriter $showWriter;
-	private array $badParts = ['Click here', '(You must be', 'https://www', 'Buried Treasure show'];
+	private array $badParts = ['Click here', '(You must be', 'https://www', 'Buried Treasure'];
 	private array $months = [];
 
 	public function __construct()
@@ -45,7 +45,7 @@ class PettyParser
 
 					if ($this->badText($text))
 						{
-						if (stripos($text, 'Buried Treasure Show') !== false)
+						if (stripos($text, 'Buried Treasure') !== false)
 							{
 							$show = $this->parseShow($text);
 							if (! empty($show['showId']))
