@@ -1674,8 +1674,46 @@ showId,artist,title,album
 84,"Bobby Fuller Four","Love's Made A Fool Of You","The Best of The Bobby Fuller Four"
 84,"The Lovin Spoonful","Didn't Want To Have To Do It","Greatest Hits"
 84,Faces,"Around The Plynth","First Step"
-85,"The Kinks Where Have All The Good Times Gone Picture Book (Box Set)","Koko Taylor Wang Dang Doodle Willie Dixon: The Chess Box, Muddy Waters I Just Want To Make Love To You The Anthology 1947-1972, Little Feat Willin' Sailin' Shoes, Elvis Presley Working On The Building His Hand In Mine, Fats Domino Be My Guest The Fats Domino Jukebox, Them Baby Please Don't Go Them Featuring Van Morrison, We The People Declaration Of Independence Too Much Noise, The Who I'm A Boy The Ultimate Collection, Peter Green/Fleetwood Mac World In Harmony Jumping At Shadows: The Blues Years, Sonny Boy Williamson Help Me The Chess Blues-Rock Songbook, The Byrds Why Younger Than Yesterday, Emitt Rhodes Long Time No See Daisy-Fresh from Hawthorne, California (the best of the Dunhill years), Rod Stewart Street Fighting Man Reason To Believe: The Complete Mercury Studio Recordings, The Rolling Stones Sittin' On A Fence Flowers, The Searchers Take Me For What I'm Worth The Very Best of The Searchers, Moby Grape Omaha Moby Grape, The Midnighters Annie Had A Baby The Very Best of the Royals and the Midnighters, Mighty Sam Lovebones Atlantic Unearthed: Soul Brothers, Bobby Charles See You Later, Alligator The Chess Blues-Rock Songbook, www.xmradio.com/tompetty, Feel free to leave a comment below.","(Get a free registration to leave comments on TomPetty.com!)"
-86,"MC5 Over And Over High Time","The Easybeats Good Times The Definitive Anthology, The Everly Brothers Gone, Gone, Gone Walk Right Back: The Everly Brothers on Warner Bros. 1960-1969, The Guess Who It's My Pride Anthology, The Beatles The Word The Capitol Albums Vol. 2, Delaney & Bonnie Soul Shake The Best of Delaney & Bonnie, Paul Butterfield Blues Band Lovin' Cup An Anthology: The Elektra Years, The Yardbirds The Nazz Are Blue Ultimate!, The Zombies If It Don't Work Out Absolutely The Best, The Who My Generation (live) Monterey International Pop Festival, Jimi Hendrix Experience Killing Floor (live) Live At Monterey, J. J. Cale Durango Anyway The Wind Blows: The Anthology, Peter Green/Fleetwood Mac Man of the World Jumping At Shadows: The Blues Years, Madness One Step Beyond One Step Beyond, Big Joe Turner Flip Flop and Fly Loud, Fast & Out of Control: The Wild Sounds of '50s Rock, The Byrds Time Between Younger Than Yesterday, George Harrison Behind That Locked Door All Things Must Pass, Spencer Davis Group Trampoline Gimme Some Lovin', The Rolling Stones I Don't Know Why Metamorphosis, www.xmradio.com/tompetty, Feel free to leave a comment below.","(Get a free registration to leave comments on TomPetty.com!)"
+85,"The Kinks",Where Have All The Good Times Gone,Picture Book (Box Set)
+85,"Koko Taylor", "Wang Dang Doodle"
+85,"Willie Dixon", The Chess Box
+85,Muddy Waters,I Just Want To Make Love To You,The Anthology 1947-1972
+85,Little Feat,Willin',Sailin' Shoes
+85,Elvis Presley,Working On The Building,His Hand In Mine
+85,Fats Domino,Be My Guest,The Fats Domino Jukebox
+85,Them,Baby Please Don't Go,Them Featuring Van Morrison
+85,We The People,Declaration Of Independence,Too Much Noise
+85,The Who,I'm A Boy,The Ultimate Collection
+85,Peter Green/Fleetwood Mac,World In Harmony,Jumping At Shadows: The Blues Years
+85,Sonny Boy Williamson, Help Me,The Chess Blues-Rock Songbook
+85,The Byrds,Why,Younger Than Yesterday
+85,Emitt Rhodes,Long Time No See,"Daisy-Fresh from Hawthorne, California (the best of the Dunhill years)"
+85,Rod Stewart,Street Fighting Man,Reason To Believe: The Complete Mercury Studio Recordings
+85,The Rolling Stones,Sittin' On A Fence,Flowers
+85,The Searchers,Take Me For What I'm Worth,The Very Best of The Searchers
+85,Moby Grape,Omaha,Moby Grape
+85,The Midnighters,Annie Had A Baby,The Very Best of the Royals and the Midnighters
+85,Mighty Sam, Lovebones,Atlantic Unearthed: Soul Brothers
+85,Bobby Charles,"See You Later, Alligator",The Chess Blues-Rock Songbook
+86,MC5,Over And Over,High Time
+86,The Easybeats,Good Times,The Definitive Anthology
+86,The Everly Brothers,"Gone, Gone, Gone",Walk Right Back: The Everly Brothers on Warner Bros. 1960-1969
+86,The Guess Who,It's My Pride,Anthology
+86,The Beatles,The Word,The Capitol Albums Vol. 2
+86,Delaney & Bonnie,Soul Shake,The Best of Delaney & Bonnie
+86,Paul Butterfield Blues Band,Lovin' Cup,An Anthology: The Elektra Years
+86,The Yardbirds,The Nazz Are Blue,Ultimate!
+86,The Zombies,If It Don't Work Out,Absolutely The Best
+86,The Who,My Generation (live),Monterey International Pop Festival
+86,Jimi Hendrix Experience,Killing Floor (live),Live At Monterey
+86,J. J. Cale,Durango,Anyway The Wind Blows: The Anthology
+86,Peter Green/Fleetwood Mac,Man of the World,Jumping At Shadows: The Blues Years
+86,Madness,One Step Beyond,One Step Beyond
+86,Big Joe Turner,Flip Flop and Fly,Loud, Fast & Out of Control: The Wild Sounds of '50s Rock
+86,The Byrds,Time Between,Younger Than Yesterday
+86,George Harrison,Behind That Locked Door,All Things Must Pass
+86,Spencer Davis Group,Trampoline,Gimme Some Lovin'
+86,The Rolling Stones,I Don't Know Why,Metamorphosis
 87,"Jerry Lee Lewis","Rock And Roll","Last Man Standing"
 87,"Gene Vincent & the Blue Caps","Jump Back Honey, Jump Back","The Screaming End: The Best of Gene Vincent & his Blue Caps"
 87,"The Small Faces","Lazy Sunday","Ultimate Collection"
@@ -1911,9 +1949,71 @@ showId,artist,title,album
 99,"Tom Petty & the Heartbreakers","I Just Want To Make Love To You","The Live Anthology"
 99,"Tom Petty & the Heartbreakers","It's Good To Be King","The Live Anthology"
 99,"Tom Petty & the Heartbreakers","Mystic Eyes","The Live Anthology"
-100,"The Beatles: Things We Said Today A Hard Day's Night","Little Richard: Ready Teddy The Very Best of Little Richard, Muddy Waters: (I'm Your) Hoochie Coochie Man The Anthology 1947-1972, Ray Charles: I Don't Need No Doctor Anthology, Eric Clapton & Steve Winwood: Georgia On My Mind Live From Madison Square Garden, Lonnie Mack: Memphis Memphis Wham!, The Jaynetts: Sally Go Round The Roses The Very Best of The Jaynetts, The Zombies: Summertime The Singles A's & B's, Mose Allison: Eyesight To The Blind Sings, Champion Jack Dupree: Nasty Boogie Blues From The Gutter, Booker T. & the MG's: Boot-Leg The Very Best of Booker T. & the MG's, Aretha Franklin: Jumpin' Jack Flash Jewels in the Crown: All-Star Duets with The Queen, The Rolling Stones: No Expectations Beggars Banquet, The Paul Butterfield Blues Band: Born In Chicago An Anthology: The Elektra Years, John Mayall: Little Girl Bluesbreakers with Eric Clapton, Love: Bummer In The Summer Forever Changes, The Animals: See See Rider Retrospective, Paul Revere & The Raiders: Steppin' Out Greatest Hits, Bob Marley & The Wailer: Lively Up Yourself Natty Dread, www.xmradio.com/tompetty, Feel free to leave a comment below.","(Get a free registration to leave comments on TomPetty.com!)"
-101,"The Jeff Beck Group Jailhouse Rock Beck-Ola","The Shadows The Savage Platinum Collection, The Kinks Ev'ry Body's Gonna Be Happy Picture Book, Manfred Mann Pretty Flamingo Down The Road Apiece; Their EMI Recordings, 1963-1966, Jimi Hendrix Experience Fire Are You Experienced, Leonard Cohen In My Secret Life Live In London, Jackie Brenston & his Delta Cats Rocket ""88"" Loud, Fast & Out of Control; The Wild Sounds of 50's Rock, Jerry Lee Lewis Let's Talk About Us Original Sun Singles '56-'60, The Allman Brothers Band Trouble No More At Fillmore East (Deluxe Edition), Chan Romero The Hippy Hippy Shake Loud, Fast & Out of Control; The Wild Sounds of 50's Rock, The Chantays Pipeline Rock Instrumental Classics, Vol. 5: Surf, Charlie Rich Mohair Sam Feel Like Going Home: The Essential Charlie Rich, Chartbusters She's The One Hey! Look What I Found (Volume 6), Lazy Lester I'm Gonna Leave You Baby Jook Joint Blues: Good Time Rhythm & Blues 1943-1956, Hank Ballard & the Midnighters The Hoochie Coochie Coo The Very Best of Hank Ballard & the Midnighters, Champion Jack Dupree Junker's Blues Blues From The Gutter, Gerry & the Pacemakers It's Gonna Be Alright At Abbey Road: 1963-1966, Bob Dylan Temporary Like Achilles Blonde On Blonde, Van Morrison In The Days Before Rock 'n' Roll Enlightenment, www.xmradio.com/tompetty, Feel free to leave a comment below.","(Get a free registration to leave comments on TomPetty.com!)"
-102,"Here is the song list from show #102 / Season 5 - Show 5, for broadcast Thursday, December 10 - Monday December 14, 2009","The Rolling Stones Street Fighting Man (live) Rock And Roll Circus, Junior Wells Good Morning Schoolgirl Hoodoo Man Blues, Elmore James Fine Little Mama The Best of Elmore James, Humble Pie Hot 'N' Nasty Smokin', Small Faces Tin Soldier Ultimate Collection, Buddy Holly Rave On Gold, Traffic Heaven Is In Your Mind Heaven Is In Your Mind, Muddy Waters Champagne & Reefer King Bee, Champion Jack Dupree Can't Kick The Habit Blues From The Gutter, The Animals Don't Bring Me Down Retrospective, Bob Dylan It Takes a Lot to Laugh, It Takes a Train to Cry Highway 61 Revisisted, The Band Rag Mama Rag The Band, Jimmy Reed I'm Goin' Upside Your Head The Legend - The Man, Marc Bolan & T. Rex 20th Century Boy 20th Century Boy: The Ultimate Collection, Iggy Pop I'm Bored New Values, The Who Anyway, Anyhow, Anywhere The Ultimate Collection, Rockin' Rebels Wild Weekend Rock Instrumental Classics, Vol. 2: The 60's, Fleetwood Mac Like It This Way Blues Jam In Chicago - Volume 2, www.xmradio.com/tompetty, Feel free to leave a comment below.","(Get a free registration to leave comments on TomPetty.com!)"
+100,The Beatles,Things We Said Today,A Hard Day's Night
+100,Little Richard,Ready Teddy,The Very Best of Little Richard
+100,Muddy Waters,(I'm Your) Hoochie Coochie Man,The Anthology 1947-1972
+100,Ray Charles,I Don't Need No Doctor,Anthology
+100,Eric Clapton & Steve Winwood,Georgia On My Mind,Live From Madison Square Garden
+100,Lonnie Mack,Memphis,Memphis Wham!
+100,The Jaynetts,Sally Go Round The Roses,The Very Best of The Jaynetts
+100,The Zombies,Summertime,The Singles A's & B's
+100,Mose Allison,Eyesight To The Blind,Sings
+100,Champion Jack Dupree,Nasty Boogie,Blues From The Gutter
+100,Booker T. & the MG's,Boot-Leg,The Very Best of Booker T. & the MG's
+100,Aretha Franklin,Jumpin' Jack Flash,Jewels in the Crown: All-Star Duets with The Queen
+100,The Rolling Stones,No Expectations,Beggars Banquet
+100,The Paul Butterfield Blues Band,Born In Chicago,An Anthology: The Elektra Years
+100,John Mayall,Little Girl,Bluesbreakers with Eric Clapton
+100,Love,Bummer In The Summer,Forever Changes
+100,The Animals,See See Rider,Retrospective
+100,Paul Revere & The Raiders,Steppin' Out,Greatest Hits
+100,Bob Marley & The Wailers,Lively Up Yourself,Natty Dread
+101,The Jeff Beck Group,Jailhouse Rock,Beck-Ola
+101,The Shadows The Savage Platinum Collection
+101,The Kinks Ev'ry Body's Gonna Be Happy Picture Book
+101,Manfred Mann Pretty Flamingo Down The Road Apiece; Their EMI Recordings
+101,1963-1966
+101,Jimi Hendrix Experience Fire Are You Experienced
+101,Leonard Cohen In My Secret Life Live In London
+101,Jackie Brenston & his Delta Cats Rocket ""88"" Loud
+101,Fast & Out of Control; The Wild Sounds of 50's Rock
+101,Jerry Lee Lewis Let's Talk About Us Original Sun Singles '56-'60
+101,The Allman Brothers Band Trouble No More At Fillmore East (Deluxe Edition)
+101,Chan Romero The Hippy Hippy Shake Loud
+101,Fast & Out of Control; The Wild Sounds of 50's Rock
+101,The Chantays Pipeline Rock Instrumental Classics
+101,Vol. 5: Surf
+101,Charlie Rich Mohair Sam Feel Like Going Home: The Essential Charlie Rich
+101,Chartbusters She's The One Hey! Look What I Found (Volume 6)
+101,Lazy Lester I'm Gonna Leave You Baby Jook Joint Blues: Good Time Rhythm & Blues 1943-1956
+101,Hank Ballard & the Midnighters The Hoochie Coochie Coo The Very Best of Hank Ballard & the Midnighters
+101,Champion Jack Dupree Junker's Blues Blues From The Gutter
+101,Gerry & the Pacemakers It's Gonna Be Alright At Abbey Road: 1963-1966
+101,Bob Dylan Temporary Like Achilles Blonde On Blonde
+101,Van Morrison In The Days Before Rock 'n' Roll Enlightenment
+102,"Here is the song list from show #102 / Season 5 - Show 5 100, December 10 - Monday December 14 100, 2009"
+102,"The Rolling Stones Street Fighting Man (live) Rock And Roll Circus
+102,Junior Wells Good Morning Schoolgirl Hoodoo Man Blues
+102,Elmore James Fine Little Mama The Best of Elmore James
+102,Humble Pie Hot 'N' Nasty Smokin'
+102,Small Faces Tin Soldier Ultimate Collection
+102,Buddy Holly Rave On Gold
+102,Traffic Heaven Is In Your Mind Heaven Is In Your Mind
+102,Muddy Waters Champagne & Reefer King Bee
+102,Champion Jack Dupree Can't Kick The Habit Blues From The Gutter
+102,The Animals Don't Bring Me Down Retrospective
+102,Bob Dylan It Takes a Lot to Laugh
+102,It Takes a Train to Cry Highway 61 Revisisted
+102,The Band Rag Mama Rag The Band
+102,Jimmy Reed I'm Goin' Upside Your Head The Legend - The Man
+102,Marc Bolan & T. Rex 20th Century Boy 20th Century Boy: The Ultimate Collection
+102,Iggy Pop I'm Bored New Values
+102,The Who Anyway
+102,Anyhow
+102,Anywhere The Ultimate Collection
+102,Rockin' Rebels Wild Weekend Rock Instrumental Classics
+102,Vol. 2: The 60's
+102,Fleetwood Mac Like It This Way Blues Jam In Chicago - Volume 2
 103,"Lightnin' Hopkins Mojo Hand The American Folk Blues Festival 1962-1966","Spirit Straight Arrow Spirit, Spirit Gramophone Man Spirit, Sonny Boy Williamson Fattening Frogs For Snakes His Best, Otis Spann She Needs Some Loving The Biggest Thing Since Colossus, The Who It's Not True My Generation (Deluxe Edition), T-Bone Walker Sail On Boogie T-Bone Blues, The Rolling Stones Backstreet Girl Flowers, Dick Dale and His Del-Tones The Wedge Greatest Hits 1961-1976, Howlin' Wolf Back Door Man His Best, Traffic Dear Mr. Fantasy Heaven Is In Your Mind, Fats Domino All By Myself The Fats Domino Jukebox, Otis Redding Love Man Dreams To Remember: The Otis Redding Anthology, Otis Rush I Can't Quit You Baby The Essential Otis Rush: The Classic Cobra Recordings 1956-1958, Monsters of Folk Dear God (Sincerely M.O.F.) Monsters of Folk, Buffalo Springfield Four Days Gone Last Time Around, Jimi Hendrix Experience Can You See Me (live) Live At Monterey, The Staples Singers Respect Yourself Instant Party: Whole Lotta Soul, Faces Looking Out The Window First Step, www.xmradio.com/tompetty, Feel free to leave a comment below.","(Get a free registration to leave comments on TomPetty.com!)"
 104,"Lonesome Sundown I'm A Young Man I'm A Mojo Man","The Beatles Doctor Robert Revolver (Remastered), John Mayall Steppin' Out Blues Breakers with Eric Clapton, Little Walter My Babe His Best, The Beau Brummels Don't Talk To Strangers Volume 2, Elvis Presley Shake, Rattle And Roll Elvis 56, Jerry Lee Lewis Honey Hush Killer: The Mercury Years Volume III - 1973-1977, Regina Spektor Laughing With Far, Leonard Cohen Everybody Knows (live) Live In London, The Stooges I Wanna Be Your Dog The Stooges, Little Richard Good Golly, Miss Molly The Very Best of Little Richard, The Kinks See My Friends Picture Book, Neil Young & Crazy Horse Powderfinger Rust Never Sleeps, J.J. Cale Bringing It Back Naturally, Van Morrison Domino His Band And The Street Choir, Slim Harpo I'm A King Bee I'm A King Bee, Chuck Berry You Never Can Tell Gold, The Rolling Stones Under My Thumb (live) Get Yer Ya-Ya's Out! (40th Anniversary Deluxe Box Set), The Rolling Stones I'm Free (live) Get Yer Ya-Ya's Out! (40th Anniversary Deluxe Box Set)",www.xmradio.com/tompetty
 105,"Wilson Pickett ","I Found A True Love ","Wilson Pickett's Greatest Hits"
