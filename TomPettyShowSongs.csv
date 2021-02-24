@@ -7,7 +7,7 @@ showId,artist,title,album
 1,"The Beatles","Leave My Kitten Alone","Anthology 1"
 1,"Little Walter","My Babe","His Best"
 1,"Willie Mitchell","That Driving Beat","Soul Serenade – The Best of Willie Mitchell"
-1,Chuck Berry",Tulane,Gold
+1,"Chuck Berry",Tulane,Gold
 1,"Humble Pie",Hot ’N’ Nasty,Smokin'
 1,"Jr. Walker & The All Stars","Road Runner","The Definitive Collection"
 1,"Elmore James","Hawaiian Boogie","The Sky Is Crying: The History of Elmore James"
@@ -837,10 +837,10 @@ showId,artist,title,album
 42,"Freddie King","Have You Ever Loved A Woman","Ultimate Collection"
 42,"? & The Mysterians","Girl (You Captivate Me)","Cameo Parkway: The Best of ? &The Mysterians"
 42,"Sam & Dave","You Got Me Hummin'","The Very Best Of Sam & Dave"
-42,"Johnny Otis Show","Willie & The Hand Drive","Loud, Fast & Out Of Control: The Wild Sounds of ’50’s Rock"""
+42,"Johnny Otis Show","Willie & The Hand Drive","Loud, Fast & Out Of Control: The Wild Sounds of ’50’s Rock"
 42,"Johnny Rivers","Rockin’ Pneumonia and the Boogie Woogie Flu","Greatest Hits"
 42,"Clarence Carter","Snatching It Back","Snatching It Back: The Best of Clarence Carter"
-42,"Wanda Jackson","Let’s Have A Party","Loud, Fast & Out Of Control: The Wild Sounds of ’50’s Rock"""
+42,"Wanda Jackson","Let’s Have A Party","Loud, Fast & Out Of Control: The Wild Sounds of ’50’s Rock"
 42,Fats Domino,"Let The Four Winds Blow","The Fats Domino Jukebox"
 42,"Beach Boys",Friends,"Friends – 20/20"
 42,"Roy Head","My Babe","Treat Her Right – The Best Of Roy Head"
@@ -1632,7 +1632,7 @@ showId,artist,title,album
 82,"The Band","This Wheel's On Fire","Music From Big Pink"
 82,"Arthur ""Big Boy"" Crudup","My Baby Left Me","Gonna Be Some Changes 1946-54"
 82,"Little Walter","It Ain't Right","His Best"
-82,"The Beach Boys","You Need a Mess of Help To Stand Alone","Carl & The Passions ""So Tough"""
+82,"The Beach Boys","You Need a Mess of Help To Stand Alone","Carl & The Passions ""So Tough"
 82,"The Rascals","Too Many Fish in the Sea","Anthology 1965-1972"
 82,"The Animals","Talkin' Bout You","The Singles +"
 83,"The Manatees","Dale's Dick","Swamp Thang!"
@@ -1674,45 +1674,45 @@ showId,artist,title,album
 84,"Bobby Fuller Four","Love's Made A Fool Of You","The Best of The Bobby Fuller Four"
 84,"The Lovin Spoonful","Didn't Want To Have To Do It","Greatest Hits"
 84,Faces,"Around The Plynth","First Step"
-85,"The Kinks",Where Have All The Good Times Gone,Picture Book (Box Set)
+85,"The Kinks","Where Have All The Good Times Gone","Picture Book (Box Set)"
 85,"Koko Taylor","Wang Dang Doodle","Willie Dixon, The Chess Box, Vol. 2"
-85,Muddy Waters,I Just Want To Make Love To You,The Anthology 1947-1972
-85,Little Feat,Willin',Sailin' Shoes
-85,Elvis Presley,Working On The Building,His Hand In Mine
-85,Fats Domino,Be My Guest,The Fats Domino Jukebox
-85,Them,Baby Please Don't Go,Them Featuring Van Morrison
-85,We The People,Declaration Of Independence,Too Much Noise
-85,The Who,I'm A Boy,The Ultimate Collection
-85,Peter Green/Fleetwood Mac,World In Harmony,Jumping At Shadows: The Blues Years
-85,Sonny Boy Williamson, Help Me,The Chess Blues-Rock Songbook
-85,The Byrds,Why,Younger Than Yesterday
-85,Emitt Rhodes,Long Time No See,"Daisy-Fresh from Hawthorne, California (the best of the Dunhill years)"
-85,Rod Stewart,Street Fighting Man,Reason To Believe: The Complete Mercury Studio Recordings
-85,The Rolling Stones,Sittin' On A Fence,Flowers
-85,The Searchers,Take Me For What I'm Worth,The Very Best of The Searchers
-85,Moby Grape,Omaha,Moby Grape
-85,The Midnighters,Annie Had A Baby,The Very Best of the Royals and the Midnighters
-85,Mighty Sam, Lovebones,Atlantic Unearthed: Soul Brothers
-85,Bobby Charles,"See You Later, Alligator",The Chess Blues-Rock Songbook
-86,MC5,Over And Over,High Time
-86,The Easybeats,Good Times,The Definitive Anthology
-86,The Everly Brothers,"Gone, Gone, Gone",Walk Right Back: The Everly Brothers on Warner Bros. 1960-1969
-86,The Guess Who,It's My Pride,Anthology
-86,The Beatles,The Word,The Capitol Albums Vol. 2
-86,Delaney & Bonnie,Soul Shake,The Best of Delaney & Bonnie
-86,Paul Butterfield Blues Band,Lovin' Cup,An Anthology: The Elektra Years
-86,The Yardbirds,The Nazz Are Blue,Ultimate!
-86,The Zombies,If It Don't Work Out,Absolutely The Best
-86,The Who,My Generation (live),Monterey International Pop Festival
-86,Jimi Hendrix Experience,Killing Floor (live),Live At Monterey
-86,J. J. Cale,Durango,Anyway The Wind Blows: The Anthology
-86,Peter Green/Fleetwood Mac,Man of the World,Jumping At Shadows: The Blues Years
-86,Madness,One Step Beyond,One Step Beyond
-86,Big Joe Turner,Flip Flop and Fly,Loud, Fast & Out of Control: The Wild Sounds of '50s Rock
-86,The Byrds,Time Between,Younger Than Yesterday
-86,George Harrison,Behind That Locked Door,All Things Must Pass
-86,Spencer Davis Group,Trampoline,Gimme Some Lovin'
-86,The Rolling Stones,I Don't Know Why,Metamorphosis
+85,"Muddy Waters","I Just Want To Make Love To You","The Anthology 1947-1972"
+85,"Little Feat",Willin',"Sailin' Shoes"
+85,"Elvis Presley","Working On The Building","His Hand In Mine"
+85,"Fats Domino","Be My Guest","The Fats Domino Jukebox"
+85,Them,"Baby Please Don't Go","Them Featuring Van Morrison"
+85,"We The People","Declaration Of Independence","Too Much Noise"
+85,"The Who","I'm A Boy","The Ultimate Collection"
+85,"Peter Green/Fleetwood Mac","World In Harmony","Jumping At Shadows: The Blues Years"
+85,"Sonny Boy Williamson","Help Me","The Chess Blues-Rock Songbook"
+85,"The Byrds",Why,"Younger Than Yesterday"
+85,"Emitt Rhodes","Long Time No See","Daisy-Fresh from Hawthorne, California (the best of the Dunhill years)"
+85,"Rod Stewart","Street Fighting Man","Reason To Believe: The Complete Mercury Studio Recordings"
+85,"The Rolling Stones","Sittin' On A Fence",Flowers
+85,"The Searchers","Take Me For What I'm Worth","The Very Best of The Searchers"
+85,"Moby Grape",Omaha,"Moby Grape"
+85,"The Midnighters","Annie Had A Baby","The Very Best of the Royals and the Midnighters"
+85,"Mighty Sam",Lovebones,"Atlantic Unearthed: Soul Brothers"
+85,"Bobby Charles","See You Later, Alligator","The Chess Blues-Rock Songbook"
+86,MC5,"Over And Over","High Time"
+86,"The Easybeats","Good Times","The Definitive Anthology"
+86,"The Everly Brothers","Gone, Gone, Gone","Walk Right Back: The Everly Brothers on Warner Bros. 1960-1969"
+86,"The Guess Who","It's My Pride",Anthology
+86,"The Beatles","The Word","The Capitol Albums Vol. 2"
+86,"Delaney & Bonnie","Soul Shake","The Best of Delaney & Bonnie"
+86,"Paul Butterfield Blues Band","Lovin' Cup","An Anthology: The Elektra Years"
+86,"The Yardbirds","The Nazz Are Blue",Ultimate!
+86,"The Zombies","If It Don't Work Out","Absolutely The Best"
+86,"The Who","My Generation (live)","Monterey International Pop Festival"
+86,"Jimi Hendrix Experience","Killing Floor (live)","Live At Monterey"
+86,"J. J. Cale",Durango,"Anyway The Wind Blows: The Anthology"
+86,"Peter Green/Fleetwood Mac","Man of the World","Jumping At Shadows: The Blues Years"
+86,Madness,"One Step Beyond","One Step Beyond"
+86,"Big Joe Turner","Flip Flop and Fly",Loud
+86,"The Byrds","Time Between","Younger Than Yesterday"
+86,"George Harrison","Behind That Locked Door","All Things Must Pass"
+86,"Spencer Davis Group",Trampoline,"Gimme Some Lovin'"
+86,"The Rolling Stones","I Don't Know Why",Metamorphosis
 87,"Jerry Lee Lewis","Rock And Roll","Last Man Standing"
 87,"Gene Vincent & the Blue Caps","Jump Back Honey, Jump Back","The Screaming End: The Best of Gene Vincent & his Blue Caps"
 87,"The Small Faces","Lazy Sunday","Ultimate Collection"
@@ -1915,7 +1915,7 @@ showId,artist,title,album
 97,"Randy Newman",Marie,"Good Old Boys"
 97,"J.J. Cale","Don't Cry Sister","Anyway The Wind Blows: The Anthology"
 97,"Larry Williams","Oh Baby","Bad Boy"
-97,"The Rolling Stones","Under The Boardwalk",12 X 5
+97,"The Rolling Stones","Under The Boardwalk","12 X 5"
 97,"Fleetwood Mac","Jigsaw Puzzle Blues","The Pious Bird of Good Omen"
 97,"Jimmy Smith","What'd I Say","Any Number Can Win"
 97,"The Gants","Little Boy Sad","Road Runner! The Best of The Gants"
@@ -1931,26 +1931,26 @@ showId,artist,title,album
 97,"The Marvelettes","Too Many Fish In The Sea","The Definitive Collection"
 97,"The Shangri-Las","Out In The Streets","The Best of The Shangri-Las"
 97,"John Mayall & The Bluesbreakers",Curly,"A Hard Road (Expanded Edition)"
-98,Moby Grape,Hey Grandma,Moby Grape
-98,Nazz,Open My Eyes,Nazz
-98,The Nightcrawlers,A Basket of Flowers,The Little Black Egg
-98,The Monkees,Saturday's Child,The Monkees (Deluxe Edition)
-98,The Move,Message From The Country,Message From The Country
-98,The Beatles,Love You To,Revolver
-98,Mitch Ryder & the Detroit Wheels,Ruby Baby & Peaches On a Cherry Tree,Sock It To Me
-98,Mink DeVille,Cadillac Walk,Spanish Stroll 1977-1987
-98,Marvin Gaye,At Last (I Found A Love),I Heard It Through The Grapevine/I Want You
-98,Paul Revere & The Raiders,Peace Of Mind,Greatest Hits
-98,Mose Allison,I Love The Life I Live,The Best of Mose Allison
-98,The Rolling Stones,Torn And Frayed,Exile On Main Street
-98,Les Paul Trio,Blue Skies,Complete Decca Master Takes
-98,The Lively Ones,Surf Rider,Surf Rider! & Surf Drums
-98,The Beach Boys,In My Room,Surfer Gir/Shut Down Volume 2
-98,The Paul Butterfield Blues Band,Off The Wall,An Anthology: The Elektra Years
-98,J.J. Cale,I Got The Same Old Blues Anyway,The Wind Blows: The Anthology
-98,Little Richard,Medley: Kansas City / Hey Hey Hey Hey,The Very Best of Little Richard
-98,The Kinks,I Gotta Move,Picture Book (Box Set)
-98,The Who,Out In The Street,My Generation (Deluxe Edition)
+98,"Moby Grape","Hey Grandma","Moby Grape"
+98,Nazz,"Open My Eyes",Nazz
+98,"The Nightcrawlers","A Basket of Flowers","The Little Black Egg"
+98,"The Monkees","Saturday's Child","The Monkees (Deluxe Edition)"
+98,"The Move","Message From The Country","Message From The Country"
+98,"The Beatles","Love You To",Revolver
+98,"Mitch Ryder & the Detroit Wheels","Ruby Baby & Peaches On a Cherry Tree","Sock It To Me"
+98,"Mink DeVille","Cadillac Walk","Spanish Stroll 1977-1987"
+98,"Marvin Gaye","At Last (I Found A Love)","I Heard It Through The Grapevine/I Want You"
+98,"Paul Revere & The Raiders","Peace Of Mind","Greatest Hits"
+98,"Mose Allison","I Love The Life I Live","The Best of Mose Allison"
+98,"The Rolling Stones","Torn And Frayed","Exile On Main Street"
+98,"Les Paul Trio","Blue Skies","Complete Decca Master Takes"
+98,"The Lively Ones","Surf Rider","Surf Rider! & Surf Drums"
+98,"The Beach Boys","In My Room","Surfer Gir/Shut Down Volume 2"
+98,"The Paul Butterfield Blues Band","Off The Wall","An Anthology: The Elektra Years"
+98,"J.J. Cale","I Got The Same Old Blues Anyway","The Wind Blows: The Anthology"
+98,"Little Richard","Medley: Kansas City / Hey Hey Hey Hey","The Very Best of Little Richard"
+98,"The Kinks","I Gotta Move","Picture Book (Box Set)"
+98,"The Who","Out In The Street","My Generation (Deluxe Edition)"
 99,"Tom Petty & the Heartbreakers",Nightwatchman,"The Live Anthology"
 99,"Tom Petty & the Heartbreakers","I'm A Man","The Live Anthology"
 99,"Tom Petty & the Heartbreakers","Something In The Air","The Live Anthology"
@@ -1967,100 +1967,100 @@ showId,artist,title,album
 99,"Tom Petty & the Heartbreakers","I Just Want To Make Love To You","The Live Anthology"
 99,"Tom Petty & the Heartbreakers","It's Good To Be King","The Live Anthology"
 99,"Tom Petty & the Heartbreakers","Mystic Eyes","The Live Anthology"
-100,The Beatles,Things We Said Today,A Hard Day's Night
-100,Little Richard,Ready Teddy,The Very Best of Little Richard
-100,Muddy Waters,(I'm Your) Hoochie Coochie Man,The Anthology 1947-1972
-100,Ray Charles,I Don't Need No Doctor,Anthology
-100,Eric Clapton & Steve Winwood,Georgia On My Mind,Live From Madison Square Garden
-100,Lonnie Mack,Memphis,Memphis Wham!
-100,The Jaynetts,Sally Go Round The Roses,The Very Best of The Jaynetts
-100,The Zombies,Summertime,The Singles A's & B's
-100,Mose Allison,Eyesight To The Blind,Sings
-100,Champion Jack Dupree,Nasty Boogie,Blues From The Gutter
-100,Booker T. & the MG's,Boot-Leg,The Very Best of Booker T. & the MG's
-100,Aretha Franklin,Jumpin' Jack Flash,Jewels in the Crown: All-Star Duets with The Queen
-100,The Rolling Stones,No Expectations,Beggars Banquet
-100,The Paul Butterfield Blues Band,Born In Chicago,An Anthology: The Elektra Years
-100,John Mayall,Little Girl,Bluesbreakers with Eric Clapton
-100,Love,Bummer In The Summer,Forever Changes
-100,The Animals,See See Rider,Retrospective
-100,Paul Revere & The Raiders,Steppin' Out,Greatest Hits
-100,Bob Marley & The Wailers,Lively Up Yourself,Natty Dread
-101,The Jeff Beck Group,Jailhouse Rock,Beck-Ola
-101,The Shadows,The Savage,Platinum Collection
-101,The Kinks,Ev'ry Body's Gonna Be Happy,Picture Book
-101,Manfred Mann,Pretty Flamingo,"Down The Road Apiece; Their EMI Recordings, 1963-1966"
-101,Jimi Hendrix Experience,Fire,Are You Experienced
-101,Leonard Cohen,In My Secret Life,Live In London
-101,Jackie Brenston & his Delta Cats,Rocket ""88"","Loud, Fast & Out of Control; The Wild Sounds of 50's Rock"
-101,Jerry Lee Lewis,Let's Talk About Us,Original Sun Singles '56-'60
-101,The Allman Brothers Band,Trouble No More,At Fillmore East (Deluxe Edition)
-101,Chan Romero,The Hippy Hippy Shake,"Loud, Fast & Out of Control; The Wild Sounds of 50's Rock"
-101,The Chantays,Pipeline,"Rock Instrumental Classics, Vol. 5: Surf"
-101,Charlie Rich,Mohair Sam,Feel Like Going Home: The Essential Charlie Rich
-101,Chartbusters,She's The One,Hey! Look What I Found (Volume 6)
-101,Lazy Lester,I'm Gonna Leave You Baby,Jook Joint Blues: Good Time Rhythm & Blues 1943-1956
-101,Hank Ballard & the Midnighters,The Hoochie Coochie Coo,The Very Best of Hank Ballard & the Midnighters
-101,Champion Jack Dupree,Junker's Blues,Blues From The Gutter
-101,Gerry & the Pacemakers,It's Gonna Be Alright,At Abbey Road: 1963-1966
-101,Bob Dylan,Temporary Like Achilles,Blonde On Blonde
-101,Van Morrison,In The Days Before Rock 'n' Roll,Enlightenment
-102,The Rolling Stones,Street Fighting Man (live),Rock And Roll Circus
-102,Junior Wells,Good Morning Schoolgirl,Hoodoo Man Blues
-102,Elmore James,Fine Little Mama,The Best of Elmore James
-102,Humble Pie,Hot 'N' Nasty,Smokin'
-102,Small Faces,Tin Soldier,Ultimate Collection
-102,Buddy Holly,Rave On,Gold
-102,Traffic,Heaven Is In Your Mind,Heaven Is In Your Mind
-102,Muddy Waters,Champagne & Reefer,King Bee
-102,Champion Jack Dupree,Can't Kick The Habit,Blues From The Gutter
-102,The Animals,Don't Bring Me Down,Retrospective
-102,Bob Dylan,"It Takes a Lot to Laugh, It Takes a Train to Cry",Highway 61 Revisisted
-102,The Band,Rag Mama Rag,The Band
-102,Jimmy Reed,I'm Goin' Upside Your Head,The Legend - The Man
-102,Marc Bolan & T. Rex,20th Century Boy,20th Century Boy: The Ultimate Collection
-102,Iggy Pop,I'm Bored,New Values
-102,The Who,"Anyway, Anyhow, Anywhere",The Ultimate Collection
-102,Rockin' Rebels,Wild Weekend,"Rock Instrumental Classics, Vol. 2: The 60's"
-102,Fleetwood Mac,Like It This Way,Blues Jam In Chicago - Volume 2
-103,Lightnin' Hopkins,Mojo Hand,The American Folk Blues Festival 1962-1966
-103,Spirit,Straight Arrow,Spirit
-103,Spirit,Gramophone Man,Spirit
-103,Sonny Boy Williamson,Fattening Frogs For Snakes,His Best
-103,Otis Spann,She Needs Some Loving,The Biggest Thing Since Colossus
-103,The Who,It's Not True,My Generation (Deluxe Edition)
-103,T-Bone Walker,Sail On,Boogie T-Bone Blues
-103,The Rolling Stones,Backstreet Girl,Flowers
-103,Dick Dale and His Del-Tones,The Wedge,Greatest Hits 1961-1976
-103,Howlin' Wolf,Back Door Man,His Best
-103,Traffic,Dear Mr. Fantasy,Heaven Is In Your Mind
-103,Fats Domino,All By Myself,The Fats Domino Jukebox
-103,Otis Redding,Love Man,Dreams To Remember: The Otis Redding Anthology
-103,Otis Rush,I Can't Quit You Baby,The Essential Otis Rush: The Classic Cobra Recordings 1956-1958
-103,Monsters of Folk,Dear God (Sincerely M.O.F.),Monsters of Folk
-103,Buffalo Springfield,Four Days Gone,Last Time Around
-103,Jimi Hendrix Experience,Can You See Me (live),Live At Monterey
-103,The Staples Singers,Respect Yourself,Instant Party: Whole Lotta Soul
-103,Faces Looking,Out The Window,First Step
-104,Lonesome Sundown,I'm A Young Man,I'm A Mojo Man
-104,The Beatles,Doctor Robert,Revolver (Remastered)
-104,John Mayall,Steppin' Out,Blues Breakers with Eric Clapton
-104,Little Walter,My Babe,His Best
-104,The Beau Brummels,Don't Talk To Strangers,Volume 2
-104,Elvis Presley,"Shake, Rattle And Roll",Elvis 56
-104,Jerry Lee Lewis,Honey Hush,Killer: The Mercury Years Volume III - 1973-1977
-104,Regina Spektor,Laughing With,Far
-104,Leonard Cohen,Everybody Knows (live),Live In London
-104,The Stooges,I Wanna Be Your Dog,The Stooges
-104,Little Richard,"Good Golly, Miss Molly",The Very Best of Little Richard
-104,The Kinks,See My Friends,Picture Book
-104,Neil Young & Crazy Horse,Powderfinger,Rust Never Sleeps
-104,J.J. Cale,Bringing It Back,Naturally
-104,Van Morrison,Domino,His Band And The Street Choir
-104,Slim Harpo,I'm A King Bee,I'm A King Bee
-104,Chuck Berry,You Never Can Tell,Gold
-104,The Rolling Stones,Under My Thumb (live),Get Yer Ya-Ya's Out! (40th Anniversary Deluxe Box Set)
-104,The Rolling Stones,I'm Free (live),Get Yer Ya-Ya's Out! (40th Anniversary Deluxe Box Set)"
+100,"The Beatles","Things We Said Today","A Hard Day's Night"
+100,"Little Richard","Ready Teddy","The Very Best of Little Richard"
+100,"Muddy Waters","(I'm Your) Hoochie Coochie Man","The Anthology 1947-1972"
+100,"Ray Charles","I Don't Need No Doctor",Anthology
+100,"Eric Clapton & Steve Winwood","Georgia On My Mind","Live From Madison Square Garden"
+100,"Lonnie Mack",Memphis,"Memphis Wham!"
+100,"The Jaynetts","Sally Go Round The Roses","The Very Best of The Jaynetts"
+100,"The Zombies",Summertime,"The Singles A's & B's"
+100,"Mose Allison","Eyesight To The Blind",Sings
+100,"Champion Jack Dupree","Nasty Boogie","Blues From The Gutter"
+100,"Booker T. & the MG's",Boot-Leg,"The Very Best of Booker T. & the MG's"
+100,"Aretha Franklin","Jumpin' Jack Flash","Jewels in the Crown: All-Star Duets with The Queen"
+100,"The Rolling Stones","No Expectations","Beggars Banquet"
+100,"The Paul Butterfield Blues Band","Born In Chicago","An Anthology: The Elektra Years"
+100,"John Mayall","Little Girl","Bluesbreakers with Eric Clapton"
+100,Love,"Bummer In The Summer","Forever Changes"
+100,"The Animals","See See Rider",Retrospective
+100,"Paul Revere & The Raiders","Steppin' Out","Greatest Hits"
+100,"Bob Marley & The Wailers","Lively Up Yourself","Natty Dread"
+101,"The Jeff Beck Group","Jailhouse Rock",Beck-Ola
+101,"The Shadows","The Savage","Platinum Collection"
+101,"The Kinks","Ev'ry Body's Gonna Be Happy","Picture Book"
+101,"Manfred Mann","Pretty Flamingo","Down The Road Apiece; Their EMI Recordings, 1963-1966"
+101,"Jimi Hendrix Experience",Fire,"Are You Experienced"
+101,"Leonard Cohen","In My Secret Life","Live In London"
+101,"Jackie Brenston & his Delta Cats","Rocket """"88","Loud, Fast & Out of Control; The Wild Sounds of 50's Rock"
+101,"Jerry Lee Lewis","Let's Talk About Us","Original Sun Singles '56-'60"
+101,"The Allman Brothers Band","Trouble No More","At Fillmore East (Deluxe Edition)"
+101,"Chan Romero","The Hippy Hippy Shake","Loud, Fast & Out of Control; The Wild Sounds of 50's Rock"
+101,"The Chantays",Pipeline,"Rock Instrumental Classics, Vol. 5: Surf"
+101,"Charlie Rich","Mohair Sam","Feel Like Going Home: The Essential Charlie Rich"
+101,Chartbusters,"She's The One","Hey! Look What I Found (Volume 6)"
+101,"Lazy Lester","I'm Gonna Leave You Baby","Jook Joint Blues: Good Time Rhythm & Blues 1943-1956"
+101,"Hank Ballard & the Midnighters","The Hoochie Coochie Coo","The Very Best of Hank Ballard & the Midnighters"
+101,"Champion Jack Dupree","Junker's Blues","Blues From The Gutter"
+101,"Gerry & the Pacemakers","It's Gonna Be Alright","At Abbey Road: 1963-1966"
+101,"Bob Dylan","Temporary Like Achilles","Blonde On Blonde"
+101,"Van Morrison","In The Days Before Rock 'n' Roll",Enlightenment
+102,"The Rolling Stones","Street Fighting Man (live)","Rock And Roll Circus"
+102,"Junior Wells","Good Morning Schoolgirl","Hoodoo Man Blues"
+102,"Elmore James","Fine Little Mama","The Best of Elmore James"
+102,"Humble Pie","Hot 'N' Nasty",Smokin'
+102,"Small Faces","Tin Soldier","Ultimate Collection"
+102,"Buddy Holly","Rave On",Gold
+102,Traffic,"Heaven Is In Your Mind","Heaven Is In Your Mind"
+102,"Muddy Waters","Champagne & Reefer","King Bee"
+102,"Champion Jack Dupree","Can't Kick The Habit","Blues From The Gutter"
+102,"The Animals","Don't Bring Me Down",Retrospective
+102,"Bob Dylan","It Takes a Lot to Laugh, It Takes a Train to Cry","Highway 61 Revisisted"
+102,"The Band","Rag Mama Rag","The Band"
+102,"Jimmy Reed","I'm Goin' Upside Your Head","The Legend - The Man"
+102,"Marc Bolan & T. Rex","20th Century Boy","20th Century Boy: The Ultimate Collection"
+102,"Iggy Pop","I'm Bored","New Values"
+102,"The Who","Anyway, Anyhow, Anywhere","The Ultimate Collection"
+102,"Rockin' Rebels","Wild Weekend","Rock Instrumental Classics, Vol. 2: The 60's"
+102,"Fleetwood Mac","Like It This Way","Blues Jam In Chicago - Volume 2"
+103,"Lightnin' Hopkins","Mojo Hand","The American Folk Blues Festival 1962-1966"
+103,Spirit,"Straight Arrow",Spirit
+103,Spirit,"Gramophone Man",Spirit
+103,"Sonny Boy Williamson","Fattening Frogs For Snakes","His Best"
+103,"Otis Spann","She Needs Some Loving","The Biggest Thing Since Colossus"
+103,"The Who","It's Not True","My Generation (Deluxe Edition)"
+103,"T-Bone Walker","Sail On","Boogie T-Bone Blues"
+103,"The Rolling Stones","Backstreet Girl",Flowers
+103,"Dick Dale and His Del-Tones","The Wedge","Greatest Hits 1961-1976"
+103,"Howlin' Wolf","Back Door Man","His Best"
+103,Traffic,"Dear Mr. Fantasy","Heaven Is In Your Mind"
+103,"Fats Domino","All By Myself","The Fats Domino Jukebox"
+103,"Otis Redding","Love Man","Dreams To Remember: The Otis Redding Anthology"
+103,"Otis Rush","I Can't Quit You Baby","The Essential Otis Rush: The Classic Cobra Recordings 1956-1958"
+103,"Monsters of Folk","Dear God (Sincerely M.O.F.)","Monsters of Folk"
+103,"Buffalo Springfield","Four Days Gone","Last Time Around"
+103,"Jimi Hendrix Experience","Can You See Me (live)","Live At Monterey"
+103,"The Staples Singers","Respect Yourself","Instant Party: Whole Lotta Soul"
+103,"Faces Looking","Out The Window","First Step"
+104,"Lonesome Sundown","I'm A Young Man","I'm A Mojo Man"
+104,"The Beatles","Doctor Robert","Revolver (Remastered)"
+104,"John Mayall","Steppin' Out","Blues Breakers with Eric Clapton"
+104,"Little Walter","My Babe","His Best"
+104,"The Beau Brummels","Don't Talk To Strangers","Volume 2"
+104,"Elvis Presley","Shake, Rattle And Roll","Elvis 56"
+104,"Jerry Lee Lewis","Honey Hush","Killer: The Mercury Years Volume III - 1973-1977"
+104,"Regina Spektor","Laughing With",Far
+104,"Leonard Cohen","Everybody Knows (live)","Live In London"
+104,"The Stooges","I Wanna Be Your Dog","The Stooges"
+104,"Little Richard","Good Golly, Miss Molly","The Very Best of Little Richard"
+104,"The Kinks","See My Friends","Picture Book"
+104,"Neil Young & Crazy Horse",Powderfinger,"Rust Never Sleeps"
+104,"J.J. Cale","Bringing It Back",Naturally
+104,"Van Morrison",Domino,"His Band And The Street Choir"
+104,"Slim Harpo","I'm A King Bee","I'm A King Bee"
+104,"Chuck Berry","You Never Can Tell",Gold
+104,"The Rolling Stones","Under My Thumb (live)","Get Yer Ya-Ya's Out! (40th Anniversary Deluxe Box Set)"
+104,"The Rolling Stones","I'm Free (live)","Get Yer Ya-Ya's Out! (40th Anniversary Deluxe Box Set)"
 105,"Wilson Pickett","I Found A True Love","Wilson Pickett's Greatest Hits"
 105,"James Brown & the Famous Flames"," I'll Go Crazy (live)","Live At The Apollo (1962) Expanded Edition"
 105,"Bob Marley & The Wailers","Iron Lion Zion","One Love: The Very Best of Bob Marley & The Wailers"
@@ -2102,107 +2102,107 @@ showId,artist,title,album
 106,"Linda Lyndell","What A Man","The Complete Stax/Volt Soul Singles, Vol. 2 1968-1971"
 106,"The Beach Boys","Let The Wind Blow (live)","The Beach Boys In Concert"
 106,"The Band","Don't Do It (live)","The Last Waltz (Deluxe Edition)"
-107,Steppenwolf,Rock Me,All Time Greatest Hits
-107,Roy Head & The Traits,Treat Her Right,Treat Her Right: The Best Of Roy Head
-107,Small Faces,What'cha Gonna Do About It,Ultimate Collection
-107,Slim Harpo,Tip On In (Part 1),The Excello Singles Anthology
-107,The Band,When I Paint My Masterpiece,Greatest Hits
-107,Big Joe Turner,"Shake, Rattle And Roll",Greatest Hits
-107,Dan Penn,The Dark End Of The Street,Do Right Man
-107,Chubby Checker,Pony Time,The Best of Chubby Checker: Cameo Parkway 1959-1963
-107,Chuck Berry,Tulane,Gold
-107,Rufus Thomas,Walking The Dog,The Very Best Of Rufus Thomas
-107,Sam & Dave,You Don't Know Like I Know,The Very Best Of Sam & Dave
-107,The Rolling Stones,Talkin' About You,December's Children (And Everybody's)
-107,The Temptations,Ball Of Confusion (That's What The World Is Today),The Definitive Collection
-107,Bettye Swann,Make Me Yours,Make Me Yours - Golden Classics
-107,Creedence Clearwater Revival,I Put A Spell On You,Creedence Clearwater Revival: 40th Anniversary Edition
-107,Sam Cooke,Soothe Me,The Man Who Invented Soul (Box Set)
-107,Rod Stewart,Dirty Old Town,The Rod Stewart Album
-107,Howlin' Wolf,Do The Do,The London Howlin' Wolf Sessions
-107,Robert Parker,Barefootin',Barefootin' - Golden Classics
-107,Ritchie Valens,Ooh! My Head,The Very Best Of Ritchie Valens
-107,Randy Newman,Sail Away,Sail Away (Expanded Version)
-107,Pete Townshend,Rough Boys,Empty Glass"
-108,Brewer & Shipley,One Toke Over The Line,One Toke Over The Line: The Best of Brewer & Shipley
-108,The Kinks,Who'll Be The Next In Line,Picture Book (Box Set)
-108,Robert Plant/Alison Krauss,Rich Woman,Raising Sand
-108,The Rascals,See,See
-108,John Lee Hooker,I Wanna Walk,The Very Best of John Lee Hooker
-108,Faces,Three Button Hand Me Down,First Step
-108,King Floyd, Groove Me,Choice Cuts
-108,Chuck Berry,Down The Road Apiece,Gold
-108,Lucinda Williams,Joy,Car Wheels On A Gravel Road
-108,Jimmy Reed,Good Lover,"The Essential Boss Man: The Very Best of The Vee-Jay Years, 1953-1966"
-108,Taj Mahal,Hello Josephine,Maestro
-108,LaVern Baker,Voodoo Voodoo,"Loud, Fast & Out Of Control: The Wild Sounds of 50's Rock"
-108,Gregg Allman,Don't Mess Up A Good Thing,Laid Back
-108,The Manatees,Blowhole,Swamp Thang!
-108,MC5,Shakin' Street,Greatest Hits
-108,The Pretty Things,Don't Bring Me Down,Come See Me: The Very Best of The Pretty Things
-108,The Rolling Stones,Stop Breaking Down,Exile On Main Street
-109,Chuck Berry,Roll Over Beethoven,Gold
-109,Arthur Alexander,Anna (Go To Him),The Greatest
-109,Larry Williams,Slow Down,Bad Boy
-109,Chuck Berry,Route 66,Blues
-109,Little Richard,Long Tall Sally,The Very Best of Little Richard
-109,Barbara Lynn,Oh! Baby (We Got A Good Thing Goin'),The Jamie Singles Collection 1962-1965
-109,The Cookies,Chains,Chains
-109,Muddy Waters,I Can't Be Satisfied,The Anthology 1947-1972
-109,Howlin' Wolf,The Red Rooster,His Best
-109,Buddy Holly,Not Fade Away,Gold
-109,Buddy Holly,Words Of Love,Gold
-109,Carl Perkins,Everybody's Trying To Be My Baby,The Very Best of Carl Perkins: Blue Suede Shoes
-109,Carl Perkins,Matchbox,The Very Best of Carl Perkins: Blue Suede Shoes
-109,The Shirelles,Baby It's You,25 All Time Greatest Hits
-109,The Valentinos,It's All Over Now,"Sam Cooke's SAR Records Story, 1959-1965"
-109,Don Covay,"Mercy, Mercy",Mercy/See-Saw
-109,Chuck Berry,Come On,Gold
-109,Bo Diddley,Mona,His Best
-109,The Marvelettes,Please Mr. Postman,The Best of The Marvelettes
-109,Arthur Alexander,You Better Move On,The Greatest
-109,The Isley Brothers,Twist And Shout,The Essential Isley Brothers
-109,Larry Williams,She Said Yeah,Bad Boy
-109,Barrett Strong,Money (That's What I Want),Hitsville USA: The Motown Singles Collection 1959-1971
-109,The Rolling Stones,Money (That's What I Want),More Hot Rocks (big hits & fazed cookies)
-109,The Beatles,Money (That's What I Want),With The Beatles (Remastered)
-110,John Mayall & the Bluesbreakers,Key To Love,Bluesbreakers With Eric Clapton
-110,The Sorrows,You've Got What I Want,Take A Heart
-110,The Yardbirds,Lost Woman,Ultimate!
-110,Neil Young,Everybody Knows This Is Nowhere,Everybody Knows This Is Nowhere
-110,Them,Here Comes The Night,Them Featuring Van Morrison
-110,Little Richard,True Fine Mama,The Very Best of Little Richard
-110,Johnny Rivers,Secret Agent Man,Greatest Hits
-110,Bob Dylan,When You Gonna Wake Up,Slow Train Coming
-110,The Zombies,Whenever You're Ready,Absolutely The Best
-110,Howlin' Wolf,Highway 49,The London Howlin' Wolf Sessions
-110,Fleetwood Mac,Station Man,Kiln House
-110,Creedence Clearwater Revival,Penthouse Pauper,Bayou Country (40th Anniversary Edition)
-110,Elvis Presley,"Baby, Let's Play House",Elvis At Sun
-110,The Ventures,Band Member Introductions,Live In Japan '65
-110,The Ventures,I Feel Fine,Live In Japan '65
-110,Leon Russell,Dixie Lullaby,Leon Russell
-110,Ann Peebles,I Pity The Fool,The Best of Ann Peebles: The Hi Records Years
-110,Aretha Franklin,Rock Steady,Aretha's Best
-110,The Band (with the Staples Singers),The Weight,The Last Waltz (4-disc set)
-111,The Beatles,I Don't Want To Spoil The Party,Beatles For Sale (Remastered)
-111,Muddy Waters,Look What You've Done,The Anthology 1947-1972
-111,Bob Dylan,Cold Irons,Bound Masked And Anonymous (Music from the Motion Picture)
-111,The Animals,When I Was Young,Retrospective
-111,Leon Russell,Beware Of Darkness,Leon Russell & The Shelter People
-111,Albert Collins,Frosty,Truckin' With Albert Collins
-111,Taj Mahal,"Going Up To The Country, Paint My Mailbox Blue",The Essential
-111,Dave ""Baby"" Cortez,The Happy Organ,"Rock Instrumental Classics, Volume 1: The Fifties"
-111,Ricky Nelson,Fools Rush In,The Best of Rick Nelson
-111,Levon Helm and the RCO All Stars,Milk Cow Boogie,"Live at the Palladium NYC, New Year's Eve 1977"
-111,The Ventures,The House Of The Rising Sun,Live In Japan '65
-111,Sonny Boy Williamson,Your Funeral and My Trial,His Best
-111,Tom Petty & the Heartbreakers,I Just Want To Make Love To You,The Live Anthology
-111,Bo Diddley,Cadillac,Bo Diddley Is A Gunslinger
-111,The Cobras,Shake Up,4000 Volts of Stax & Satellite
-111,Bobby Fuller Four,Never To Be Forgotten,The Best of The Bobby Fuller Four
-111,Buddy Holly,Ready Teddy,Gold
-111,Mike Bloomfield/Al Kooper/Steve Stills,Albert's Shuffle,Super Session
+107,Steppenwolf,"Rock Me","All Time Greatest Hits"
+107,"Roy Head & The Traits","Treat Her Right","Treat Her Right: The Best Of Roy Head"
+107,"Small Faces","What'cha Gonna Do About It","Ultimate Collection"
+107,"Slim Harpo","Tip On In (Part 1)","The Excello Singles Anthology"
+107,"The Band","When I Paint My Masterpiece","Greatest Hits"
+107,"Big Joe Turner","Shake, Rattle And Roll","Greatest Hits"
+107,"Dan Penn","The Dark End Of The Street","Do Right Man"
+107,"Chubby Checker","Pony Time","The Best of Chubby Checker: Cameo Parkway 1959-1963"
+107,"Chuck Berry",Tulane,Gold
+107,"Rufus Thomas","Walking The Dog","The Very Best Of Rufus Thomas"
+107,"Sam & Dave","You Don't Know Like I Know","The Very Best Of Sam & Dave"
+107,"The Rolling Stones","Talkin' About You","December's Children (And Everybody's)"
+107,"The Temptations","Ball Of Confusion (That's What The World Is Today)","The Definitive Collection"
+107,"Bettye Swann","Make Me Yours","Make Me Yours - Golden Classics"
+107,"Creedence Clearwater Revival","I Put A Spell On You","Creedence Clearwater Revival: 40th Anniversary Edition"
+107,"Sam Cooke","Soothe Me","The Man Who Invented Soul (Box Set)"
+107,"Rod Stewart","Dirty Old Town","The Rod Stewart Album"
+107,"Howlin' Wolf","Do The Do","The London Howlin' Wolf Sessions"
+107,"Robert Parker",Barefootin',"Barefootin' - Golden Classics"
+107,"Ritchie Valens","Ooh! My Head","The Very Best Of Ritchie Valens"
+107,"Randy Newman","Sail Away","Sail Away (Expanded Version)"
+107,"Pete Townshend","Rough Boys","Empty Glass"
+108,"Brewer & Shipley","One Toke Over The Line","One Toke Over The Line: The Best of Brewer & Shipley"
+108,"The Kinks","Who'll Be The Next In Line","Picture Book (Box Set)"
+108,"Robert Plant/Alison Krauss","Rich Woman","Raising Sand"
+108,"The Rascals",See,See
+108,"John Lee Hooker","I Wanna Walk","The Very Best of John Lee Hooker"
+108,Faces,"Three Button Hand Me Down","First Step"
+108,"King Floyd","Groove Me","Choice Cuts"
+108,"Chuck Berry","Down The Road Apiece",Gold
+108,"Lucinda Williams",Joy,"Car Wheels On A Gravel Road"
+108,"Jimmy Reed","Good Lover","The Essential Boss Man: The Very Best of The Vee-Jay Years, 1953-1966"
+108,"Taj Mahal","Hello Josephine",Maestro
+108,"LaVern Baker","Voodoo Voodoo","Loud, Fast & Out Of Control: The Wild Sounds of 50's Rock"
+108,"Gregg Allman","Don't Mess Up A Good Thing","Laid Back"
+108,"The Manatees",Blowhole,"Swamp Thang!"
+108,MC5,"Shakin' Street","Greatest Hits"
+108,"The Pretty Things","Don't Bring Me Down","Come See Me: The Very Best of The Pretty Things"
+108,"The Rolling Stones","Stop Breaking Down","Exile On Main Street"
+109,"Chuck Berry","Roll Over Beethoven",Gold
+109,"Arthur Alexander","Anna (Go To Him)","The Greatest"
+109,"Larry Williams","Slow Down","Bad Boy"
+109,"Chuck Berry","Route 66",Blues
+109,"Little Richard","Long Tall Sally","The Very Best of Little Richard"
+109,"Barbara Lynn","Oh! Baby (We Got A Good Thing Goin')","The Jamie Singles Collection 1962-1965"
+109,"The Cookies",Chains,Chains
+109,"Muddy Waters","I Can't Be Satisfied","The Anthology 1947-1972"
+109,"Howlin' Wolf","The Red Rooster","His Best"
+109,"Buddy Holly","Not Fade Away",Gold
+109,"Buddy Holly","Words Of Love",Gold
+109,"Carl Perkins","Everybody's Trying To Be My Baby","The Very Best of Carl Perkins: Blue Suede Shoes"
+109,"Carl Perkins",Matchbox,"The Very Best of Carl Perkins: Blue Suede Shoes"
+109,"The Shirelles","Baby It's You","25 All Time Greatest Hits"
+109,"The Valentinos","It's All Over Now","Sam Cooke's SAR Records Story, 1959-1965"
+109,"Don Covay","Mercy, Mercy",Mercy/See-Saw
+109,"Chuck Berry","Come On",Gold
+109,"Bo Diddley",Mona,"His Best"
+109,"The Marvelettes","Please Mr. Postman","The Best of The Marvelettes"
+109,"Arthur Alexander","You Better Move On","The Greatest"
+109,"The Isley Brothers","Twist And Shout","The Essential Isley Brothers"
+109,"Larry Williams","She Said Yeah","Bad Boy"
+109,"Barrett Strong","Money (That's What I Want)","Hitsville USA: The Motown Singles Collection 1959-1971"
+109,"The Rolling Stones","Money (That's What I Want)","More Hot Rocks (big hits & fazed cookies)"
+109,"The Beatles","Money (That's What I Want)","With The Beatles (Remastered)"
+110,"John Mayall & the Bluesbreakers","Key To Love","Bluesbreakers With Eric Clapton"
+110,"The Sorrows","You've Got What I Want","Take A Heart"
+110,"The Yardbirds","Lost Woman",Ultimate!
+110,"Neil Young","Everybody Knows This Is Nowhere","Everybody Knows This Is Nowhere"
+110,Them,"Here Comes The Night","Them Featuring Van Morrison"
+110,"Little Richard","True Fine Mama","The Very Best of Little Richard"
+110,"Johnny Rivers","Secret Agent Man","Greatest Hits"
+110,"Bob Dylan","When You Gonna Wake Up","Slow Train Coming"
+110,"The Zombies","Whenever You're Ready","Absolutely The Best"
+110,"Howlin' Wolf","Highway 49","The London Howlin' Wolf Sessions"
+110,"Fleetwood Mac","Station Man","Kiln House"
+110,"Creedence Clearwater Revival","Penthouse Pauper","Bayou Country (40th Anniversary Edition)"
+110,"Elvis Presley","Baby, Let's Play House","Elvis At Sun"
+110,"The Ventures","Band Member Introductions","Live In Japan '65"
+110,"The Ventures","I Feel Fine","Live In Japan '65"
+110,"Leon Russell","Dixie Lullaby","Leon Russell"
+110,"Ann Peebles","I Pity The Fool","The Best of Ann Peebles: The Hi Records Years"
+110,"Aretha Franklin","Rock Steady","Aretha's Best"
+110,"The Band (with the Staples Singers)","The Weight","The Last Waltz (4-disc set)"
+111,"The Beatles","I Don't Want To Spoil The Party","Beatles For Sale (Remastered)"
+111,"Muddy Waters","Look What You've Done","The Anthology 1947-1972"
+111,"Bob Dylan","Cold Irons","Bound Masked And Anonymous (Music from the Motion Picture)"
+111,"The Animals","When I Was Young",Retrospective
+111,"Leon Russell","Beware Of Darkness","Leon Russell & The Shelter People"
+111,"Albert Collins",Frosty,"Truckin' With Albert Collins"
+111,"Taj Mahal","Going Up To The Country, Paint My Mailbox Blue","The Essential"
+111,"Dave """"Baby"""" Cortez","The Happy Organ","Rock Instrumental Classics, Volume 1: The Fifties"
+111,"Ricky Nelson","Fools Rush In","The Best of Rick Nelson"
+111,"Levon Helm and the RCO All Stars","Milk Cow Boogie","Live at the Palladium NYC, New Year's Eve 1977"
+111,"The Ventures","The House Of The Rising Sun","Live In Japan '65"
+111,"Sonny Boy Williamson","Your Funeral and My Trial","His Best"
+111,"Tom Petty & the Heartbreakers","I Just Want To Make Love To You","The Live Anthology"
+111,"Bo Diddley",Cadillac,"Bo Diddley Is A Gunslinger"
+111,"The Cobras","Shake Up","4000 Volts of Stax & Satellite"
+111,"Bobby Fuller Four","Never To Be Forgotten","The Best of The Bobby Fuller Four"
+111,"Buddy Holly","Ready Teddy",Gold
+111,"Mike Bloomfield/Al Kooper/Steve Stills","Albert's Shuffle","Super Session"
 112,"The Beach Boys","Sail On, Sailor","Carl and the Passions / Holland"
 112,Spirit ,Fresh-Garbage ,Spirit
 112,"Manfred Mann","Bring It To Jerome","Down The Road Apiece: Their EMI Recordings 1963-1966"
@@ -2242,173 +2242,173 @@ showId,artist,title,album
 113,"The Ventures","Walk Don't Run (live)","Live In Japan '65"
 113,"The Yardbirds","Happenings Ten Years Time Ago",Ultimate!
 113,"Blind Faith","Presence Of The Lord","Blind Faith (Deluxe Edition)"
-114,J.J. Cale,I'm A Gypsy Man,Troubadour
-114,The Animals,Hey Gyp,Retrospective
-114,Sonny Boy Williamson,Checkin' Up On My Baby,His Best
-114,Jimi Hendrix,Drifting,First Rays Of The New Rising Sun
-114,The Rascals,Hold On,See
-114,James Brown,"It's A Man's, Man's, Man's World",20 All-Time Greatest Hits
-114,Little Walter,Up The Line,The Essential Little Walter
-114,The Byrds,The World Turns All Around Her,Turn! Turn! Turn!
-114,Buffalo Springfield,Pretty Girl Why,Last Time Around
-114,Quicksilver Messenger Service,Dino's Song,Quicksilver Messenger Service
-114,Jimmy Smith,I Got A Woman,Home Cookin'
-114,Elvis Presley,Just Because,Elvis At Sun
-114,Arthur ""Big Boy"" Crudup,That's All Right,That's All Right Mama
-114,Badfinger,Sometimes,Straight Up
-114,The Beatles,Love Me Do (single version),"Past Masters, Vol. 1 (remaster)"
-114,Albert King/Stevie Ray Vaughan,Born Under A Bad Sign,Stax Profiles
-114,Eddie ""Cleanhead"" Vinson,Hold It Right There (live),Best Of The Blues - Live at ""Newport in New York""
-114,The Yardbirds,Little Games,Ultimate!
-114,The Rolling Stones,Empty Heart,12 X 5
-114,Howlin' Wolf,Built For Comfort,His Best
-115,Iggy Pop,Five Foot One,New Values
-115,The Who,Pictures Of Lily,The Ultimate Collection
-115,The Rolling Stones,Before They Make Me Run,Some Girls (remastered)
-115,Johnny Jenkins (wth Duane Allman),Rollin' Stone,Duane Allman: An Anthology
-115,John Mayall & the Bluesbreakers,Driving Sideways,Crusade
-115,The Young Rascals,Slow Down,The Young Rascals
-115,Otis Redding,These Arms of Mine,The Very Best Of Otis Redding
-115,Norman Greenbaum,Spirit In The Sky,Spirit In The Sky: The Best of Norman Greenbaum
-115,Leonard Cohen,I'm Your Man,More Best Of
-115,The Strangeloves,Cara-Lin,I Want Candy: The Best Of The Strangeloves
-115,Jr. Walker & The All Stars,Shake And Fingerpop,The Best of Jr. Walker & The All Stars
-115,Joe Tex,Show Me,Greatest Hits
-115,James & Bobby Purify,I Take What I Want,Shake A Tail Feather! The Best of James & Bobby Purify
-115,J.J. Cale,Carry On,Anyway The Wind Blows - The Anthology
-115,The Hollies,Long Cool Woman (In A Black Dress) (live),The Hollies: Live Hits
-115,The Everly Brothers,Made To Love Walk,Right Back: The Everly Brothers on WB 1960 to 1969
-115,The Dave Clark Five,Please Tell Me Why,The History of The Dave Clark Five
-115,Eric Burdon & War,Spill The Wine,The Very Best Of War
-116,The Animals,Shake,Animalism
-116,Tom Petty & the Heartbreakers,Running Man's Bible,Mojo
-116,Sonny Boy Williamson,Keep It To Yourself,His Best
-116,Wilson Pickett,Engine Number 9,What It Is! Funky Soul and Rare Grooves
-116,Smiley Lewis,"Shame, Shame, Shame",The Best of Smiley Lewis
-116,The Rolling Stones,"I Hear You Knocking, Silver Train",Goat's Head Soup
-116,Sam Cooke,Good Times,Portrait Of A Legend
-116,Jimmy Rogers,Goin' Away Baby,His Best
-116,The Searchers,When You Walk In The Room,The Very Best of The Searchers
-116,Roger McGuinn,King Of The Hill,Back From Rio
-116,Rockpile,Teacher Teacher,Seconds Of Pleasure
-116,Ray Charles,Leave My Woman Alone,The Right Time
-116,Joe Cocker,Don't Let Me Be Misunderstood,The Anthology
-116,Roy Head & the Traits,My Babe,Treat Her Right: The Very Best of Roy Head
-116,Roy Orbison,Candy Man,The All-Time Greatest Hits of Roy Orbison
-116,Mose Allison,Don't Forget To Smile,The Best of Mose Allison
-116,Canned Heat,Let's Work Together,The Best of Canned Heat
-116,Long John Baldry,Don't Try To Lay No Boogie-Woogie On The King of Rock 'N' Roll,Buried Treasure: Lost Gems from Deep in the '60's Vault
-117,Mountain,Never In My Life,The Best of Mountain
-117,Rod Stewart,An Old Raincoat Won't Ever Let You Down,The Rod Stewart Album
-117,The Rolling Stones,Sweet Virginia,Exile On Main Street
-117,Wilbert Harrison,Kansas City,Kansas City - His Legendary Golden Classics
-117,Louis Jordan & His Tympani,Five,Let The Good Times Roll The Best of Blues Rock Songbook
-117,Freddie King,Going Down,Ultimate Collection
-117,The Zombies,You've Really Got A Hold On Me,The Zombies
-117,The Who,I Can't Explain,The Ultimate Collection
-117,Wanda Jackson,Fujiyama Mama,"Loud, Fast & Out of Control: The Wild Sounds of '50's Rock"
-117,Traffic,Who Knows What Tomorrow May Bring,The Collection
-117,Jimmy Smith,What'd I Say,Any Number Can Win
-117,Jimi Hendrix Experience,Long Hot Summer Night,Electric Ladyland
-117,Jackie Wilson,Baby Workout,"The Best of Jackie Wilson, Vol. 1 (1957-1965)"
-117,The Isley Brothers,Respectable,Shout: The RCA Sessions
-117,Tom Petty & the Heartbreakers,The Trip To Pirates Cove,Mojo
-117,Charles Brown,Driftin' Blues,"Driftin' Blues, The Best of Charles Brown"
-117,Cream,Crossroads,The Very Best of Cream
-118,Dale Hawkins,Susie-Q,Rock 'N' Roll Tornado
-118,The Strangeloves,Night Time,I Want Candy: The Best of The Strangeloves
-118,The Rolling Stones,She's So Cold,Emotional Rescue
-118,Bo Diddley,Pills,His Best
-118,John Lennon,"Surprise, Surprise (Sweet Bird of Paradox)",Walls And Bridges
-118,Fats Domino,Ain't That Just Like A Woman,Walking To New Orleans (Box Set)
-118,Johnny Winter,Highway 61 Revisited,The Best of Johnny Winter
-118,Blue Cheer,Summertime Blues,Vincebus Eruptum
-118,Ray Charles,Let's Go Get Stoned,Anthology
-118,Daddy Cool,Come Back Again,Eagle Rock
-118,Dave Clark Five,Any Way You Want It,The Hits
-118,Fleetwood Mac,Drifting,The Original Fleetwood Mac
-118,Bill Withers,Who Is He (And What Is He To You)?,The Best of Bill Withers: Lean On Me
-118,Burning Sunflower Blues Band,Ride With Your Daddy,"Tonight Jumping At Shadows, The Blues Years"
-118,Marc Bolan & T. Rex,Ride A White Swan,20th Century Boy: The Ultimate Collection
-118,Little Richard,Miss Ann,The Very Best of Little Richard
-118,John Mayall,Hide Away,Bluesbreakers With Eric Clapton
-118,Tom Petty & The Heartbreakers,First Flash of Freedom,Mojo
-119,Van Morrison,Dweller On The Threshold,Still On Top - The Greatest Hits
-119,Howlin' Wolf,Wang Dang Doodle,The London Howlin' Wolf Sessions
-119,Bobby ""Blue"" Bland,I Pity The Fool,Greatest Hits Vol. One - The Duke Recordings
-119,The Bobby Fuller Four,Let Her Dance,The Best of The Bobby Fuller Four
-119,The Capitols,Cool Jerk,The In Crowd: The Ultimate Mod Collection 1958-1967
-119,Alvin Robinson,I'm Gonna Put Some Hurt On You,The Red Bird Story (3 CD Set)
-119,The Allman Brothers Band,Don't Want You No More,The Allman Brothers Band
-119,The Allman Brothers Band,It's Not My Cross To Bear,The Allman Brothers Band
-119,The Rolling Stones,The Under Assistant West Coast Promotion Man,Out Of Our Heads
-119,The Merry-Go-Round,You're A Very Lovely Woman,"Listen, Listen: The Definitive Collection"
-119,The Left Banke Walk,Away Renee,There's Gonna Be A Storm: The Complete Recordings 1966-1969
-119,The Animals,All Night Long,Animalism
-119,Jimi Hendrix,Mr. Bad Luck,Valleys Of Neptune
-119,The Coasters,Shoppin' For Clothes,The Very Best of The Coasters
-119,Charlie Rich,Mohair Sam,Feel Like Going Home: The Essential Charlie Rich
-119,Donovan,Barabajagal,The Essential Donovan
-119,Johnny Bond,Hot Rod Lincoln,The Very Best of Johnny Bond
-119,Chuck Berry,Maybelline,Gold
-119,Jan & Dean,Dead Man's Curve,The Complete Liberty Singles
-119,Tom Petty & The Heartbreakers,Good Enough,Mojo
-120,The Rolling Stones,I Just Want To Make Love To You,England's Newest Hit Makers
-120,The Staples Singers,If You're Ready (Come Go With Me),Stax Profiles
-120,George Harrison,Between The Devil And The Deep Blue Sea,Brainshed
-120,The Beatles,Two Of Us,Let It Be...Naked
+114,"J.J. Cale","I'm A Gypsy Man",Troubadour
+114,"The Animals","Hey Gyp",Retrospective
+114,"Sonny Boy Williamson","Checkin' Up On My Baby","His Best"
+114,"Jimi Hendrix",Drifting,"First Rays Of The New Rising Sun"
+114,"The Rascals","Hold On",See
+114,"James Brown","It's A Man's, Man's, Man's World","20 All-Time Greatest Hits"
+114,"Little Walter","Up The Line","The Essential Little Walter"
+114,"The Byrds","The World Turns All Around Her","Turn! Turn! Turn!"
+114,"Buffalo Springfield","Pretty Girl Why","Last Time Around"
+114,"Quicksilver Messenger Service","Dino's Song","Quicksilver Messenger Service"
+114,"Jimmy Smith","I Got A Woman","Home Cookin'"
+114,"Elvis Presley","Just Because","Elvis At Sun"
+114,"Arthur """"Big Boy"""" Crudup","That's All Right","That's All Right Mama"
+114,Badfinger,Sometimes,"Straight Up"
+114,"The Beatles","Love Me Do (single version)","Past Masters, Vol. 1 (remaster)"
+114,"Albert King/Stevie Ray Vaughan","Born Under A Bad Sign","Stax Profiles"
+114,"Eddie """"Cleanhead"""" Vinson","Hold It Right There (live)","Best Of The Blues - Live at """"Newport in New York"
+114,"The Yardbirds","Little Games",Ultimate!
+114,"The Rolling Stones","Empty Heart","12 X 5"
+114,"Howlin' Wolf","Built For Comfort","His Best"
+115,"Iggy Pop","Five Foot One","New Values"
+115,"The Who","Pictures Of Lily","The Ultimate Collection"
+115,"The Rolling Stones","Before They Make Me Run","Some Girls (remastered)"
+115,"Johnny Jenkins (wth Duane Allman)","Rollin' Stone","Duane Allman: An Anthology"
+115,"John Mayall & the Bluesbreakers","Driving Sideways",Crusade
+115,"The Young Rascals","Slow Down","The Young Rascals"
+115,"Otis Redding","These Arms of Mine","The Very Best Of Otis Redding"
+115,"Norman Greenbaum","Spirit In The Sky","Spirit In The Sky: The Best of Norman Greenbaum"
+115,"Leonard Cohen","I'm Your Man","More Best Of"
+115,"The Strangeloves",Cara-Lin,"I Want Candy: The Best Of The Strangeloves"
+115,"Jr. Walker & The All Stars","Shake And Fingerpop","The Best of Jr. Walker & The All Stars"
+115,"Joe Tex","Show Me","Greatest Hits"
+115,"James & Bobby Purify","I Take What I Want","Shake A Tail Feather! The Best of James & Bobby Purify"
+115,"J.J. Cale","Carry On","Anyway The Wind Blows - The Anthology"
+115,"The Hollies","Long Cool Woman (In A Black Dress) (live)","The Hollies: Live Hits"
+115,"The Everly Brothers","Made To Love Walk","Right Back: The Everly Brothers on WB 1960 to 1969"
+115,"The Dave Clark Five","Please Tell Me Why","The History of The Dave Clark Five"
+115,"Eric Burdon & War","Spill The Wine","The Very Best Of War"
+116,"The Animals",Shake,Animalism
+116,"Tom Petty & the Heartbreakers","Running Man's Bible",Mojo
+116,"Sonny Boy Williamson","Keep It To Yourself","His Best"
+116,"Wilson Pickett","Engine Number 9","What It Is! Funky Soul and Rare Grooves"
+116,"Smiley Lewis","Shame, Shame, Shame","The Best of Smiley Lewis"
+116,"The Rolling Stones","I Hear You Knocking, Silver Train","Goat's Head Soup"
+116,"Sam Cooke","Good Times","Portrait Of A Legend"
+116,"Jimmy Rogers","Goin' Away Baby","His Best"
+116,"The Searchers","When You Walk In The Room","The Very Best of The Searchers"
+116,"Roger McGuinn","King Of The Hill","Back From Rio"
+116,Rockpile,"Teacher Teacher","Seconds Of Pleasure"
+116,"Ray Charles","Leave My Woman Alone","The Right Time"
+116,"Joe Cocker","Don't Let Me Be Misunderstood","The Anthology"
+116,"Roy Head & the Traits","My Babe","Treat Her Right: The Very Best of Roy Head"
+116,"Roy Orbison","Candy Man","The All-Time Greatest Hits of Roy Orbison"
+116,"Mose Allison","Don't Forget To Smile","The Best of Mose Allison"
+116,"Canned Heat","Let's Work Together","The Best of Canned Heat"
+116,"Long John Baldry","Don't Try To Lay No Boogie-Woogie On The King of Rock 'N' Roll","Buried Treasure: Lost Gems from Deep in the '60's Vault"
+117,Mountain,"Never In My Life","The Best of Mountain"
+117,"Rod Stewart","An Old Raincoat Won't Ever Let You Down","The Rod Stewart Album"
+117,"The Rolling Stones","Sweet Virginia","Exile On Main Street"
+117,"Wilbert Harrison","Kansas City","Kansas City - His Legendary Golden Classics"
+117,"Louis Jordan & His Tympani",Five,"Let The Good Times Roll The Best of Blues Rock Songbook"
+117,"Freddie King","Going Down","Ultimate Collection"
+117,"The Zombies","You've Really Got A Hold On Me","The Zombies"
+117,"The Who","I Can't Explain","The Ultimate Collection"
+117,"Wanda Jackson","Fujiyama Mama","Loud, Fast & Out of Control: The Wild Sounds of '50's Rock"
+117,Traffic,"Who Knows What Tomorrow May Bring","The Collection"
+117,"Jimmy Smith","What'd I Say","Any Number Can Win"
+117,"Jimi Hendrix Experience","Long Hot Summer Night","Electric Ladyland"
+117,"Jackie Wilson","Baby Workout","The Best of Jackie Wilson, Vol. 1 (1957-1965)"
+117,"The Isley Brothers",Respectable,"Shout: The RCA Sessions"
+117,"Tom Petty & the Heartbreakers","The Trip To Pirates Cove",Mojo
+117,"Charles Brown","Driftin' Blues","Driftin' Blues, The Best of Charles Brown"
+117,Cream,Crossroads,"The Very Best of Cream"
+118,"Dale Hawkins",Susie-Q,"Rock 'N' Roll Tornado"
+118,"The Strangeloves","Night Time","I Want Candy: The Best of The Strangeloves"
+118,"The Rolling Stones","She's So Cold","Emotional Rescue"
+118,"Bo Diddley",Pills,"His Best"
+118,"John Lennon","Surprise, Surprise (Sweet Bird of Paradox)","Walls And Bridges"
+118,"Fats Domino","Ain't That Just Like A Woman","Walking To New Orleans (Box Set)"
+118,"Johnny Winter","Highway 61 Revisited","The Best of Johnny Winter"
+118,"Blue Cheer","Summertime Blues","Vincebus Eruptum"
+118,"Ray Charles","Let's Go Get Stoned",Anthology
+118,"Daddy Cool","Come Back Again","Eagle Rock"
+118,"Dave Clark Five","Any Way You Want It","The Hits"
+118,"Fleetwood Mac",Drifting,"The Original Fleetwood Mac"
+118,"Bill Withers","Who Is He (And What Is He To You)?","The Best of Bill Withers: Lean On Me"
+118,"Burning Sunflower Blues Band","Ride With Your Daddy","Tonight Jumping At Shadows, The Blues Years"
+118,"Marc Bolan & T. Rex","Ride A White Swan","20th Century Boy: The Ultimate Collection"
+118,"Little Richard","Miss Ann","The Very Best of Little Richard"
+118,"John Mayall","Hide Away","Bluesbreakers With Eric Clapton"
+118,"Tom Petty & The Heartbreakers","First Flash of Freedom",Mojo
+119,"Van Morrison","Dweller On The Threshold","Still On Top - The Greatest Hits"
+119,"Howlin' Wolf","Wang Dang Doodle","The London Howlin' Wolf Sessions"
+119,"Bobby """"Blue"""" Bland","I Pity The Fool","Greatest Hits Vol. One - The Duke Recordings"
+119,"The Bobby Fuller Four","Let Her Dance","The Best of The Bobby Fuller Four"
+119,"The Capitols","Cool Jerk","The In Crowd: The Ultimate Mod Collection 1958-1967"
+119,"Alvin Robinson","I'm Gonna Put Some Hurt On You","The Red Bird Story (3 CD Set)"
+119,"The Allman Brothers Band","Don't Want You No More","The Allman Brothers Band"
+119,"The Allman Brothers Band","It's Not My Cross To Bear","The Allman Brothers Band"
+119,"The Rolling Stones","The Under Assistant West Coast Promotion Man","Out Of Our Heads"
+119,"The Merry-Go-Round","You're A Very Lovely Woman","Listen, Listen: The Definitive Collection"
+119,"The Left Banke Walk","Away Renee","There's Gonna Be A Storm: The Complete Recordings 1966-1969"
+119,"The Animals","All Night Long",Animalism
+119,"Jimi Hendrix","Mr. Bad Luck","Valleys Of Neptune"
+119,"The Coasters","Shoppin' For Clothes","The Very Best of The Coasters"
+119,"Charlie Rich","Mohair Sam","Feel Like Going Home: The Essential Charlie Rich"
+119,Donovan,Barabajagal,"The Essential Donovan"
+119,"Johnny Bond","Hot Rod Lincoln","The Very Best of Johnny Bond"
+119,"Chuck Berry",Maybelline,Gold
+119,"Jan & Dean","Dead Man's Curve","The Complete Liberty Singles"
+119,"Tom Petty & The Heartbreakers","Good Enough",Mojo
+120,"The Rolling Stones","I Just Want To Make Love To You","England's Newest Hit Makers"
+120,"The Staples Singers","If You're Ready (Come Go With Me)","Stax Profiles"
+120,"George Harrison","Between The Devil And The Deep Blue Sea",Brainshed
+120,"The Beatles","Two Of Us","Let It Be...Naked"
 120,"Jesse “Guitar” Taylor / John X Reed","Sin Sa Shun","South Side Guitar"
-120,Tom Petty & The Heartbreakers,Lovers Touch,Mojo
-120,Eddie Cochran,Pretty Girl,The Best of Eddie Cochran
-120,Elvis Presley,A Mess Of Blues,Elvis Is Back!
-120,Alvin Robinson,Down Home Girl,The Red Bird Story (3 CD Set)
-120,Emitt Rhodes,Long Time No See,"Daisy-Fresh From Hawthorne, California (the Best of the Dunhill Years)"
-120,The Everly Brothers,Stick With Me Baby,Walk Right Back: The Everly Bros. on WB 1960 to 1969
-120,Harry Nilsson,Spaceman,Son Of Schmilsson
-120,The Hollies,Pay You Back With Interest,30th Anniversary Collection 1963-1993
-120,Etta James,Trust In Me,The Definitive Collection
-120,J.J. Cale,I'd Like To Love You Baby,Okie
-120,James & Bobby Purify,Shake,A Tail Feather The Best of James & Bobby Purify
-120,James Brown,Fight Drug Abuse (Public Service Announcement),Funk Power 1970: A Brand New Thang
-120,James Brown,Bodyheat,JB40: 40th Anniversary Collection
-120,Jimmy Rogers,Walking By Myself,His Best
-120,Jimmy Reed,I Ain't Got You,The Best of The Vee-Jay Years
-121,Gene Vincent,Be-Bop-A-Lua,The Screaming End: The Best of Gene Vincent & His Blue Caps
-121,Etta James,"In The Basement, Part One",Gold
-121,Faces,Wicked Messenger,First Step
-121,MC5,Gotta Keep Movin',High Time
-121,The Paul Butterfield Blues Band,Nut Popper #1,An Anthology: The Elektra Years
-121,Muddy Waters,Stuff You Gotta Watch,The Anthology 1947-1972
-121,Tom Petty & The Heartbreakers,High In The Morning,Mojo
-121,Georgie Flame & The Blue Flames,Yeh Yeh,The In Crowd: The Ultimate Mod Collection...
-121,Ricky Nelson,Teenage Idol,Greatest Hits
-121,The Sorrows,Take A Heart,Take A Heart
-121,David Lindley,Mercury Blues,El Rayo-X
-121,Otis Redding,Mr. Pitiful,The Very Best of Otis Redding
-121,The Coasters,Little Egypt (Ying Yang),The Very Best of The Coasters
-121,Johnny Burnette Trio,Honey Hush,"Loud, Fast & Out of Control: The Wild Sounds of '50s Rock"
-121,ZZ Top,Brown Sugar,ZZ Top's First Album
-121,The Who,It's Not True,My Generation (Deluxe Edition)
-121,The Rolling Stones,All Down The Line,Exile On Main St. (Deluxe Edition)
-121,Traffic,Glad,John Barleycorn Must Die
-122,Savoy Brown,"She's Got a Ring in His Nose, and a Ring on Her Hand",The Savy Brown Collection Featuring Kim Simmonds
-122,The Rolling Stones,Plundered My Soul,Exile On Main St. (Deluxe Edition)
-122,Albert King,Don't Burn Down The Bridge ('cause you might wanna come back across),Blues At Sunrise
-122,John Mayall,What'd I Say,Blues Breakers with Eric Clapton
-122,Little Walter,Mellow Down Easy,His Best
-122,Manfred Mann,Don't Ask Me What I Say,Down The Road Apiece: Their EMI Recordings 1963-1966
-122,Mose Allison,I'm The Wild Man,The Best of Mose Allison
-122,The Searchers,When You Walk In The Room,The Very Best of The Searchers
-122,Love,My Little Red Book,The Best of Love
-122,Muddy Waters,Forty Days And Forty Nights,The Anthology 1947-1972
-122,The Paul Butterfield Blues Band,Lovin' Cup,An Anthology: The Elektra Years
-122,Piano Red,Rockin' With Red,Blowing The Fuse: 28 R&B Classics That Rocked The Jukebox in 1951
-122,Sonny Boy Williamson,One Way Out,His Best
-122,Ray Charles,You Are My Sunshine,Anthology
-122,The Yardbirds,Lost Woman,Ultimate!
-122,Spencer Davis Group,Stevie's Blues,The Best of Spencer Davis Group
-122,Tom Petty & the Heartbreakers,I Should Have Known It,Mojo
-122,Jeff Beck,Blues Deluxe,Truth
+120,"Tom Petty & The Heartbreakers","Lovers Touch",Mojo
+120,"Eddie Cochran","Pretty Girl","The Best of Eddie Cochran"
+120,"Elvis Presley","A Mess Of Blues","Elvis Is Back!"
+120,"Alvin Robinson","Down Home Girl","The Red Bird Story (3 CD Set)"
+120,"Emitt Rhodes","Long Time No See","Daisy-Fresh From Hawthorne, California (the Best of the Dunhill Years)"
+120,"The Everly Brothers","Stick With Me Baby","Walk Right Back: The Everly Bros. on WB 1960 to 1969"
+120,"Harry Nilsson",Spaceman,"Son Of Schmilsson"
+120,"The Hollies","Pay You Back With Interest","30th Anniversary Collection 1963-1993"
+120,"Etta James","Trust In Me","The Definitive Collection"
+120,"J.J. Cale","I'd Like To Love You Baby",Okie
+120,"James & Bobby Purify",Shake,"A Tail Feather The Best of James & Bobby Purify"
+120,"James Brown","Fight Drug Abuse (Public Service Announcement)","Funk Power 1970: A Brand New Thang"
+120,"James Brown",Bodyheat,"JB40: 40th Anniversary Collection"
+120,"Jimmy Rogers","Walking By Myself","His Best"
+120,"Jimmy Reed","I Ain't Got You","The Best of The Vee-Jay Years"
+121,"Gene Vincent",Be-Bop-A-Lua,"The Screaming End: The Best of Gene Vincent & His Blue Caps"
+121,"Etta James","In The Basement, Part One",Gold
+121,Faces,"Wicked Messenger","First Step"
+121,MC5,"Gotta Keep Movin'","High Time"
+121,"The Paul Butterfield Blues Band","Nut Popper #1","An Anthology: The Elektra Years"
+121,"Muddy Waters","Stuff You Gotta Watch","The Anthology 1947-1972"
+121,"Tom Petty & The Heartbreakers","High In The Morning",Mojo
+121,"Georgie Flame & The Blue Flames","Yeh Yeh","The In Crowd: The Ultimate Mod Collection..."
+121,"Ricky Nelson","Teenage Idol","Greatest Hits"
+121,"The Sorrows","Take A Heart","Take A Heart"
+121,"David Lindley","Mercury Blues","El Rayo-X"
+121,"Otis Redding","Mr. Pitiful","The Very Best of Otis Redding"
+121,"The Coasters","Little Egypt (Ying Yang)","The Very Best of The Coasters"
+121,"Johnny Burnette Trio","Honey Hush","Loud, Fast & Out of Control: The Wild Sounds of '50s Rock"
+121,"ZZ Top","Brown Sugar","ZZ Top's First Album"
+121,"The Who","It's Not True","My Generation (Deluxe Edition)"
+121,"The Rolling Stones","All Down The Line","Exile On Main St. (Deluxe Edition)"
+121,Traffic,Glad,"John Barleycorn Must Die"
+122,"Savoy Brown","She's Got a Ring in His Nose, and a Ring on Her Hand","The Savy Brown Collection Featuring Kim Simmonds"
+122,"The Rolling Stones","Plundered My Soul","Exile On Main St. (Deluxe Edition)"
+122,"Albert King","Don't Burn Down The Bridge ('cause you might wanna come back across)","Blues At Sunrise"
+122,"John Mayall","What'd I Say","Blues Breakers with Eric Clapton"
+122,"Little Walter","Mellow Down Easy","His Best"
+122,"Manfred Mann","Don't Ask Me What I Say","Down The Road Apiece: Their EMI Recordings 1963-1966"
+122,"Mose Allison","I'm The Wild Man","The Best of Mose Allison"
+122,"The Searchers","When You Walk In The Room","The Very Best of The Searchers"
+122,Love,"My Little Red Book","The Best of Love"
+122,"Muddy Waters","Forty Days And Forty Nights","The Anthology 1947-1972"
+122,"The Paul Butterfield Blues Band","Lovin' Cup","An Anthology: The Elektra Years"
+122,"Piano Red","Rockin' With Red","Blowing The Fuse: 28 R&B Classics That Rocked The Jukebox in 1951"
+122,"Sonny Boy Williamson","One Way Out","His Best"
+122,"Ray Charles","You Are My Sunshine",Anthology
+122,"The Yardbirds","Lost Woman",Ultimate!
+122,"Spencer Davis Group","Stevie's Blues","The Best of Spencer Davis Group"
+122,"Tom Petty & the Heartbreakers","I Should Have Known It",Mojo
+122,"Jeff Beck","Blues Deluxe",Truth
 123,"Duane Eddy","Peter Gunn","Twang Thang: The Duane Eddy Anthology"
 123,"Fleetwood Mac","Black Magic Woman","The Pious Bird of Good Omen"
 123,"The Cadets","Stranded In The Jungle","Blowing The Fuse: 30 R&B Classics That Rocked The Jukebox in 1956"
@@ -2430,24 +2430,24 @@ showId,artist,title,album
 123,"Roy Head & the Traits","Treat Her Right","Treat Her Right: The Best of Roy Head"
 123,"Tom Petty & the Heartbreakers","U.S. 41",Mojo
 123,"Johnny Otis Show","Willie And the Hand Jive","Loud, Fast & Out of Control: The Wild Sounds of '50s Rock"
-124,Roy Orbison,Uptown,The All-Time Greatest Hits
-124,Lucinda Williams,Can't Let Go,Car Wheels On A Gravel Road
-124,Little Richard,Lucille,The Very Best of Little Richard
-124,P.J. Proby,Niki Hoeky,The Best of P.J. Proby - The EMI Years 1961-1972
-124,The Monkees,Valleri,The Best of The Monkees
-124,Carl Perkins/Van Morrison,Sittin' On Top of The World,Good Rockin' Tonight-The Legacy of Sun Records
-124,The Everly Brothers,Walk Right Back,Walk Right Back: The Everly Brothers on WB 1960 to 1969
-124,Bob Marley & The Wailers,Could You Be Loved,One Love: The Very Best of Bob Marley & The Wailers
-124,Bob Dylan,I'll Be Your Baby Tonight,John Wesley Harding
-124,The Beatles,Flying,Magical Mystery Tour
-124,Tom Petty & the Heartbreakers,Don't Pull Me Over,Mojo
-124,Peter Wolf,Tragedy,Midnight Souvenirs
-124,Fats Domino,Lady Madonna,Buried Treasure: Lost Gems From Deep In The '60s Vault
-124,Faces,Pool Hall Richard,The Best of Faces: ...Good Boys...When They're Asleep
-124,Etta James,A Sunday Kind of Love,The Definitive Collection
-124,Freddie King,Lonesome Whistle Blues,Ultimate Collection
-124,J.J. Cale,Travelin' Light,Troubadour
-124,Traffic,John Barleycorn,John Barleycorn Must Die
+124,"Roy Orbison",Uptown,"The All-Time Greatest Hits"
+124,"Lucinda Williams","Can't Let Go","Car Wheels On A Gravel Road"
+124,"Little Richard",Lucille,"The Very Best of Little Richard"
+124,"P.J. Proby","Niki Hoeky","The Best of P.J. Proby - The EMI Years 1961-1972"
+124,"The Monkees",Valleri,"The Best of The Monkees"
+124,"Carl Perkins/Van Morrison","Sittin' On Top of The World","Good Rockin' Tonight-The Legacy of Sun Records"
+124,"The Everly Brothers","Walk Right Back","Walk Right Back: The Everly Brothers on WB 1960 to 1969"
+124,"Bob Marley & The Wailers","Could You Be Loved","One Love: The Very Best of Bob Marley & The Wailers"
+124,"Bob Dylan","I'll Be Your Baby Tonight","John Wesley Harding"
+124,"The Beatles",Flying,"Magical Mystery Tour"
+124,"Tom Petty & the Heartbreakers","Don't Pull Me Over",Mojo
+124,"Peter Wolf",Tragedy,"Midnight Souvenirs"
+124,"Fats Domino","Lady Madonna","Buried Treasure: Lost Gems From Deep In The '60s Vault"
+124,Faces,"Pool Hall Richard","The Best of Faces: ...Good Boys...When They're Asleep"
+124,"Etta James","A Sunday Kind of Love","The Definitive Collection"
+124,"Freddie King","Lonesome Whistle Blues","Ultimate Collection"
+124,"J.J. Cale","Travelin' Light",Troubadour
+124,Traffic,"John Barleycorn","John Barleycorn Must Die"
 125,"Koko Taylor","What Came First The Egg or The Hen","What It Takes - The Chess Years (Expanded Edition)"
 125,"Ronnie Hawkins & The Hawks","Who Do You Love","The Best of Ronnie Hawkins & The Hawks"
 125,"Canned Heat","Time Was","The Very Best of Canned Heat"
@@ -2467,631 +2467,631 @@ showId,artist,title,album
 125,"The Steve Miller Band"," Quicksilver Girl",Sailor
 125,"Nappy Brown","The Right Time","Night Time Is The Right Time"
 125,"Jimi Hendrix Experience","Killing Floor (live)","Live At Monterey"
-126,Paul Revere & the Raiders,I'm Not Your Steppin' Stone,Greatest Hits
-126,The Rolling Stones,Walking The Dog,England's Newest Hit Makers
-126,Robert Parker,Barefootin',Barefootin - Golden Classics
-126,Love,A House is Not a Motel,Forever Changes
-126,Rod Stewart,Street Fighting Man,The Rod Stewart Album
-126,Ramsey Lewis Trio,Wade In The Water,The In Crowd: The Ultimate Mod Collection 1958-1967
-126,Sam Cooke,Soothe Me,The Man Who Invented Soul (Box Set)
-126,Roy Head & The Traits,Treat Her Right,Treat Her Right - The Best of Roy Head
-126,Roy Orbison,Mean Woman Blues,The All Time Greatest Hits of Roy Orbison
-126,Freddie King,I'm Tore Down,Ultimate Collection
-126,Neil Young,Alabama,Harvest
-126,Fleetwood Mac,Albatross,The Pious Bird of Good Omen
-126,The Beatles,Sun King,Abbey Road
-126,The Searchers,He's Got No Love,The Very Best of The Searchers
-126,Jimmy McGriff,All About My Girl,Greatest Hits
-126,Jimmy Reed,Big Boss Man,The Best of the Vee-Jay Years
-126,Ray Charles,What'd I Say (Part 1),The Best of Ray Charles: The Atlantic Years
-126,The Paul Butterfield Blues Band,In My Own Dream,An Anthology: The Elektra Years
-127,The Beatles,There's A Place,Please Please Me
-127,The Rolling Stones,Can I Get A Witness,England's Newest Hit Makers
-127,The Byrds,It's No Use,Mr. Tambourine Man
-127,Maurice & Mac,You Left The Water Running,Chess Soul: A Decade of Chicago's Finest
-127,Otis Rush,Homework Blues,Classics
-127,John Mayall & the Bluesbreakers,The Stumble,A Hard Road (Expanded Edition)
-127,Mel Torme,Comin' Home Baby,An Education (Original Motion Picture Soundtrack)
-127,Marvin Gaye,Trouble Man,The Ultimate Collection
-127,The Heavy,How You Like Me Now,The House That Dirt Built
-127,Brenda Lee,Sweet Nothin's,An Education (Original Motion Picture Soundtrack)
-127,Ray Charles,Tell The Truth,An Education (Original Motion Picture Soundtrack)
-127,Kim Wilson,Baby Please Don't Lie To Me,Tigerman / That's Life
-127,Koko Taylor,(I Got) All You Need,What It Takes - The Chess Years (Expanded Edition)
-127,Sandy Nelson,Drum Roll 9,Let There Be Drums
-127,William Bell,I Forgot To Be Your Lover,Complete Stax/Volt Soul Singles 1968-1971 Vol. 2
-127,Chuck Willis,Hang Up My Rock and Roll Shoes,I Remember Chuck Willis / The King of the Stroll
-127,The Velvet Underground,Rock And Roll,Loaded
-127,The Easybeats,Good Times,The Definitive Anthology
-127,Elvis Presley,A Big Hunk O' Love,Hit Story
-127,Sam & Dave,Wrap It Up,The Best of Sam & Dave
-128,Little Junior's Blue Flames,Feelin' Good,Sun Records - 25 Blues Classics
-128,Freddie King,Let The Good Times Roll,Burglar
-128,Muddy Waters,The Same Thing,The Anthology 1947-1972
-128,Travis Wammack,Scratchy,That Scratchy Guitar From Memphis
-128,The Music Machine,Talk Talk,The Very Best of The Music Machine - Turn On
-128,The Poets,That's The Way It's Got To Be,The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967
-128,Love,My Flash On You,Love
-128,Manfred Mann,I'm Your Kingpin,Down The Road Apiece: Their EMI Recordings 1963-1966
-128,The Manatees,Dale's Dick,Swamp Thang!
-128,Joe Tex,The Love You Save (May Be Your Own),Greatest Hits
-128,Joe Cocker,Hitchcock Railway,Joe Cocker!
-128,Spirit,Uncle Jack,Spirit
-128,The Troggs,I Can't Control Myself,Hit Single Anthology
-128,Larry Williams,Short Fat Fannie,Bad Boy
-128,Leon Russell & Marc Benno,Tryin' To Stay 'Live,Asylum Choir II
-128,The Merry-Go-Round,Time Will Show The Wiser,"Listen, Listen: The Definitive Collection"
-128,Left Banke,Pretty Ballerina,There's Gonna Be A Storm - The Complete Recordings 1966-1969
-128,Buddy Holly,Peggy Sue,Gold
-128,Pete Townshend & Ronnie Lane,Heart To Hang Onto,Rough Mix
-128,Little Walter,Juke,His Best
-129,Eddie Cochran,Nervous Breakdown,The Best of Eddie Cochran
-129,The Animals,Boom Boom,Retrospective
-129,The Rolling Stones,Down Home Girl,The Rolling Stones, Now!
-129,Bobby ""Blue"" Bland,Don't Cry No More,Greatest Hits Vol. 1 - The Duke Recordings
-129,The Young Rascals,I Ain't Gonna Eat Out My Heart Anymore,The Young Rascals
-129,Little Richard,Slippin' And Slidin' (Peepin' And Hidin'),The Very Best of Little Richard
-129,Jimi Hendrix Experience,If 6 Was 9,Axis: Bold As Love
-129,Paul Revere & The Raiders,Just Like Me,Greatest Hits
-129,The Zombies,I Love You,The Zombies
-129,John Mayall & the Bluesbreakers,Greeny,A Hard Road - Expanded Edition
-129,Chuck Berry,I Got To Find My Baby,Gold
-129,J.J. Cale,Anyway The Wind Blows,Okie
-129,Jeff Beck,Beck's Bolero,Truth
-129,The Allman Brothers Band,Trouble No More,The Allman Brothers Band
-129,Johnny Cash,Pocahontas,Cash Unearthed
-129,Humble Pie,Hot 'N' Nasty,The Best of Humble Pie
-129,Lee Dorsey,Ride Your Pony,The Definitive Collection
-129,Taj Mahal,Six Days On The Road,Giant Step/De Ole Folks At Home
-130,Elmore James,Shake Your Moneymaker,Shake Your Moneymaker: The Best of the Fire Sessions
-130,Derek & The Dominos,Roll It Over,Layla and other assorted love songs (Expanded Edition)
-130,Delanie & Bonnie & Friends,Only You Know And I Know (live),On Tour With Eric Clapton
-130,John Lee Hooker,I Want To Ramble On,Campus
-130,Booker T. & The MG's,Born Under A Bad Sign,The Best Of Booker T. & The MG's
-130,Fats Domino,Sick & Tired,Walking To New Orleans
-130,Clarence Carter,Soul Deep,Snatching It Back: The Best of Clarence Carter
-130,J.J. Cale,Everlovin' Woman,Okie
-130,Anna King,If Somebody Told You,The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967
-130,Freddie King,Pulp Wood,Burglar
-130,Electric Light Orchestra,Showdown,On The Third Day
-130,Emitt Rhodes,Mother Earth,The Emitt Rhodes Recordings (1969-1973)
-130,The Byrds,Here Without You,Mr. Tambourine Man
-130,The Kinks,I Need You,Kinda Kinks (Deluxe Edition)
-130,Dick Dale & the Del-Tones,Miserlou,"Rock Instrumental Classics, Vol. 5: Surf"
-130,Leon Russell,Roll Away The Stone,Leon Russell
-130,Stevie Wonder,You Met Your Match,For Once In My Life
-130,The Beatles,Roll Over Beethoven,With The Beatles
-130,Fleetwood Mac,Rollin' Man (live),Shrine '69
-131,Chuck Berry,You Can't Catch Me,Gold
-131,The Who,A Legal Matter,My Generation (Deluxe Edition)
-131,Jimi Hendrix Experience,Up From The Skies,Axis: Bold As Love
-131,Elmore James,Done Somebody Wrong,The Sky Is Crying: The History of Elmore James
-131,The Everly Brothers,Be Bop A-Lula,Dream...The Best of The Everly Brothers
-131,Bobby Darin,Queen Of The Hop,Twist With Bobby Darin
-131,Mose Allison,Your Mind Is On Vacation,The Best of Mose Allison
-131,The Guess Who,Shakin' All Over,Anthology
-131,Nazz,Open My Eyes,Nazz
-131,Ike & Tina Turner,Nutbush City Limits,Proud Mary - The Best of Ike & Tina Turner
-131,Jerry Lee Lewis,High School Confidential (live),Live At The Star-Club Hamburg
-131,Bob Landers with Willie Joe and his Unitar,Cherokee Dance,The Specialty Story (Box Set)
-131,The Zombies,It's Alright With Me,The Zombies
-131,The Rolling Stones,Please Go Home,Flowers
-131,Bo Diddley,Before You Accuse Me,His Best
-131,Santo & Johnny,Roll Away The Stone,The Best of Santo & Johnny
-131,Bobby ""Blue"" Bland,Turn On Your Lovelight,The Best of Bobby Bland
-131,Bobby Comstock,Let's Stomp,"The Golden Age of American Rock 'n' Roll, Volume 2"
-131,Bobby Charles,See You Later Alligator,The Chess Blues-Rock Songbook
-131,Etta James,I'd Rather Go Blind,Gold
-131,Blind Faith,Sea Of Joy,Blind Faith (Deluxe Edition)
-132,Little Richard,Tutti Frutti,The Very Best of Little Richard
-132,The Rolling Stones,Little By Little,England's Newest Hit Makers
-132,Canned Heat,Poor Moon,The Very Best of Canned Heat
-132,Jeff Beck,I Ain't Superstitious,Truth
-132,Jimi Hendrix,In From The Storm,First Rays of The New Rising Sun
+126,"Paul Revere & the Raiders","I'm Not Your Steppin' Stone","Greatest Hits"
+126,"The Rolling Stones","Walking The Dog","England's Newest Hit Makers"
+126,"Robert Parker",Barefootin',"Barefootin - Golden Classics"
+126,Love,"A House is Not a Motel","Forever Changes"
+126,"Rod Stewart","Street Fighting Man","The Rod Stewart Album"
+126,"Ramsey Lewis Trio","Wade In The Water","The In Crowd: The Ultimate Mod Collection 1958-1967"
+126,"Sam Cooke","Soothe Me","The Man Who Invented Soul (Box Set)"
+126,"Roy Head & The Traits","Treat Her Right","Treat Her Right - The Best of Roy Head"
+126,"Roy Orbison","Mean Woman Blues","The All Time Greatest Hits of Roy Orbison"
+126,"Freddie King","I'm Tore Down","Ultimate Collection"
+126,"Neil Young",Alabama,Harvest
+126,"Fleetwood Mac",Albatross,"The Pious Bird of Good Omen"
+126,"The Beatles","Sun King","Abbey Road"
+126,"The Searchers","He's Got No Love","The Very Best of The Searchers"
+126,"Jimmy McGriff","All About My Girl","Greatest Hits"
+126,"Jimmy Reed","Big Boss Man","The Best of the Vee-Jay Years"
+126,"Ray Charles","What'd I Say (Part 1)","The Best of Ray Charles: The Atlantic Years"
+126,"The Paul Butterfield Blues Band","In My Own Dream","An Anthology: The Elektra Years"
+127,"The Beatles","There's A Place","Please Please Me"
+127,"The Rolling Stones","Can I Get A Witness","England's Newest Hit Makers"
+127,"The Byrds","It's No Use","Mr. Tambourine Man"
+127,"Maurice & Mac","You Left The Water Running","Chess Soul: A Decade of Chicago's Finest"
+127,"Otis Rush","Homework Blues",Classics
+127,"John Mayall & the Bluesbreakers","The Stumble","A Hard Road (Expanded Edition)"
+127,"Mel Torme","Comin' Home Baby","An Education (Original Motion Picture Soundtrack)"
+127,"Marvin Gaye","Trouble Man","The Ultimate Collection"
+127,"The Heavy","How You Like Me Now","The House That Dirt Built"
+127,"Brenda Lee","Sweet Nothin's","An Education (Original Motion Picture Soundtrack)"
+127,"Ray Charles","Tell The Truth","An Education (Original Motion Picture Soundtrack)"
+127,"Kim Wilson","Baby Please Don't Lie To Me","Tigerman / That's Life"
+127,"Koko Taylor","(I Got) All You Need","What It Takes - The Chess Years (Expanded Edition)"
+127,"Sandy Nelson","Drum Roll 9","Let There Be Drums"
+127,"William Bell","I Forgot To Be Your Lover","Complete Stax/Volt Soul Singles 1968-1971 Vol. 2"
+127,"Chuck Willis","Hang Up My Rock and Roll Shoes","I Remember Chuck Willis / The King of the Stroll"
+127,"The Velvet Underground","Rock And Roll",Loaded
+127,"The Easybeats","Good Times","The Definitive Anthology"
+127,"Elvis Presley","A Big Hunk O' Love","Hit Story"
+127,"Sam & Dave","Wrap It Up","The Best of Sam & Dave"
+128,"Little Junior's Blue Flames","Feelin' Good","Sun Records - 25 Blues Classics"
+128,"Freddie King","Let The Good Times Roll",Burglar
+128,"Muddy Waters","The Same Thing","The Anthology 1947-1972"
+128,"Travis Wammack",Scratchy,"That Scratchy Guitar From Memphis"
+128,"The Music Machine","Talk Talk","The Very Best of The Music Machine - Turn On"
+128,"The Poets","That's The Way It's Got To Be","The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967"
+128,Love,"My Flash On You",Love
+128,"Manfred Mann","I'm Your Kingpin","Down The Road Apiece: Their EMI Recordings 1963-1966"
+128,"The Manatees","Dale's Dick","Swamp Thang!"
+128,"Joe Tex","The Love You Save (May Be Your Own)","Greatest Hits"
+128,"Joe Cocker","Hitchcock Railway","Joe Cocker!"
+128,Spirit,"Uncle Jack",Spirit
+128,"The Troggs","I Can't Control Myself","Hit Single Anthology"
+128,"Larry Williams","Short Fat Fannie","Bad Boy"
+128,"Leon Russell & Marc Benno","Tryin' To Stay 'Live","Asylum Choir II"
+128,"The Merry-Go-Round","Time Will Show The Wiser","Listen, Listen: The Definitive Collection"
+128,"Left Banke","Pretty Ballerina","There's Gonna Be A Storm - The Complete Recordings 1966-1969"
+128,"Buddy Holly","Peggy Sue",Gold
+128,"Pete Townshend & Ronnie Lane","Heart To Hang Onto","Rough Mix"
+128,"Little Walter",Juke,"His Best"
+129,"Eddie Cochran","Nervous Breakdown","The Best of Eddie Cochran"
+129,"The Animals","Boom Boom",Retrospective
+129,"The Rolling Stones","Down Home Girl","The Rolling Stones"
+129,"Bobby """"Blue"""" Bland","Don't Cry No More","Greatest Hits Vol. 1 - The Duke Recordings"
+129,"The Young Rascals","I Ain't Gonna Eat Out My Heart Anymore","The Young Rascals"
+129,"Little Richard","Slippin' And Slidin' (Peepin' And Hidin')","The Very Best of Little Richard"
+129,"Jimi Hendrix Experience","If 6 Was 9","Axis: Bold As Love"
+129,"Paul Revere & The Raiders","Just Like Me","Greatest Hits"
+129,"The Zombies","I Love You","The Zombies"
+129,"John Mayall & the Bluesbreakers",Greeny,"A Hard Road - Expanded Edition"
+129,"Chuck Berry","I Got To Find My Baby",Gold
+129,"J.J. Cale","Anyway The Wind Blows",Okie
+129,"Jeff Beck","Beck's Bolero",Truth
+129,"The Allman Brothers Band","Trouble No More","The Allman Brothers Band"
+129,"Johnny Cash",Pocahontas,"Cash Unearthed"
+129,"Humble Pie","Hot 'N' Nasty","The Best of Humble Pie"
+129,"Lee Dorsey","Ride Your Pony","The Definitive Collection"
+129,"Taj Mahal","Six Days On The Road","Giant Step/De Ole Folks At Home"
+130,"Elmore James","Shake Your Moneymaker","Shake Your Moneymaker: The Best of the Fire Sessions"
+130,"Derek & The Dominos","Roll It Over","Layla and other assorted love songs (Expanded Edition)"
+130,"Delanie & Bonnie & Friends","Only You Know And I Know (live)","On Tour With Eric Clapton"
+130,"John Lee Hooker","I Want To Ramble On",Campus
+130,"Booker T. & The MG's","Born Under A Bad Sign","The Best Of Booker T. & The MG's"
+130,"Fats Domino","Sick & Tired","Walking To New Orleans"
+130,"Clarence Carter","Soul Deep","Snatching It Back: The Best of Clarence Carter"
+130,"J.J. Cale","Everlovin' Woman",Okie
+130,"Anna King","If Somebody Told You","The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967"
+130,"Freddie King","Pulp Wood",Burglar
+130,"Electric Light Orchestra",Showdown,"On The Third Day"
+130,"Emitt Rhodes","Mother Earth","The Emitt Rhodes Recordings (1969-1973)"
+130,"The Byrds","Here Without You","Mr. Tambourine Man"
+130,"The Kinks","I Need You","Kinda Kinks (Deluxe Edition)"
+130,"Dick Dale & the Del-Tones",Miserlou,"Rock Instrumental Classics, Vol. 5: Surf"
+130,"Leon Russell","Roll Away The Stone","Leon Russell"
+130,"Stevie Wonder","You Met Your Match","For Once In My Life"
+130,"The Beatles","Roll Over Beethoven","With The Beatles"
+130,"Fleetwood Mac","Rollin' Man (live)","Shrine '69"
+131,"Chuck Berry","You Can't Catch Me",Gold
+131,"The Who","A Legal Matter","My Generation (Deluxe Edition)"
+131,"Jimi Hendrix Experience","Up From The Skies","Axis: Bold As Love"
+131,"Elmore James","Done Somebody Wrong","The Sky Is Crying: The History of Elmore James"
+131,"The Everly Brothers","Be Bop A-Lula","Dream...The Best of The Everly Brothers"
+131,"Bobby Darin","Queen Of The Hop","Twist With Bobby Darin"
+131,"Mose Allison","Your Mind Is On Vacation","The Best of Mose Allison"
+131,"The Guess Who","Shakin' All Over",Anthology
+131,Nazz,"Open My Eyes",Nazz
+131,"Ike & Tina Turner","Nutbush City Limits","Proud Mary - The Best of Ike & Tina Turner"
+131,"Jerry Lee Lewis","High School Confidential (live)","Live At The Star-Club Hamburg"
+131,"Bob Landers with Willie Joe and his Unitar","Cherokee Dance","The Specialty Story (Box Set)"
+131,"The Zombies","It's Alright With Me","The Zombies"
+131,"The Rolling Stones","Please Go Home",Flowers
+131,"Bo Diddley","Before You Accuse Me","His Best"
+131,"Santo & Johnny","Roll Away The Stone","The Best of Santo & Johnny"
+131,"Bobby """"Blue"""" Bland","Turn On Your Lovelight","The Best of Bobby Bland"
+131,"Bobby Comstock","Let's Stomp","The Golden Age of American Rock 'n' Roll, Volume 2"
+131,"Bobby Charles","See You Later Alligator","The Chess Blues-Rock Songbook"
+131,"Etta James","I'd Rather Go Blind",Gold
+131,"Blind Faith","Sea Of Joy","Blind Faith (Deluxe Edition)"
+132,"Little Richard","Tutti Frutti","The Very Best of Little Richard"
+132,"The Rolling Stones","Little By Little","England's Newest Hit Makers"
+132,"Canned Heat","Poor Moon","The Very Best of Canned Heat"
+132,"Jeff Beck","I Ain't Superstitious",Truth
+132,"Jimi Hendrix","In From The Storm","First Rays of The New Rising Sun"
 132,"Jesse “Guitar” Taylor / John X Reed","Sin Sa Shun","South Side Guitar"
-132,Charles Brown,Driftin' Blues,"Driftin' Blues, The Best of Charles Brown"
-132,Little Walter,I Hate To See You Go,The Essential Little Walter
-132,Jimmy Reed,I'm A Love You,Jimmy Reed At Carnegie Hall
-132,The Isley Brothers,Shout (Pts. 1 & 2),Shout: The RCA Sessions
-132,Sly & The Family Stone,Everybody Is A Star,The Essential Sly & The Family Stone
-132,Sonny Boy Williamson,Don't Start Me To Talkin',His Best
-132,The Animals, Inside - Looking Out,Retrospective
-132,Ann Peebles,Didn't Take Your Man,The Best of Ann Peebles: The Hi Records Years
-132,The Tony Jackson Group,Fortune Teller,Watch Your Step! - The Complete Recordings 1964-1966
-132,Marc Bolan & T. Rex,Children Of The Revolution,20th Century Boy: The Ultimate Collection
-132,The Sorrows,You've Got What I Want,Take A Heart
-132,The Beatles,Leave My Kitten Alone,Anthology 1
-133,James Brown,Super Bad,40th Anniversary Collection
-133,John Mayall with Eric Clapton,All Your Love,Blues Breakers
-133,Ben Waters with The Rolling Stones,Watching The River Flow,Boogie 4 Stu: A Tribute To Ian Stewart
-133,The Beach Boys,You Need A Mess Of Help To Stand Alone,Carl & The Passions
-133,J.J. Cale,I'll Be There If you Ever Want Me,Okie
-133,Van Morrison with Roger Waters,Comfortably Numb (live),At The Movies
-133,Mink DeVille,Cadillac Walk,The Best of Mink DeVille
-133,Jimmy McCracklin,The Walk,Chess Chartbusters Volume 2
-133,Keith Richards,Wicked As It Seems,Main Offender
-133,Larry Williams,She Said Yeah,Bad Boy
-133,Ike Turner & The Kings Of Rhythm,No More Doggin',A Black Man's Soul
-133,Junior Wells,Snatch It Back And Hold It,Hoodoo Man Blues
-133,B.B. King,Tired Of Your Jive (live),Great Moments With B.B. King
-133,The Who,See My Way,A Quick One
-133,Chuck Berry,Bye Bye Johnny,"His Best, Volume 2"
-133,The Yardbirds,Over Under Sideways Down,Ultimate!
-133,Jimmy Reed,"Aw Shucks, Hush Your Mouth",Jimmy Reed At Carnegie Hall
-133,Frankie Miller,Down The Honkytonk,Full House
-134,Elmore James,I Can't Hold Out,The Sky Is Crying: The History Of Elmore James
-134,Floyd Cramer,On The Rebound,An Education: Original Motion Picture Soundtrack
-134,Them,Mystic Eyes,Them Featuring Van Morrison
-134,Traffic,Forty Thousand Headmen,Traffic
-134,Johnny Winter,I'm Yours And I'm Hers,The Best Of Johnny Winter
-134,Manfred Mann,Come Tomorrow,Down The Road Apiece: Their EMI Recordings 1963-1966
-134,Chuck Willis,Kansas City Woman,I Remember Chuck Willis / The King Of The Stroll
-134,Jackie Wilson,Baby Workout,"The Best Of Jackie Wilson, Vol. 1 (1957-1965)"
-134,Howlin' Wolf,Goin' Down,Slow His Best
-134,James & Bobby Purify,I Don't Know What It Is You Got,Shake A Tail Feather! The Best of James & Bobby Purify
-134,Emitt Rhodes,Take You Far Away,The Emitt Rhodes Recordings (1969-1973)
-134,The Beatles,You're Going To Lose That Girl,Help!
-134,The Who,Leaving Here (alternatve version),My Generation (Deluxe Edition)
-134,Paul Revere & The Raiders,Good Thing,Greatest Hits
-134,The Rolling Stones,I'm A King Bee,England's Newest Hit Makers
-134,Slim Harpo,Don't Start Crying Now,The Excello Siongles Anthology
-134,Tommy Roe,Everybody,Tommy Roe's Greatest Hits
-134,Marvin Gaye,One More Heartache,The Ultimate Collection
-134,Lowell Fulson,Reconsider Baby,The Best Of Blues Rock Songbook
-134,Lucinda Williams,I Lost It,Car Wheels On A Gravel Road
-135,Buffalo Springfield,Rock & Roll Woman,Buffalo Springfield Again
-135,The West Coast Pop Art Experimental Band,If You Want This Love,Part One
-135,Love,Old Man,Forever Changes
-135,The Merry-Go-Round,Live,"Listen, Listen: The Definitive Collection"
-135,The Beach Boys,Little Bird,Friends - 20/20
-135,Jackie DeShannon,Needles And Pins,What The World Needs Now is... Jackie DeShannon - The Definitive Collection
-135,The Standells,Sometimes Good Guys Don't Wear White,The Best Of The Standells
-135,The Byrds,Artificial Energy,The Notorious Byrd Brothers
-135,The Byrds,Natural Harmony,The Notorious Byrd Brothers
-135,Spirit,Water Woman,Spirit
-135,Van Morrison,Starting A New Life,Tupelo Honey
-135,The Yardbirds,The Train Kept A-Rollin',Ultimate!
-135,Sonny Boy Williamson,Let Your Conscience Be Your Guide,The In Crowd-The Ultimate Mod Collection From The Original Style Movement 1958-1967
-135,Jimi Hendrix Experience,Spanish Castle Magic,Axis: Bold As Love
-135,Ann Peebles,I Can't Stand The Rain,The Best Of Ann Peebles - The Hi Records Years
-135,Faces,Flying,First Step
-135,The Everly Brothers,Poor Jenny Dream...,The Best Of The Everly Brothers
-135,The Who,Mary Anne With The Shaky Hand,The Who Sell Out
-135,Willie Mitchell,My Babe Soul,Serenade - The Best Of Willie Mitchell
-135,Wilco,I Got You (At The End Of The Century),Being There
-136,The Beatles,Paperback Writer,Past Masters
-136,Conway Twitty,Lonely Blue Boy,Gold
-136,The Gants,Little Boy Sad,Road Runner! The Best Of The Gants
-136,Jackie Lomax,Sour Milk Sea,Come And Get It - The Best Of Apple Records
-136,The Beatles,Tell Me Why,A Hard Day's Night
-136,Free,The Stealer,The Best Of Free
-136,Moby Grape,Omaha,Moby Grape
-136,Dwight Twilley Band,I'm On Fire,Sincerely / Twilley Don't Mind
-136,Chuck Berry,Guitar Boogie,Gold
-136,The Animals,Around And Around,The Best Of The Animals
-136,Leonard Cohen,Tower Of Song,More Best Of
-136,Long John Baldry,It Ain't Easy,It Ain't Easy
-136,Jeff Beck / Jools Holland & His Rhythm & Blues Orchestra,Drown In My Own Tears,More Friends
-136,Sonny Boy Williamson,All My Love In Vain,His Best
-136,Paul Revere & the Raiders,Don't Take It So Hard,The Legend Of Paul Revere
-136,Delaney & Bonnie,Soul Shake,The Best Of Delaney & Bonnie
-136,Fats Domino,Be My Guest,The Fats Domino Jukebox
-136,Fleetwood Mac,Jigsaw Puzzle,Blues The Pious Bird Of Good Omen
-136,Fontella Bass,Rescue Me,Chess Soul: A Decade of Chicago's Finest
-136,Harry Nilsson,At My Front Door,Son Of Schmilsson
-137,The Band,Life Is A Carnival,Greatest Hits
-137,The Paul Butterfield Blues Band Blues,With A Feeling,An Anthology: The Elektra Years
-137,Howlin' Wolf,Highway 49,The London Howlin' Wolf Sessions
-137,Rolling Stones,Little T & A,Tattoo You
-137,Buddy Holly,Heartbeat,Gold
-137,Love,A House Is Not A Motel,Forever Changes (Deluxe Edition)
-137,The Byrds,It Won't Be Wrong,Turn! Turn! Turn!
-137,Tom Petty & The Heartbreakers,I'm Walkin',Goin' Home: A Tribute To Fats Domino
-137,PJ Harvey,Down By The Water,To Bring You My Love
-137,Badfinger,Baby Blue,Straight Up
-137,Lightnin' Hopkins,Mojo Hand,The American Folk Blues Festival 1962-1966
-137,Lowell Fulson,Do Me Right,Willie Dixon - The Chess Box
-137,Otis Rush,All Your Love (I Miss Loving),The Essential Otis Rush: The Classic Cobra Recordings 1956-1958
-137,Little Walter,Sad Hours,The Essential Little Walter
-137,Freddie King,Hi Rise 17,Greatest Hits
-137,Freddy Cannon,Tallahassee Lassie,The Best Of Freddy ""Boom-Boom"" Cannon!
-137,The Romantics,Out Of My Mind (Into My Head),The Coolest Songs In The World! Vol. 3
-137,Faces,Around The Plynth,First Step
-138,Little Richard,Hey Hey Hey Hey,The Essential Little Richard
-138,Lonesome Sundown,My Home Ain't Here,I'm A Mojo Man
-138,Lonnie Mack,Chicken Pickin',Memphis Wham!
-138,The Stooges,1969,The Stooges
-138,Humble Pie,30 Days In The Hole,Smokin'
-138,Donovan,Hurdy Gurdy Man,The Essential Donovan
-138,Wilson Pickett,She's Lookin' Good,Wilson Pickett's Greatest Hits
-138,Ray Charles,Lonely Avenue,Yes Indeed!
-138,Dave Clark Five,Try Too Hard,The Hits
-138,The Lovin' Spoonful,Coconut Grove,Greatest Hits
-138,The Kinks,20th Century Man,Muswell Hillbillies
-138,The Who,Run Run Run,A Quick One
-138,The Ikettes,I'm Blue (The Gong Gong Song),The Girls Got Soul
-138,The Impressions,It's All Right,It's All Right
-138,J.J. Cale,Down To Memphis,Roll On
-138,Muddy Waters,Blow Wind Blow,Fathers And Sons
-138,Mose Allison,Seventh Son (live),The Best Of Mose Allison
-138,Huey ""Piano"" Smith & His Clowns,Don't You Just Know It,The Best Of Huey ""Piano"" Smith & His Clowns
-138,Cream,Outside Woman Blues,Disraeli Gears (Deluxe Edition)
-139,Al Green,Driving Wheel,Gets Next To You
-139,Buffalo Springfield,Leave,Buffalo Springfield
-139,The Byrds,Jesus Is Just Alright,Ballad Of Easy Rider
-139,Solomon Burke,Got to Get You Off My Mind,The Very Best Of Solomon Burke
-139,Howlin' Wolf,Down In The Bottom,The Chess Box
-139,Les Paul & Mary Ford,Dialog & In The Mood,The Best Of The Capitol Masters: 90th Birthday Edition
-139,Rolling Stones,Route 66 (live),December's Children (And Everybody's)
-139,The Animals,Gotta Find My Baby (live),Let It Rock
-139,Slim Harpo, "Baby, Scratch My Back",The Best Of Slim Harpo
-139,Daddy Cool,Come Back Again",Eagle Rock
-139,Link Wray,Jack The Ripper,Rumble! The Best Of Link Wray
-139,Elvis Presley,Trouble,The Essential Elvis Presley
-139,Arthur Alexander,A Shot Of Rhythm And Blues,The Greatest
-139,The Creation,Making Time,We Are Paintermen
-139,Spencer Davis Group,Every Little Bit Hurts,The Best Of The Spencer Davis Group Featuring Steve Winwood
-139,Bo Diddley,You Can't Judge A Book By It's Cover,His Best
-139,The Flying Burrito Brothers,Wild Horses,Sin City: The Very Best Of The Flying Burrito Brothers
-139,Bob Dylan,Leopard-skin Pill-box Hat,Blonde On Blonde
-140,Rolling Stones,Connection,Between The Buttons
-140,The Knickerbockers,Lies,Nuggets: Original Artyfacts From The First Psychedelic Era 1965-1968
-140,Billy J Kramer and the Dakotas,From A Window,The Very Best of Billy J Kramer and the Dakotas
-140,Little Eva Keep,Your Hands Off My Baby,The Best of Little Eva
-140,Little Richard,Send Me Some Lovin',The Very Best of Little Richard
-140,The McCoys,Meet The McCoys,Hang On Sloopy: The Best of The McCoys
-140,The McCoys,Fever,Hang On Sloopy: The Best of The McCoys
-140,The High Numbers,I'm The Face,Odds & Sodds
-140,The Hollies,Look Through Any Window,30th Annniversary Collection 1963-1993
-140,The Shadows Of Knight,Gloria,Gloria
-140,Aretha Franklin,Save Me,I Never Loved A Man The Way I Love You
-140,The Ventures,"The Ventures' Twist Party, Vol. 2-Radio Spot",Walk-Don't Run - The Best Of The Ventures
-140,The Ventures,Slaughter On 10th Avenue,Walk-Don't Run - The Best Of The Ventures
-140,The Who,Substitute (US single version),The Ultimate Collection Bonus Disc
-140,The Young Rascals,Love Is A Beautiful Thing,Anthology 1965-1972
-140,Alan Price,I Put A Spell On You,Anthology
-140,Albert Collins,Frosty,Truckin' With Albert Collins
-140,Fats Domino,Everybody's Got Something To Hide Except Me & My Monkey,Come Together: Black America Sings Lennon/McCartney
-140,The Beatles,No Reply,Beatles For Sale
-140,The Dave Clark Five,Please Tell Me Why,The History Of The Dave Clark Five
-140,Traffic,Empty Pages,John Barley Corn Must Die
-140,Van Morrison,Youth Of 1,000 Summers,Enlightenment
-141,Mountain,Mississippi Queen,The Best Of Mountain
-141,Sly & The Family Stone,You Can Make It If You Try,The Esstential Sly & The Family Stone
-141,Isaac Hayes,Walk On By,The Complete Stax/Volt Soul Singles Vol. 2 1968-1971
-141,The Rolling Stones,Look What You've Done,December's Children (And Everybody's)
-141,Pete Townshend / Ronnie Lane,Rough Mix,Rough Mix
-141,Traffic,Shanghai Noodle Factory,Last Exit
-141,Otis Redding,That's How Strong My Love Is,The Very Best Of Otis Redding
-141,T-Bone Walker,Shufflin' The Blues,T-Bone Blues
-141,Big Mama Thornton,Hound Dog,Hound Dog / The Peacock Recordings
-141,The Beatles,Cry For A Shadow,Anthology 1
-141,Al Green,I Want To Hold Your Hand,Come Together: Black America Sings Lennon & McCartney
-141,Them,Baby Please Don't Go,Them Featuring Van Morrison
-141,Joe Tex,Skinny Legs And All,Greatest Hits!!!
-141,Koko Taylor,Wang Dang Doodle,What It Takes - The Chess Years (Expanded Edition)
-141,Shorty Long,Devil With The Blue Dress,Hitsville USA: The Motown Singles Collection 1959-1971
-141,James Brown,Think (Live),Live At The Apollo (1962) Expanded Edition
-141,Chuck Berry,Almost Grown,Gold
-141,Beau Brummels,Just A Little,Introducing The Beau Brummels
-141,Jeff Beck,I Ain't Superstitious,Truth
-141,Tom Petty & The Heartbreakers,Green Onions (live),The Live Anthology
-142,The Beatles,Rain,Past Masters
-142,Marc Bolan & T. Rex,I Love To Boogie,20th Century Boy: The Ultimate Collection
-142,Gary U.S. Bonds,Dear Lady Twist,The Very Best Of Gary U.S. Bonds
-142,David Bowie,Sorrow,Pin Ups
-142,The Temptations,Cloud Nine,The Definitive Collection
-142,Elvis Presley,Roll On,Elvis / Ultimate Gospel
-142,Stephen Stills & Manassas,It Doesn't Matter,Manassas
-142,The Marketts,Out Of Limits,"Rock Instrumental Classics, Vol. 2: The '60's"
-142,Jeff Beck,Rock My Plimsoul,Truth
-142,Long John Baldry,I'm Ready,It Ain't Easy
-142,Lightnin' Hopkins,"Don't Embarrass Me, Baby",Goin' Away
-142,Earl King,Baby You Can Get Your Gun,Earl's Pearls
-142,Lee Dorsey,Ya Ya,The Definitive Collection
-142,Richard Berry & The Pharaohs,Louie Louie,Have ""Louie"" Will Travel - The 1956-1962 Recordings
-142,Mose Allison,I Don't Worry About A Thing,The Best Of Mose Allison
-142,Chuck Berry,No Money Down,Gold
-142,The Red Button,Cruel Girl,She's About To Cross My Mind
-142,The Searchers,Sweets For My Sweet,The Very Best Of The Searchers
-142,Rick Danko with Ringo Starr & His All Starr Band,Raining In My Heart,The Anthology... So Far
-142,The Shadows,Man Of Mystery,Shadows Are Go
-142,The Mamas And The Papas,Twelve-Thirty (Young Girls Are Coming to the Canyon),Greatest Hits
-143,Manfred Mann,"If You Gotta Go, Go Now",Down The Road Apiece: Their EMI Recordings 1963-1966
-143,Free,I'll Be Creepin',The Best Of Free
-143,The Bobby Fuller Four,Love's Made A Fool Of You,The Best Of The Bobby Fuller Four
-143,The Shangri-Las,I Can Never Go Home Again Anymore,The Best Of The Shangri-Las
-143,The Jaynettes,Sally Go 'Round The Roses,The Very Best Of The Jaynetts
-143,Little Walter,Hate To See You Go,His Best
-143,Love,Live And Let Live,Forever Changes
-143,Van Morrison,Into The Mystic,Moondance
-143,The Move,Message From The Country,Message From The Country
-143,Chuck Berry,Jaguar & Thunderbird,Gold
-143,The Band,This Wheel's On Fire,Music From Big Pink
-143,Johnny Cash,The Running Kind,Cash Unearthed
-143,David Bowie,It Ain't Easy,Ziggy Stardust (30th Anniversary Edition)
-143,Buffalo Springfield,Everydays,Buffalo Springfield Again
-143,Cream,Steppin' Out,BBC Sessions
-143,Ray Charles,Sticks And Stones,Genius The Ultimate Collection
-143,Spooky Tooth,I Am The Walrus,The Best Of Spooky Tooth
-143,Muddy Waters,Trouble No More,The Anthology 1947-1972
-144,Emitt Rhodes,With My Face On The Floor,The Emitt Rhodes Recordings (1969-1973)
-144,Dave Clark Five,Bits And Pieces,The Hits
-144,Little Richard,Miss Ann,The Very Best Of Little Richard
-144,The Who,So Sad About Us,A Quick One
-144,Jimi Hendrix Experience,Are You Experienced?,Are You Experienced?
-144,Howlin' Wolf,Killing Floor,His Best
-144,Paul Butterfield Blues Band,Off The Wall,An Anthology: The Elektra Years
-144,James Brown,I Got The Feelin',40th Anniversary Collection
-144,The Nightcrawlers,A Basket Of Flowers,The Little Black Egg
-144,The Byrds,Eight Miles High,Fifth Dimension
-144,Johnny Burnette Trio,Honey Hush,"Loud, Fast & Out Of Control: The Wild Sounds Of '50s Rock"
-144,J.J. Cale,Let Me Do It To You,Troubadour
-144,The Ventures,The House Of The Rising Sun (live),Live In Japan '65
-144,Rolling Stones,I'm Moving On (live),December's Children (and everybody's)
-144,Traffic,Pearly Queen,The Collection
-144,The Zombies,I Remember When I Loved Her,The Singles A's & B's
-144,Albert King,Crosscut Saw,Born Under A Bad Sign
-144,Ann Peebles,Come To Mama,The Best Of Ann Peebles - The Hi Records Years
-144,Roy Orbison,Candy Man,The Monument Singles Collection (1960-1964)
-144,The Monkees,"Mary, Mary", The Best Of The Monkees
-144,Moby Grape,8:05,Moby Grape
-145,The Young Rascals,Come On Up,Anthology 1965-1972
-145,The Animals,Bright Lights Big City,The Singles +
-145,Jimi Hendrix Experience,You Got Me Floatin',Axis: Bold As Love
-145,Ernie K-Doe,A Certain Girl,Absolutely The Best
-145,Johnny Cash,Cocaine Blues (live),At Folsom Prison
-145,Johnny Rivers,Memphis (live),Greatest Hits
-145,The Supremes,Nathan Jones,Hitsville USA - The Motown Singles Collection 1959-1971
-145,Sam Cooke,Meet Me At Mary's Place,Portrait Of A Legend 1951-1964
-145,Rick Nelson,She Belongs To Me,The Best Of Rick Nelson
-145,Georgie Flame & The Blue Flames,Yeh Yeh,The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967
-145,Paul Revere & The Raiders,The Great Airplane Strike,Greatest Hits
-145,The Rolling Stones,Monkey Man,Let It Bleed
-145,Slim Harpo,I've Got Love If You Want It,The Best Of Slim Harpo
-145,Manfred Mann,I've Got My Mojo Working,Down The Road Apiece: Their EMI Recordings 1963-1966
-145,Spencer Davis Group,Somebody Help,Me Gimme Some Lovin'
-145,John Lee Hooker,Dimples,The Very Best Of John Lee Hooker
-145,Eric Clapton & The Powerhouse,I Want To Know,What's Shakin'
-145,Neil Young,The Loner,Neil Young
-145,Fleetwood Mac,Man Of The World,Jumping At Shadows - The Blues Years
-145,Spirit,Mechanical World,The Best Of Spirit
-146,Steppenwolf,Sookie Sookie,All Time Greatest Hits
-146,The Swinging Blue Jeans,Hippy Hippy Shake,Hippy Hippy Shake - The Definitive Collection
-146,Joe Tex,Hold What You've Got,Greatest Hits
-146,Eddie Cochran,Twenty Flight Rock,Somethin' Else: The Fine Lookin' Hits of Eddie Cochran
-146,Elmore James,Early One Morning,Shake Your Moneymaker: The Best Of The Fire Sessions
-146,The Easybeats,Sorry,The Definitive Anthology
-146,Eddie Hinton,Something Heavy,Playin' Around: The Songwriting Sessions (Vol. 2)
-146,The Dictators,The Savage Beat,Little Steven's Underground Garage Presents: The Coolest Songs In The World! (Vol. 3)
-146,Dion,Ruby Baby,The Essential Dion
-146,George Harrison,Here Comes The Sun (live),The Concert For Bangladesh
-146,Mick Jagger,Memo From Turner,The Rolling Singles Collection - The London Years
-146,Albert King,That's What The Blues Is All About,The Very Best Of Albert King
-146,The Allman Brothers Band,Hot 'Lanta (live),At Fillmore East (Deluxe Edition)
-146,Ann Peebles,"Slipped, Tripped And Fell In Love",The Best Of Ann Peebles: The Hi Records Years
-146,The Animals,It's My Life,Retrospective
-146,The Everly Brothers,Gone Gone Gone,Walk Right Back: The Everly Brothers on Warner Bros. 1960-1969
-146,The Beatles,Revolution,Past Masters
-146,Paul Butterfield Blues Band,Born In Chicago,An Anthology: The Elektra Years
-146,Bo Diddley,Pretty Thing,His Best
-146,Bob Dylan,Most Likely You Go Your Way And I'll Go Mine,Blonde On Blonde
-147,The Band,The Shape I'm In,Greatest Hits
-147,John Mayall & The Bluesbreakers,The Stumble,A Hard Road - Expanded Edition
-147,Freddie King,That Will Never Do,Freddie King Is A Blues Master
-147,John Lee Hooker,It Serves You Right To Suffer,The Best of Blues Rock Songbook
-147,Fats Domino,One Night,Walking To New Orleans (Box Set)
-147,John Lennon,I Found Out,Plastic Ono Band
-147,Faces,"Shake, Shudder",First Step
-147,Jimmy Smith,The Organ Grinder's Swing,Organ Grinder Swing
-147,Mose Allison,I'm Not Talking,The Word From Mose Allison
-147,J.J. Cale,Carry On,Shades
-147,Eric Clapton,Slunky,Eric Clapton (Deluxe Edition)
-147,Daddy Cool,Eagle Rock,Eagle Rock
-147,Dr. John,Right Place Wrong Time,The Very Best Of Dr. John
-147,The Rolling Stones,Parachute Woman,Beggars Banquet
-147,The Who,Relax,The Who Sell Out (Deluxe Edition)
-147,Muddy Waters,She Moves Me,The Anthology 1947-1972
-147,Tommy Tucker,Hi-Heels Sneakers,The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967
-147,The Animals,Blue Feeling,The Singles +
-147,Led Zeppelin,Communication Breakdown,Led Zeppelin
-147,Curtis Mayfield & The Impressions,People Get Ready,The Best Of Curtis Mayfield & The Impressions
-148,Ray Charles,Unchain My Heart,Anthology
-148,Them,I Can Only Give You Everything,Them Again
-148,Steve Cropper (with Steve Winwood),Thirty Second Lover,Dedicated
-148,The Yardbirds,I Ain't Done Wrong,Ultimate!
-148,We The People,Declaration Of Independence,Too Much Noise
-148,The Zombies,Woman,The Zombies
-148,The Young Rascals,In The Midnight Hour,The Young Rascals
-148,Wilson Pickett,I'm A Midnight Mover,Wilson Pickett's Greatest Hits
-148,The Who,The Kids Are Alright,My Generation (Deluxe Edition)
-148,The Strangeloves,I Want Candy,I Want Candy: The Best Of The Strangeloves
-148,The Stooges,I Wanna Be Your Dog,The Stooges
-148,The Seeds,Can't Seem To Make You Mine,The Seeds
-148,Small Faces,Itchycoo Park,Ultimate Collection
-148,Sly & The Family Stone,Family Affair,The Essential
-148,Slim Harpo,Buzz Me Babe,The Excello Singles Anthology
-148,Sam & Dave,When Something Is Wrong With My Baby,The Very Best Of Sam & Dave
-148,The Rolling Stones,Can't You Hear Me Knocking,Sticky Fingers
-148,The Beatles,Hey Bulldog,Yellow Submarine
-149,The Beatles,Devil In Her Heart,With The Beatles
-149,Lee Dorsey,Working In The Coal Mine,The Defenitive Collection
-149,The Kinks,I Gotta Move,Picture Book (Box Set)
-149,Little Richard,Directly From My Heart,The Essential Little Richard
-149,Little Walter,Dead Presidents,The Essential Little Walter
-149,Love,My Little Red Book,The Best Of Love
-149,Manfred Mann,What You Gonna Do?,Down The Road Apiece: Their EMI Recordings
-149,Howlin' Wolf,Spoonful,His Best
-149,King Curtis,Soul Twist,The Best of King Curtis
-149,J.J. Cale,Rock and Roll Records,Okie
-149,Peter Green/ Fleetwood Mac,World In Harmony,Jumping At Shadows- The Blues Years
-149,Louis Jordan & His Tympany Five,Let The Good Times Roll,The Best of Blues Rock Songbook
-149,MC5,Shakin' Street,Greatest Hits
-149,Paul Revere & the Raiders,Hungry,Greatest Hits
-149,Paul Butterfield Blue Band,Lovin' Cup,An Anthology: The Elektra Years
-149,Otis Redding (with Carla Thomas),Tramp,The Very Best of Otis Redding
-149,Free,Mr. Big,Fire and Water
-149,The Rolling Stones,Tallahassee Lassie,Some Girls (Expanded Edition)
-149,The Ventures,I Feel Fine,Live In Japan '65
-149,Van Morrison,Blue Money,His Band And The Street Choir
-150,The Searchers,Bumble Bee,The Very Best of The Searchers
-150,Larry Williams,Slow Down,Bad Boy
-150,Ann Peebles,(I Feel Like) Breaking Up Somebody's Home,The Best of Ann Peebles: The Hi Records Years
-150,The Beatles,You Really Got A Hold On Me,With The Beatles
-150,Lucinda Williams,Can't Let Go,Car Wheels On A Gravel Road
-150,Traffic,You Can All Join In,Traffic
-150,Long John Baldry,Don't Try To Lay No Boogie Woogie On The King of Rock & Roll,It Ain't Easy
-150,Lonnie Mack,Wham!,Memphis Wham!
-150,The Hollies,Pay You Back With Interest,30th Anniversary Collection
-150,Muddy Waters,Forty Days And Forty Nights,The Anthology 1947-1972
-150,The Nashville Teens,Tobacco Road,Tobacco Road
-150,NRBQ,Me and The Boys,Uncommon Denominators
-150,Jimmy Reed,Take Out Some Insurance,Jimmy Reed At Carnegie Hall
-150,Joe Cocker,Don't Let Me Be Misunderstood,The Anthology
-150,LaVern Baker,Voodoo Voodoo,"Loud, Fast & Out of Control: The Wild Sounds of 50's Rock"
-150,Freddie King,Have You Ever Loved A Woman,The Very Best of Freddie King: Volume One
-150,Jimi Hendrix Experience,Ain't No Telling,Axis: Bold As Love
-150,Fats Domino,I'm Ready,Walking To New Orleans
-150,Chuck Berry,Come On,Gold
-150,The Yardbirds,Dazed and Confused,Radio Tymes
-151,The Animals,See See Rider,Retrospective
-151,Charlie Rich,Mohair Sam,Feel Like Going Home: The Essential Charlie Rich
-151,Jeff Beck,A Day In The Life,George Martin: In My Life
-151,The Band,We Can Talk,Music From Big Pink
-151,The Beatles,When I Get Home,A Hard Day's Night
-151,Emitt Rhodes,Love Will Stone You,The Emitt Rhodes Recordings (1969-1973)
-151,The Byrds,I See You,Fifth Dimension
-151,The Byrds,Deportee (Plane Wreck At Los Gatos),Ballad of Easy Rider
-151,Clarence ""Frogman"" Henry,Ain't Got No Home,The Best of Clarence ""Frogman"" Henry: Ain't Got No Home
-151,Creedence Clearwater Revival,Hey Tonight,Pendulum
-151,Clyde McPhatter,Lover Please,The Essential Collection
-151,Junior Wells,Hoodoo Man Blues,Hoodoo Man Blues
-151,Keith Richards,Take It So Hard,Talk Is Cheap
-151,Otis Spann,She Needs Some Loving,The Biggest Thing Since Colossus
-151,PJ Proby,Niki Hoeky,The Best of PJ Proby: The EMI Years 1961- 1972
-151,The Who,La-La Lies,My Generation (Deluxe Edition)
-151,The Zombies,Whenever You're Ready,The Singles Collection A's & B's 1964-1969
-151,Cream,I'm So Glad,Fresh Cream
-151,Little Walter,Tell Me Mama,His Best
-151,Norman Greenbaum,Spirit In The Sky,Spirit In The Sky: The Best of Norman Greenbaum
-152,John Mayall,Hide Away,Bluesbreakers With Eric Clapton
-152,Mose Allison,Eyesight To The Blind,Mose Allison Sings
-152,James Brown,Out Of Sight,40th Anniversary Collection
-152,Roy Montrell,(Every Time I Hear That) Mellow Saxophone,The Specialty Story
-152,Howlin' Wolf,Smokestack Lightning,The Best Of Howlin' Wolf
-152,The Move,Do Ya,Message From The Country
-152,The Who,Tattoo,Sell Out (Deluxe Edition)
-152,Mudcrutch,Scare Easy,Mudcrutch
-152,Gene Vincent & His Blue Caps,Woman Love,The Screaming End: The Best Of Gene Vincent & His Blue Caps
-152,J.J. Cale,Ride Me High,Troubadour
-152,Ricky Nelson,Waitin' In School,Greatest Hits
-152,The Rolling Stones,Think,Aftermath
-152,The Sorrows,Take A Heart,Take A Heart
-152,Sonny Boy Williamson,Bring It On Home,His Best
-152,Lou Reed,Dirty Blvd.,New York
-152,Albert King,Born Under A Bad Sign,Born Under A Bad Sign
-152,The Allman Brothers Band,Hoochie Coochie Man,Live At The International Pop Festival
-152,Chuck Berry,Oh Baby Doll,The Anthology
-152,Roy Buchanan,Sweet Dreams,The Best Of Roy Buchanan
-153,The Gants,Road Runner,Road Runner! The Best Of The Gants
-153,Jerry Lee Lewis,Let's Talk About Us,Original Sun Singles '56 - '60
-153,Elvis Presley,I Got Stung,History
-153,Syndicate Of Sound,Little Girl,Nuggets: Original Artyfacts From The First Psychedelic Era 1965-1968
-153,The Chartbusters,She's The One,Hey! Look What I Found (Volume 6)
-153,The Beatles,I'm Down,Past Masters, Volume 1
-153,Elmore James,Hawaiian Boogie,The Sky Is Crying: The History of Elmore James
-153,T-Bone Walker,Don't Leave Me Baby,No Worry Blues
-153,Chuck Berry,Let It Rock,His Best, Volume 2
-153,Bill Withers,Who Is He (And What Is He To You)?,The Best of Bill Withers: Lean On Me
-153,Bob & Earl,Harlem Shuffle,The IN Crowd: THe Ultimate Mod Collection From The Original Style Movement 1958-1967
-153,Bob Dylan,All Along The Watchtower,The Best Of The Original Mono Recordings
-153,Jeff Beck,Group You Shook Me,Truth
-153,Joe Ely,Me And Bill The Kid,Live @ Antone's
-153,Stephen Stills & Manassas,It Doesn't Matter,Manassas
-153,Clarence Carter,Slip Away,Snatching It Back: The Best of Clarence Carter
-153,The Chantays,Pipeline,"Rock Instrumental Classics, Volume 5: Surf"
-153,Arthur Gunter,Baby Let's Play House,Baby Let's Play House: The Best of Arthur Gunter
-153,The Kinks,Waterloo Sunset,Something Else By The Kinks
-153,Chuck Willis,Sugar Sugar,I Remember Chuck Willis
-153,George Harrison,It Don't Come Easy,(unreleased demo)
-154,Slim Harpo,I Got Love If You Want It,The Excello Singles Anthology
-154,The Animals,I'm In Love Again,The Best of The Animals
-154,Ann Peebles,99 Pounds,The Best of Ann Peebles: The Hi Records Years
-154,Dave Clark Five,Glad All Over,The Hits
-154,David Lindley,Mercury Blues,El Rayo-X
-154,J.J. Cale,Travelin' Light,Troubadour
-154,Manfred Mann,Don't Ask Me What I Say,Down The Road Apiece: Their EMI Recordings 1963-1966
-154,Wilson Pickett,Mustang Sally,Wilson Pickett's Greatest Hits
-154,The Yardbirds,I'm Not Talking,Ultimate!
-154,The Who,Out In The Street,My Generation (Deluxe Edition)
-154,Sonny Boy Williamson,Sad To Be Alone,His Best
-154,Solomon Burke,Cry To Me,The Very Best of Solomon Burke
-154,Buffalo Springfield,Mr. Soul,Again
-154,The Byrds,The World Turns All Around Her,Turn! Turn! Turn!
-154,The Cadets,Stranded In The Jungle,Blowing The Fuse: 30 R&B Classics That Rocked The Jukebox in 1956
-154,Little Richard,Long Tall Sally,The Very Best of Little Richard
-154,Little Walter,Walkin' On,The Essential Little Walter
-154,Etta James,Don't Cry Baby,Gold
-154,Fleetwood Mac,Black Magic Woman,The Pious Bird Of Good Omen
-154,Albert King,Down Don't Bother Me,Born Under A Bad Sign
-155,The Impressions,Talking About My Baby,It's All Right
-155,James Brown,Papa's Got A Brand New Bag,40th Anniversary Collection
-155,Ike & Tina Turner,Honky Tonk Women,Proud Mary – The Best of Ike & Tina Turner
-155,John Lee Hooker,"One Bourbon, One Scotch, One Beer",The Real Folk Blues
-155,Johnny Cash,Understand Your Man,Super Hits
-155,Levon Helm And The RCO All Stars,Milk Cow Boogie,Live At The Palladium NYC
-155,The Beach Boys,Let Him Run Wild,Summer Days (And Summer Nights!)
-155,The Rolling Stones,I Wanna Be Your Man,Singles Collection – The London Years
-155,Sepia Trones,Boogie #1,The Specialty Story
-155,Wynonie Harris,Lovin' Machine,The Best of Wynonie Harris – Mr. Blues
-155,Bobby ""Blue"" Bland,That Did It,Greatest Hits Volume One – The Duke Recordings
-155,Sam & Dave,I Take What I Want,The Very Best of Sam & Dave
-155,Wanda Jackson,Let's Have A Party,"Loud, Fast & Out Of Control: The Wild Sounds of '50s Rock"
-155,Led Zeppelin,Good Times Bad Times,Led Zeppelin
-155,Bob Dylan,Girl From The North Country,Nashville Skyline
-155,Creedence Clearwater Revival,Poorboy Shuffle,Willy And The Poorboys
-155,Creedence Clearwater Revival,Feelin' Blue,Willy And The Poorboys
-155,Jackson Browne,Cocaine,Running On Empty
-156,Buffalo Springfield,On The Way Home,Last Time Around
-156,Bob Dylan,Absolutely Sweet Marie,Blonde On Blonde
-156,Lucinda Williams,Car Wheels On A Gravel Road,Car Wheels On A Gravel Road
-156,Gene Vincent and The Blue Caps,"Hold Me, Hug Me, Rock Me",The Screaming End: The Best of Gene Vincent & His Blue Caps
-156,George Harrison,All Things Must Pass,All Things Must Pass
-156,Freddie King,Let Me Be (Stay Away From Me),The Very Best of Freddie King – Volume One
-156,Free,Walk In My Shadow,The Best of Free
-156,Gregg Allman,These Days,Laid Back
-156,Grateful Dead,High Time,Workingman's Dead
-156,Howlin' Wolf,Shake For Me,His Best
-156,Bo Diddley,You Don't Love Me (You Don't Care),His Best
-156,Arthur ""Big Boy"" Crudup,My Baby Left Me,That's All Right Mama
-156,Mink DeVille,She's So Tough,Cabretta
-156,Al Green,I Want To Hold Your Hand,Come Together: Black America Sings Lennon & McCartney"
-156,The Beatles,Day Tripper,Past Masters"
-156,Blind Faith,Can't Find My Way Home,Blind Faith (Deluxe Edition)"
-156,Canned Heat,On The Road Again,The Very Best of Canned Heat"
-156,The Everly Brothers,Made To Love,Walk Right Back:  The Everly Brothers on WB 1960 to 1969"
-156,Chuck Berry,Betty Jean,The Anthology"
-156,Etta James,Something's Got A Hold On Me,The Definitive Collection
-157,Jimi Hendrix Experience,Little Miss Lover,Axis: Bold As Love"
-157,Love,Alone Again Or,Forever Changes"
-157,Dusty Springfield,Stay Awhile,The Best Of Dusty Springfield"
-157,Elvis Presley,"Shake, Rattle And Roll",Elvis 56"
-157,The Beatles,Honey Don't,Beatles For Sale"
-157,The Rolling Stones,I'm Free,More Hot Rocks (big hits & fazed cookies)"
-157,Marvin Gaye,You're A Wonderful,One The Ultimate Collection"
-157,Mitch Ryder & The Detroit Wheels,Jenny Take A Ride,Rev Up: The Best of Mitch Ryder & The Detroit Wheels"
-157,Paul Butterfield Blues Band,Nut Popper #1,An Anthology:  The Elektra Years"
-157,Ray Charles,Mess Around,Hallelujah I Love Her So!"
-157,Muddy Waters,I Just Want To Make Love To You,The Anthology 1947-1972"
-157,Wilbert Harrison,Kansas City,Kansas City – Golden Classics"
-157,The Zombies,Summertime,The Zombies"
-157,Chuck Berry,Promised Land,Gold"
-157,Faces,Pool Hall Richard,The Best of Faces: Good Boys…When They're Asleep…"
-157,Sir Douglas Quintet,She's About A Mover,The Best Of The Sir Douglas Quintet"
-157,The Young Rascals,Slow Down,The Young Rascals"
-157,The Everly Brothers,Stick With Me Baby,Walk Right Back: The Everly Brothers on WB 1960 to 1969"
-157,Crabby Appleton,Go Back,Crabby Appleton"
-157,Traffic,Freedom Rider,John Barleycorn Must Die (Deluxe Edition)"
+132,"Charles Brown","Driftin' Blues","Driftin' Blues, The Best of Charles Brown"
+132,"Little Walter","I Hate To See You Go","The Essential Little Walter"
+132,"Jimmy Reed","I'm A Love You","Jimmy Reed At Carnegie Hall"
+132,"The Isley Brothers","Shout (Pts. 1 & 2)","Shout: The RCA Sessions"
+132,"Sly & The Family Stone","Everybody Is A Star","The Essential Sly & The Family Stone"
+132,"Sonny Boy Williamson","Don't Start Me To Talkin'","His Best"
+132,"The Animals","Inside - Looking Out",Retrospective
+132,"Ann Peebles","Didn't Take Your Man","The Best of Ann Peebles: The Hi Records Years"
+132,"The Tony Jackson Group","Fortune Teller","Watch Your Step! - The Complete Recordings 1964-1966"
+132,"Marc Bolan & T. Rex","Children Of The Revolution","20th Century Boy: The Ultimate Collection"
+132,"The Sorrows","You've Got What I Want","Take A Heart"
+132,"The Beatles","Leave My Kitten Alone","Anthology 1"
+133,"James Brown","Super Bad","40th Anniversary Collection"
+133,"John Mayall with Eric Clapton","All Your Love","Blues Breakers"
+133,"Ben Waters with The Rolling Stones","Watching The River Flow","Boogie 4 Stu: A Tribute To Ian Stewart"
+133,"The Beach Boys","You Need A Mess Of Help To Stand Alone","Carl & The Passions"
+133,"J.J. Cale","I'll Be There If you Ever Want Me",Okie
+133,"Van Morrison with Roger Waters","Comfortably Numb (live)","At The Movies"
+133,"Mink DeVille","Cadillac Walk","The Best of Mink DeVille"
+133,"Jimmy McCracklin","The Walk","Chess Chartbusters Volume 2"
+133,"Keith Richards","Wicked As It Seems","Main Offender"
+133,"Larry Williams","She Said Yeah","Bad Boy"
+133,"Ike Turner & The Kings Of Rhythm","No More Doggin'","A Black Man's Soul"
+133,"Junior Wells","Snatch It Back And Hold It","Hoodoo Man Blues"
+133,"B.B. King","Tired Of Your Jive (live)","Great Moments With B.B. King"
+133,"The Who","See My Way","A Quick One"
+133,"Chuck Berry","Bye Bye Johnny","His Best, Volume 2"
+133,"The Yardbirds","Over Under Sideways Down",Ultimate!
+133,"Jimmy Reed","Aw Shucks, Hush Your Mouth","Jimmy Reed At Carnegie Hall"
+133,"Frankie Miller","Down The Honkytonk","Full House"
+134,"Elmore James","I Can't Hold Out","The Sky Is Crying: The History Of Elmore James"
+134,"Floyd Cramer","On The Rebound","An Education: Original Motion Picture Soundtrack"
+134,Them,"Mystic Eyes","Them Featuring Van Morrison"
+134,Traffic,"Forty Thousand Headmen",Traffic
+134,"Johnny Winter","I'm Yours And I'm Hers","The Best Of Johnny Winter"
+134,"Manfred Mann","Come Tomorrow","Down The Road Apiece: Their EMI Recordings 1963-1966"
+134,"Chuck Willis","Kansas City Woman","I Remember Chuck Willis / The King Of The Stroll"
+134,"Jackie Wilson","Baby Workout","The Best Of Jackie Wilson, Vol. 1 (1957-1965)"
+134,"Howlin' Wolf","Goin' Down","Slow His Best"
+134,"James & Bobby Purify","I Don't Know What It Is You Got","Shake A Tail Feather! The Best of James & Bobby Purify"
+134,"Emitt Rhodes","Take You Far Away","The Emitt Rhodes Recordings (1969-1973)"
+134,"The Beatles","You're Going To Lose That Girl",Help!
+134,"The Who","Leaving Here (alternatve version)","My Generation (Deluxe Edition)"
+134,"Paul Revere & The Raiders","Good Thing","Greatest Hits"
+134,"The Rolling Stones","I'm A King Bee","England's Newest Hit Makers"
+134,"Slim Harpo","Don't Start Crying Now","The Excello Siongles Anthology"
+134,"Tommy Roe",Everybody,"Tommy Roe's Greatest Hits"
+134,"Marvin Gaye","One More Heartache","The Ultimate Collection"
+134,"Lowell Fulson","Reconsider Baby","The Best Of Blues Rock Songbook"
+134,"Lucinda Williams","I Lost It","Car Wheels On A Gravel Road"
+135,"Buffalo Springfield","Rock & Roll Woman","Buffalo Springfield Again"
+135,"The West Coast Pop Art Experimental Band","If You Want This Love","Part One"
+135,Love,"Old Man","Forever Changes"
+135,"The Merry-Go-Round",Live,"Listen, Listen: The Definitive Collection"
+135,"The Beach Boys","Little Bird","Friends - 20/20"
+135,"Jackie DeShannon","Needles And Pins","What The World Needs Now is... Jackie DeShannon - The Definitive Collection"
+135,"The Standells","Sometimes Good Guys Don't Wear White","The Best Of The Standells"
+135,"The Byrds","Artificial Energy","The Notorious Byrd Brothers"
+135,"The Byrds","Natural Harmony","The Notorious Byrd Brothers"
+135,Spirit,"Water Woman",Spirit
+135,"Van Morrison","Starting A New Life","Tupelo Honey"
+135,"The Yardbirds","The Train Kept A-Rollin'",Ultimate!
+135,"Sonny Boy Williamson","Let Your Conscience Be Your Guide","The In Crowd-The Ultimate Mod Collection From The Original Style Movement 1958-1967"
+135,"Jimi Hendrix Experience","Spanish Castle Magic","Axis: Bold As Love"
+135,"Ann Peebles","I Can't Stand The Rain","The Best Of Ann Peebles - The Hi Records Years"
+135,Faces,Flying,"First Step"
+135,"The Everly Brothers","Poor Jenny Dream...","The Best Of The Everly Brothers"
+135,"The Who","Mary Anne With The Shaky Hand","The Who Sell Out"
+135,"Willie Mitchell","My Babe Soul","Serenade - The Best Of Willie Mitchell"
+135,Wilco,"I Got You (At The End Of The Century)","Being There"
+136,"The Beatles","Paperback Writer","Past Masters"
+136,"Conway Twitty","Lonely Blue Boy",Gold
+136,"The Gants","Little Boy Sad","Road Runner! The Best Of The Gants"
+136,"Jackie Lomax","Sour Milk Sea","Come And Get It - The Best Of Apple Records"
+136,"The Beatles","Tell Me Why","A Hard Day's Night"
+136,Free,"The Stealer","The Best Of Free"
+136,"Moby Grape",Omaha,"Moby Grape"
+136,"Dwight Twilley Band","I'm On Fire","Sincerely / Twilley Don't Mind"
+136,"Chuck Berry","Guitar Boogie",Gold
+136,"The Animals","Around And Around","The Best Of The Animals"
+136,"Leonard Cohen","Tower Of Song","More Best Of"
+136,"Long John Baldry","It Ain't Easy","It Ain't Easy"
+136,"Jeff Beck / Jools Holland & His Rhythm & Blues Orchestra","Drown In My Own Tears","More Friends"
+136,"Sonny Boy Williamson","All My Love In Vain","His Best"
+136,"Paul Revere & the Raiders","Don't Take It So Hard","The Legend Of Paul Revere"
+136,"Delaney & Bonnie","Soul Shake","The Best Of Delaney & Bonnie"
+136,"Fats Domino","Be My Guest","The Fats Domino Jukebox"
+136,"Fleetwood Mac","Jigsaw Puzzle","Blues The Pious Bird Of Good Omen"
+136,"Fontella Bass","Rescue Me","Chess Soul: A Decade of Chicago's Finest"
+136,"Harry Nilsson","At My Front Door","Son Of Schmilsson"
+137,"The Band","Life Is A Carnival","Greatest Hits"
+137,"The Paul Butterfield Blues Band Blues","With A Feeling","An Anthology: The Elektra Years"
+137,"Howlin' Wolf","Highway 49","The London Howlin' Wolf Sessions"
+137,"Rolling Stones","Little T & A","Tattoo You"
+137,"Buddy Holly",Heartbeat,Gold
+137,Love,"A House Is Not A Motel","Forever Changes (Deluxe Edition)"
+137,"The Byrds","It Won't Be Wrong","Turn! Turn! Turn!"
+137,"Tom Petty & The Heartbreakers","I'm Walkin'","Goin' Home: A Tribute To Fats Domino"
+137,"PJ Harvey","Down By The Water","To Bring You My Love"
+137,Badfinger,"Baby Blue","Straight Up"
+137,"Lightnin' Hopkins","Mojo Hand","The American Folk Blues Festival 1962-1966"
+137,"Lowell Fulson","Do Me Right","Willie Dixon - The Chess Box"
+137,"Otis Rush","All Your Love (I Miss Loving)","The Essential Otis Rush: The Classic Cobra Recordings 1956-1958"
+137,"Little Walter","Sad Hours","The Essential Little Walter"
+137,"Freddie King","Hi Rise 17","Greatest Hits"
+137,"Freddy Cannon","Tallahassee Lassie","The Best Of Freddy """"Boom-Boom"""" Cannon!"
+137,"The Romantics","Out Of My Mind (Into My Head)","The Coolest Songs In The World! Vol. 3"
+137,Faces,"Around The Plynth","First Step"
+138,"Little Richard","Hey Hey Hey Hey","The Essential Little Richard"
+138,"Lonesome Sundown","My Home Ain't Here","I'm A Mojo Man"
+138,"Lonnie Mack","Chicken Pickin'","Memphis Wham!"
+138,"The Stooges",1969,"The Stooges"
+138,"Humble Pie","30 Days In The Hole",Smokin'
+138,Donovan,"Hurdy Gurdy Man","The Essential Donovan"
+138,"Wilson Pickett","She's Lookin' Good","Wilson Pickett's Greatest Hits"
+138,"Ray Charles","Lonely Avenue","Yes Indeed!"
+138,"Dave Clark Five","Try Too Hard","The Hits"
+138,"The Lovin' Spoonful","Coconut Grove","Greatest Hits"
+138,"The Kinks","20th Century Man","Muswell Hillbillies"
+138,"The Who","Run Run Run","A Quick One"
+138,"The Ikettes","I'm Blue (The Gong Gong Song)","The Girls Got Soul"
+138,"The Impressions","It's All Right","It's All Right"
+138,"J.J. Cale","Down To Memphis","Roll On"
+138,"Muddy Waters","Blow Wind Blow","Fathers And Sons"
+138,"Mose Allison","Seventh Son (live)","The Best Of Mose Allison"
+138,"Huey """"Piano"""" Smith & His Clowns","Don't You Just Know It","The Best Of Huey """"Piano"""" Smith & His Clowns"
+138,Cream,"Outside Woman Blues","Disraeli Gears (Deluxe Edition)"
+139,"Al Green","Driving Wheel","Gets Next To You"
+139,"Buffalo Springfield",Leave,"Buffalo Springfield"
+139,"The Byrds","Jesus Is Just Alright","Ballad Of Easy Rider"
+139,"Solomon Burke","Got to Get You Off My Mind","The Very Best Of Solomon Burke"
+139,"Howlin' Wolf","Down In The Bottom","The Chess Box"
+139,"Les Paul & Mary Ford","Dialog & In The Mood","The Best Of The Capitol Masters: 90th Birthday Edition"
+139,"Rolling Stones","Route 66 (live)","December's Children (And Everybody's)"
+139,"The Animals","Gotta Find My Baby (live)","Let It Rock"
+139,"Slim Harpo","Baby, Scratch My Back","The Best Of Slim Harpo"
+139,"Daddy Cool","Come Back Again","Eagle Rock"
+139,"Link Wray","Jack The Ripper","Rumble! The Best Of Link Wray"
+139,"Elvis Presley",Trouble,"The Essential Elvis Presley"
+139,"Arthur Alexander","A Shot Of Rhythm And Blues","The Greatest"
+139,"The Creation","Making Time","We Are Paintermen"
+139,"Spencer Davis Group","Every Little Bit Hurts","The Best Of The Spencer Davis Group Featuring Steve Winwood"
+139,"Bo Diddley","You Can't Judge A Book By It's Cover","His Best"
+139,"The Flying Burrito Brothers","Wild Horses","Sin City: The Very Best Of The Flying Burrito Brothers"
+139,"Bob Dylan","Leopard-skin Pill-box Hat","Blonde On Blonde"
+140,"Rolling Stones",Connection,"Between The Buttons"
+140,"The Knickerbockers",Lies,"Nuggets: Original Artyfacts From The First Psychedelic Era 1965-1968"
+140,"Billy J Kramer and the Dakotas","From A Window","The Very Best of Billy J Kramer and the Dakotas"
+140,"Little Eva Keep","Your Hands Off My Baby","The Best of Little Eva"
+140,"Little Richard","Send Me Some Lovin'","The Very Best of Little Richard"
+140,"The McCoys","Meet The McCoys","Hang On Sloopy: The Best of The McCoys"
+140,"The McCoys",Fever,"Hang On Sloopy: The Best of The McCoys"
+140,"The High Numbers","I'm The Face","Odds & Sodds"
+140,"The Hollies","Look Through Any Window","30th Annniversary Collection 1963-1993"
+140,"The Shadows Of Knight",Gloria,Gloria
+140,"Aretha Franklin","Save Me","I Never Loved A Man The Way I Love You"
+140,"The Ventures","The Ventures' Twist Party, Vol. 2-Radio Spot","Walk-Don't Run - The Best Of The Ventures"
+140,"The Ventures","Slaughter On 10th Avenue","Walk-Don't Run - The Best Of The Ventures"
+140,"The Who","Substitute (US single version)","The Ultimate Collection Bonus Disc"
+140,"The Young Rascals","Love Is A Beautiful Thing","Anthology 1965-1972"
+140,"Alan Price","I Put A Spell On You",Anthology
+140,"Albert Collins",Frosty,"Truckin' With Albert Collins"
+140,"Fats Domino","Everybody's Got Something To Hide Except Me & My Monkey","Come Together: Black America Sings Lennon/McCartney"
+140,"The Beatles","No Reply","Beatles For Sale"
+140,"The Dave Clark Five","Please Tell Me Why","The History Of The Dave Clark Five"
+140,Traffic,"Empty Pages","John Barley Corn Must Die"
+140,"Van Morrison","Youth Of 1","000 Summers"
+141,Mountain,"Mississippi Queen","The Best Of Mountain"
+141,"Sly & The Family Stone","You Can Make It If You Try","The Esstential Sly & The Family Stone"
+141,"Isaac Hayes","Walk On By","The Complete Stax/Volt Soul Singles Vol. 2 1968-1971"
+141,"The Rolling Stones","Look What You've Done","December's Children (And Everybody's)"
+141,"Pete Townshend / Ronnie Lane","Rough Mix","Rough Mix"
+141,Traffic,"Shanghai Noodle Factory","Last Exit"
+141,"Otis Redding","That's How Strong My Love Is","The Very Best Of Otis Redding"
+141,"T-Bone Walker","Shufflin' The Blues","T-Bone Blues"
+141,"Big Mama Thornton","Hound Dog","Hound Dog / The Peacock Recordings"
+141,"The Beatles","Cry For A Shadow","Anthology 1"
+141,"Al Green","I Want To Hold Your Hand","Come Together: Black America Sings Lennon & McCartney"
+141,Them,"Baby Please Don't Go","Them Featuring Van Morrison"
+141,"Joe Tex","Skinny Legs And All","Greatest Hits!!!"
+141,"Koko Taylor","Wang Dang Doodle","What It Takes - The Chess Years (Expanded Edition)"
+141,"Shorty Long","Devil With The Blue Dress","Hitsville USA: The Motown Singles Collection 1959-1971"
+141,"James Brown","Think (Live)","Live At The Apollo (1962) Expanded Edition"
+141,"Chuck Berry","Almost Grown",Gold
+141,"Beau Brummels","Just A Little","Introducing The Beau Brummels"
+141,"Jeff Beck","I Ain't Superstitious",Truth
+141,"Tom Petty & The Heartbreakers","Green Onions (live)","The Live Anthology"
+142,"The Beatles",Rain,"Past Masters"
+142,"Marc Bolan & T. Rex","I Love To Boogie","20th Century Boy: The Ultimate Collection"
+142,"Gary U.S. Bonds","Dear Lady Twist","The Very Best Of Gary U.S. Bonds"
+142,"David Bowie",Sorrow,"Pin Ups"
+142,"The Temptations","Cloud Nine","The Definitive Collection"
+142,"Elvis Presley","Roll On","Elvis / Ultimate Gospel"
+142,"Stephen Stills & Manassas","It Doesn't Matter",Manassas
+142,"The Marketts","Out Of Limits","Rock Instrumental Classics, Vol. 2: The '60's"
+142,"Jeff Beck","Rock My Plimsoul",Truth
+142,"Long John Baldry","I'm Ready","It Ain't Easy"
+142,"Lightnin' Hopkins","Don't Embarrass Me, Baby","Goin' Away"
+142,"Earl King","Baby You Can Get Your Gun","Earl's Pearls"
+142,"Lee Dorsey","Ya Ya","The Definitive Collection"
+142,"Richard Berry & The Pharaohs","Louie Louie","Have """"Louie"""" Will Travel - The 1956-1962 Recordings"
+142,"Mose Allison","I Don't Worry About A Thing","The Best Of Mose Allison"
+142,"Chuck Berry","No Money Down",Gold
+142,"The Red Button","Cruel Girl","She's About To Cross My Mind"
+142,"The Searchers","Sweets For My Sweet","The Very Best Of The Searchers"
+142,"Rick Danko with Ringo Starr & His All Starr Band","Raining In My Heart","The Anthology... So Far"
+142,"The Shadows","Man Of Mystery","Shadows Are Go"
+142,"The Mamas And The Papas","Twelve-Thirty (Young Girls Are Coming to the Canyon)","Greatest Hits"
+143,"Manfred Mann","If You Gotta Go, Go Now","Down The Road Apiece: Their EMI Recordings 1963-1966"
+143,Free,"I'll Be Creepin'","The Best Of Free"
+143,"The Bobby Fuller Four","Love's Made A Fool Of You","The Best Of The Bobby Fuller Four"
+143,"The Shangri-Las","I Can Never Go Home Again Anymore","The Best Of The Shangri-Las"
+143,"The Jaynettes","Sally Go 'Round The Roses","The Very Best Of The Jaynetts"
+143,"Little Walter","Hate To See You Go","His Best"
+143,Love,"Live And Let Live","Forever Changes"
+143,"Van Morrison","Into The Mystic",Moondance
+143,"The Move","Message From The Country","Message From The Country"
+143,"Chuck Berry","Jaguar & Thunderbird",Gold
+143,"The Band","This Wheel's On Fire","Music From Big Pink"
+143,"Johnny Cash","The Running Kind","Cash Unearthed"
+143,"David Bowie","It Ain't Easy","Ziggy Stardust (30th Anniversary Edition)"
+143,"Buffalo Springfield",Everydays,"Buffalo Springfield Again"
+143,Cream,"Steppin' Out","BBC Sessions"
+143,"Ray Charles","Sticks And Stones","Genius The Ultimate Collection"
+143,"Spooky Tooth","I Am The Walrus","The Best Of Spooky Tooth"
+143,"Muddy Waters","Trouble No More","The Anthology 1947-1972"
+144,"Emitt Rhodes","With My Face On The Floor","The Emitt Rhodes Recordings (1969-1973)"
+144,"Dave Clark Five","Bits And Pieces","The Hits"
+144,"Little Richard","Miss Ann","The Very Best Of Little Richard"
+144,"The Who","So Sad About Us","A Quick One"
+144,"Jimi Hendrix Experience","Are You Experienced?","Are You Experienced?"
+144,"Howlin' Wolf","Killing Floor","His Best"
+144,"Paul Butterfield Blues Band","Off The Wall","An Anthology: The Elektra Years"
+144,"James Brown","I Got The Feelin'","40th Anniversary Collection"
+144,"The Nightcrawlers","A Basket Of Flowers","The Little Black Egg"
+144,"The Byrds","Eight Miles High","Fifth Dimension"
+144,"Johnny Burnette Trio","Honey Hush","Loud, Fast & Out Of Control: The Wild Sounds Of '50s Rock"
+144,"J.J. Cale","Let Me Do It To You",Troubadour
+144,"The Ventures","The House Of The Rising Sun (live)","Live In Japan '65"
+144,"Rolling Stones","I'm Moving On (live)","December's Children (and everybody's)"
+144,Traffic,"Pearly Queen","The Collection"
+144,"The Zombies","I Remember When I Loved Her","The Singles A's & B's"
+144,"Albert King","Crosscut Saw","Born Under A Bad Sign"
+144,"Ann Peebles","Come To Mama","The Best Of Ann Peebles - The Hi Records Years"
+144,"Roy Orbison","Candy Man","The Monument Singles Collection (1960-1964)"
+144,"The Monkees","Mary, Mary","The Best Of The Monkees"
+144,"Moby Grape",8:05,"Moby Grape"
+145,"The Young Rascals","Come On Up","Anthology 1965-1972"
+145,"The Animals","Bright Lights Big City","The Singles +"
+145,"Jimi Hendrix Experience","You Got Me Floatin'","Axis: Bold As Love"
+145,"Ernie K-Doe","A Certain Girl","Absolutely The Best"
+145,"Johnny Cash","Cocaine Blues (live)","At Folsom Prison"
+145,"Johnny Rivers","Memphis (live)","Greatest Hits"
+145,"The Supremes","Nathan Jones","Hitsville USA - The Motown Singles Collection 1959-1971"
+145,"Sam Cooke","Meet Me At Mary's Place","Portrait Of A Legend 1951-1964"
+145,"Rick Nelson","She Belongs To Me","The Best Of Rick Nelson"
+145,"Georgie Flame & The Blue Flames","Yeh Yeh","The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967"
+145,"Paul Revere & The Raiders","The Great Airplane Strike","Greatest Hits"
+145,"The Rolling Stones","Monkey Man","Let It Bleed"
+145,"Slim Harpo","I've Got Love If You Want It","The Best Of Slim Harpo"
+145,"Manfred Mann","I've Got My Mojo Working","Down The Road Apiece: Their EMI Recordings 1963-1966"
+145,"Spencer Davis Group","Somebody Help","Me Gimme Some Lovin'"
+145,"John Lee Hooker",Dimples,"The Very Best Of John Lee Hooker"
+145,"Eric Clapton & The Powerhouse","I Want To Know","What's Shakin'"
+145,"Neil Young","The Loner","Neil Young"
+145,"Fleetwood Mac","Man Of The World","Jumping At Shadows - The Blues Years"
+145,Spirit,"Mechanical World","The Best Of Spirit"
+146,Steppenwolf,"Sookie Sookie","All Time Greatest Hits"
+146,"The Swinging Blue Jeans","Hippy Hippy Shake","Hippy Hippy Shake - The Definitive Collection"
+146,"Joe Tex","Hold What You've Got","Greatest Hits"
+146,"Eddie Cochran","Twenty Flight Rock","Somethin' Else: The Fine Lookin' Hits of Eddie Cochran"
+146,"Elmore James","Early One Morning","Shake Your Moneymaker: The Best Of The Fire Sessions"
+146,"The Easybeats",Sorry,"The Definitive Anthology"
+146,"Eddie Hinton","Something Heavy","Playin' Around: The Songwriting Sessions (Vol. 2)"
+146,"The Dictators","The Savage Beat","Little Steven's Underground Garage Presents: The Coolest Songs In The World! (Vol. 3)"
+146,Dion,"Ruby Baby","The Essential Dion"
+146,"George Harrison","Here Comes The Sun (live)","The Concert For Bangladesh"
+146,"Mick Jagger","Memo From Turner","The Rolling Singles Collection - The London Years"
+146,"Albert King","That's What The Blues Is All About","The Very Best Of Albert King"
+146,"The Allman Brothers Band","Hot 'Lanta (live)","At Fillmore East (Deluxe Edition)"
+146,"Ann Peebles","Slipped, Tripped And Fell In Love","The Best Of Ann Peebles: The Hi Records Years"
+146,"The Animals","It's My Life",Retrospective
+146,"The Everly Brothers","Gone Gone Gone","Walk Right Back: The Everly Brothers on Warner Bros. 1960-1969"
+146,"The Beatles",Revolution,"Past Masters"
+146,"Paul Butterfield Blues Band","Born In Chicago","An Anthology: The Elektra Years"
+146,"Bo Diddley","Pretty Thing","His Best"
+146,"Bob Dylan","Most Likely You Go Your Way And I'll Go Mine","Blonde On Blonde"
+147,"The Band","The Shape I'm In","Greatest Hits"
+147,"John Mayall & The Bluesbreakers","The Stumble","A Hard Road - Expanded Edition"
+147,"Freddie King","That Will Never Do","Freddie King Is A Blues Master"
+147,"John Lee Hooker","It Serves You Right To Suffer","The Best of Blues Rock Songbook"
+147,"Fats Domino","One Night","Walking To New Orleans (Box Set)"
+147,"John Lennon","I Found Out","Plastic Ono Band"
+147,Faces,"Shake, Shudder","First Step"
+147,"Jimmy Smith","The Organ Grinder's Swing","Organ Grinder Swing"
+147,"Mose Allison","I'm Not Talking","The Word From Mose Allison"
+147,"J.J. Cale","Carry On",Shades
+147,"Eric Clapton",Slunky,"Eric Clapton (Deluxe Edition)"
+147,"Daddy Cool","Eagle Rock","Eagle Rock"
+147,"Dr. John","Right Place Wrong Time","The Very Best Of Dr. John"
+147,"The Rolling Stones","Parachute Woman","Beggars Banquet"
+147,"The Who",Relax,"The Who Sell Out (Deluxe Edition)"
+147,"Muddy Waters","She Moves Me","The Anthology 1947-1972"
+147,"Tommy Tucker","Hi-Heels Sneakers","The In Crowd: The Ultimate Mod Collection From The Original Style Movement 1958-1967"
+147,"The Animals","Blue Feeling","The Singles +"
+147,"Led Zeppelin","Communication Breakdown","Led Zeppelin"
+147,"Curtis Mayfield & The Impressions","People Get Ready","The Best Of Curtis Mayfield & The Impressions"
+148,"Ray Charles","Unchain My Heart",Anthology
+148,Them,"I Can Only Give You Everything","Them Again"
+148,"Steve Cropper (with Steve Winwood)","Thirty Second Lover",Dedicated
+148,"The Yardbirds","I Ain't Done Wrong",Ultimate!
+148,"We The People","Declaration Of Independence","Too Much Noise"
+148,"The Zombies",Woman,"The Zombies"
+148,"The Young Rascals","In The Midnight Hour","The Young Rascals"
+148,"Wilson Pickett","I'm A Midnight Mover","Wilson Pickett's Greatest Hits"
+148,"The Who","The Kids Are Alright","My Generation (Deluxe Edition)"
+148,"The Strangeloves","I Want Candy","I Want Candy: The Best Of The Strangeloves"
+148,"The Stooges","I Wanna Be Your Dog","The Stooges"
+148,"The Seeds","Can't Seem To Make You Mine","The Seeds"
+148,"Small Faces","Itchycoo Park","Ultimate Collection"
+148,"Sly & The Family Stone","Family Affair","The Essential"
+148,"Slim Harpo","Buzz Me Babe","The Excello Singles Anthology"
+148,"Sam & Dave","When Something Is Wrong With My Baby","The Very Best Of Sam & Dave"
+148,"The Rolling Stones","Can't You Hear Me Knocking","Sticky Fingers"
+148,"The Beatles","Hey Bulldog","Yellow Submarine"
+149,"The Beatles","Devil In Her Heart","With The Beatles"
+149,"Lee Dorsey","Working In The Coal Mine","The Defenitive Collection"
+149,"The Kinks","I Gotta Move","Picture Book (Box Set)"
+149,"Little Richard","Directly From My Heart","The Essential Little Richard"
+149,"Little Walter","Dead Presidents","The Essential Little Walter"
+149,Love,"My Little Red Book","The Best Of Love"
+149,"Manfred Mann","What You Gonna Do?","Down The Road Apiece: Their EMI Recordings"
+149,"Howlin' Wolf",Spoonful,"His Best"
+149,"King Curtis","Soul Twist","The Best of King Curtis"
+149,"J.J. Cale","Rock and Roll Records",Okie
+149,"Peter Green/ Fleetwood Mac","World In Harmony","Jumping At Shadows- The Blues Years"
+149,"Louis Jordan & His Tympany Five","Let The Good Times Roll","The Best of Blues Rock Songbook"
+149,MC5,"Shakin' Street","Greatest Hits"
+149,"Paul Revere & the Raiders",Hungry,"Greatest Hits"
+149,"Paul Butterfield Blue Band","Lovin' Cup","An Anthology: The Elektra Years"
+149,"Otis Redding (with Carla Thomas)",Tramp,"The Very Best of Otis Redding"
+149,Free,"Mr. Big","Fire and Water"
+149,"The Rolling Stones","Tallahassee Lassie","Some Girls (Expanded Edition)"
+149,"The Ventures","I Feel Fine","Live In Japan '65"
+149,"Van Morrison","Blue Money","His Band And The Street Choir"
+150,"The Searchers","Bumble Bee","The Very Best of The Searchers"
+150,"Larry Williams","Slow Down","Bad Boy"
+150,"Ann Peebles","(I Feel Like) Breaking Up Somebody's Home","The Best of Ann Peebles: The Hi Records Years"
+150,"The Beatles","You Really Got A Hold On Me","With The Beatles"
+150,"Lucinda Williams","Can't Let Go","Car Wheels On A Gravel Road"
+150,Traffic,"You Can All Join In",Traffic
+150,"Long John Baldry","Don't Try To Lay No Boogie Woogie On The King of Rock & Roll","It Ain't Easy"
+150,"Lonnie Mack",Wham!,"Memphis Wham!"
+150,"The Hollies","Pay You Back With Interest","30th Anniversary Collection"
+150,"Muddy Waters","Forty Days And Forty Nights","The Anthology 1947-1972"
+150,"The Nashville Teens","Tobacco Road","Tobacco Road"
+150,NRBQ,"Me and The Boys","Uncommon Denominators"
+150,"Jimmy Reed","Take Out Some Insurance","Jimmy Reed At Carnegie Hall"
+150,"Joe Cocker","Don't Let Me Be Misunderstood","The Anthology"
+150,"LaVern Baker","Voodoo Voodoo","Loud, Fast & Out of Control: The Wild Sounds of 50's Rock"
+150,"Freddie King","Have You Ever Loved A Woman","The Very Best of Freddie King: Volume One"
+150,"Jimi Hendrix Experience","Ain't No Telling","Axis: Bold As Love"
+150,"Fats Domino","I'm Ready","Walking To New Orleans"
+150,"Chuck Berry","Come On",Gold
+150,"The Yardbirds","Dazed and Confused","Radio Tymes"
+151,"The Animals","See See Rider",Retrospective
+151,"Charlie Rich","Mohair Sam","Feel Like Going Home: The Essential Charlie Rich"
+151,"Jeff Beck","A Day In The Life","George Martin: In My Life"
+151,"The Band","We Can Talk","Music From Big Pink"
+151,"The Beatles","When I Get Home","A Hard Day's Night"
+151,"Emitt Rhodes","Love Will Stone You","The Emitt Rhodes Recordings (1969-1973)"
+151,"The Byrds","I See You","Fifth Dimension"
+151,"The Byrds","Deportee (Plane Wreck At Los Gatos)","Ballad of Easy Rider"
+151,"Clarence """"Frogman"""" Henry","Ain't Got No Home","The Best of Clarence """"Frogman"""" Henry: Ain't Got No Home"
+151,"Creedence Clearwater Revival","Hey Tonight",Pendulum
+151,"Clyde McPhatter","Lover Please","The Essential Collection"
+151,"Junior Wells","Hoodoo Man Blues","Hoodoo Man Blues"
+151,"Keith Richards","Take It So Hard","Talk Is Cheap"
+151,"Otis Spann","She Needs Some Loving","The Biggest Thing Since Colossus"
+151,"PJ Proby","Niki Hoeky","The Best of PJ Proby: The EMI Years 1961- 1972"
+151,"The Who","La-La Lies","My Generation (Deluxe Edition)"
+151,"The Zombies","Whenever You're Ready","The Singles Collection A's & B's 1964-1969"
+151,Cream,"I'm So Glad","Fresh Cream"
+151,"Little Walter","Tell Me Mama","His Best"
+151,"Norman Greenbaum","Spirit In The Sky","Spirit In The Sky: The Best of Norman Greenbaum"
+152,"John Mayall","Hide Away","Bluesbreakers With Eric Clapton"
+152,"Mose Allison","Eyesight To The Blind","Mose Allison Sings"
+152,"James Brown","Out Of Sight","40th Anniversary Collection"
+152,"Roy Montrell","(Every Time I Hear That) Mellow Saxophone","The Specialty Story"
+152,"Howlin' Wolf","Smokestack Lightning","The Best Of Howlin' Wolf"
+152,"The Move","Do Ya","Message From The Country"
+152,"The Who",Tattoo,"Sell Out (Deluxe Edition)"
+152,Mudcrutch,"Scare Easy",Mudcrutch
+152,"Gene Vincent & His Blue Caps","Woman Love","The Screaming End: The Best Of Gene Vincent & His Blue Caps"
+152,"J.J. Cale","Ride Me High",Troubadour
+152,"Ricky Nelson","Waitin' In School","Greatest Hits"
+152,"The Rolling Stones",Think,Aftermath
+152,"The Sorrows","Take A Heart","Take A Heart"
+152,"Sonny Boy Williamson","Bring It On Home","His Best"
+152,"Lou Reed","Dirty Blvd.","New York"
+152,"Albert King","Born Under A Bad Sign","Born Under A Bad Sign"
+152,"The Allman Brothers Band","Hoochie Coochie Man","Live At The International Pop Festival"
+152,"Chuck Berry","Oh Baby Doll","The Anthology"
+152,"Roy Buchanan","Sweet Dreams","The Best Of Roy Buchanan"
+153,"The Gants","Road Runner","Road Runner! The Best Of The Gants"
+153,"Jerry Lee Lewis","Let's Talk About Us","Original Sun Singles '56 - '60"
+153,"Elvis Presley","I Got Stung",History
+153,"Syndicate Of Sound","Little Girl","Nuggets: Original Artyfacts From The First Psychedelic Era 1965-1968"
+153,"The Chartbusters","She's The One","Hey! Look What I Found (Volume 6)"
+153,"The Beatles",I'm Down,"Past Masters"
+153,"Elmore James","Hawaiian Boogie","The Sky Is Crying: The History of Elmore James"
+153,"T-Bone Walker","Don't Leave Me Baby","No Worry Blues"
+153,"Chuck Berry","Let It Rock","His Best"
+153,"Bill Withers","Who Is He (And What Is He To You)?","The Best of Bill Withers: Lean On Me"
+153,"Bob & Earl","Harlem Shuffle","The IN Crowd: THe Ultimate Mod Collection From The Original Style Movement 1958-1967"
+153,"Bob Dylan","All Along The Watchtower","The Best Of The Original Mono Recordings"
+153,"Jeff Beck","Group You Shook Me",Truth
+153,"Joe Ely","Me And Bill The Kid","Live @ Antone's"
+153,"Stephen Stills & Manassas","It Doesn't Matter",Manassas
+153,"Clarence Carter","Slip Away","Snatching It Back: The Best of Clarence Carter"
+153,"The Chantays",Pipeline,"Rock Instrumental Classics, Volume 5: Surf"
+153,"Arthur Gunter","Baby Let's Play House","Baby Let's Play House: The Best of Arthur Gunter"
+153,"The Kinks","Waterloo Sunset","Something Else By The Kinks"
+153,"Chuck Willis","Sugar Sugar","I Remember Chuck Willis"
+153,"George Harrison","It Don't Come Easy","(unreleased demo)"
+154,"Slim Harpo","I Got Love If You Want It","The Excello Singles Anthology"
+154,"The Animals","I'm In Love Again","The Best of The Animals"
+154,"Ann Peebles","99 Pounds","The Best of Ann Peebles: The Hi Records Years"
+154,"Dave Clark Five","Glad All Over","The Hits"
+154,"David Lindley","Mercury Blues","El Rayo-X"
+154,"J.J. Cale","Travelin' Light",Troubadour
+154,"Manfred Mann","Don't Ask Me What I Say","Down The Road Apiece: Their EMI Recordings 1963-1966"
+154,"Wilson Pickett","Mustang Sally","Wilson Pickett's Greatest Hits"
+154,"The Yardbirds","I'm Not Talking",Ultimate!
+154,"The Who","Out In The Street","My Generation (Deluxe Edition)"
+154,"Sonny Boy Williamson","Sad To Be Alone","His Best"
+154,"Solomon Burke","Cry To Me","The Very Best of Solomon Burke"
+154,"Buffalo Springfield","Mr. Soul",Again
+154,"The Byrds","The World Turns All Around Her","Turn! Turn! Turn!"
+154,"The Cadets","Stranded In The Jungle","Blowing The Fuse: 30 R&B Classics That Rocked The Jukebox in 1956"
+154,"Little Richard","Long Tall Sally","The Very Best of Little Richard"
+154,"Little Walter","Walkin' On","The Essential Little Walter"
+154,"Etta James","Don't Cry Baby",Gold
+154,"Fleetwood Mac","Black Magic Woman","The Pious Bird Of Good Omen"
+154,"Albert King","Down Don't Bother Me","Born Under A Bad Sign"
+155,"The Impressions","Talking About My Baby","It's All Right"
+155,"James Brown","Papa's Got A Brand New Bag","40th Anniversary Collection"
+155,"Ike & Tina Turner","Honky Tonk Women","Proud Mary – The Best of Ike & Tina Turner"
+155,"John Lee Hooker","One Bourbon, One Scotch, One Beer","The Real Folk Blues"
+155,"Johnny Cash","Understand Your Man","Super Hits"
+155,"Levon Helm And The RCO All Stars","Milk Cow Boogie","Live At The Palladium NYC"
+155,"The Beach Boys","Let Him Run Wild","Summer Days (And Summer Nights!)"
+155,"The Rolling Stones","I Wanna Be Your Man","Singles Collection – The London Years"
+155,"Sepia Trones","Boogie #1","The Specialty Story"
+155,"Wynonie Harris","Lovin' Machine","The Best of Wynonie Harris – Mr. Blues"
+155,"Bobby """"Blue"""" Bland","That Did It","Greatest Hits Volume One – The Duke Recordings"
+155,"Sam & Dave","I Take What I Want","The Very Best of Sam & Dave"
+155,"Wanda Jackson","Let's Have A Party","Loud, Fast & Out Of Control: The Wild Sounds of '50s Rock"
+155,"Led Zeppelin","Good Times Bad Times","Led Zeppelin"
+155,"Bob Dylan","Girl From The North Country","Nashville Skyline"
+155,"Creedence Clearwater Revival","Poorboy Shuffle","Willy And The Poorboys"
+155,"Creedence Clearwater Revival","Feelin' Blue","Willy And The Poorboys"
+155,"Jackson Browne",Cocaine,"Running On Empty"
+156,"Buffalo Springfield","On The Way Home","Last Time Around"
+156,"Bob Dylan","Absolutely Sweet Marie","Blonde On Blonde"
+156,"Lucinda Williams","Car Wheels On A Gravel Road","Car Wheels On A Gravel Road"
+156,"Gene Vincent and The Blue Caps","Hold Me, Hug Me, Rock Me","The Screaming End: The Best of Gene Vincent & His Blue Caps"
+156,"George Harrison","All Things Must Pass","All Things Must Pass"
+156,"Freddie King","Let Me Be (Stay Away From Me)","The Very Best of Freddie King – Volume One"
+156,Free,"Walk In My Shadow","The Best of Free"
+156,"Gregg Allman","These Days","Laid Back"
+156,"Grateful Dead","High Time","Workingman's Dead"
+156,"Howlin' Wolf","Shake For Me","His Best"
+156,"Bo Diddley","You Don't Love Me (You Don't Care)","His Best"
+156,"Arthur """"Big Boy"""" Crudup","My Baby Left Me","That's All Right Mama"
+156,"Mink DeVille","She's So Tough",Cabretta
+156,"Al Green","I Want To Hold Your Hand","Come Together: Black America Sings Lennon & McCartney"
+156,"The Beatles","Day Tripper","Past Masters"
+156,"Blind Faith","Can't Find My Way Home","Blind Faith (Deluxe Edition)"
+156,"Canned Heat","On The Road Again","The Very Best of Canned Heat"
+156,"The Everly Brothers","Made To Love","Walk Right Back:  The Everly Brothers on WB 1960 to 1969"
+156,"Chuck Berry","Betty Jean","The Anthology"
+156,"Etta James","Something's Got A Hold On Me","The Definitive Collection"
+157,"Jimi Hendrix Experience","Little Miss Lover","Axis: Bold As Love"
+157,Love,"Alone Again Or","Forever Changes"
+157,"Dusty Springfield","Stay Awhile","The Best Of Dusty Springfield"
+157,"Elvis Presley","Shake, Rattle And Roll","Elvis 56"
+157,"The Beatles","Honey Don't","Beatles For Sale"
+157,"The Rolling Stones",I'm Free,"More Hot Rocks (big hits & fazed cookies)"
+157,"Marvin Gaye","You're A Wonderful","One The Ultimate Collection"
+157,"Mitch Ryder & The Detroit Wheels","Jenny Take A Ride","Rev Up: The Best of Mitch Ryder & The Detroit Wheels"
+157,"Paul Butterfield Blues Band","Nut Popper #1","An Anthology:  The Elektra Years"
+157,"Ray Charles","Mess Around","Hallelujah I Love Her So!"
+157,"Muddy Waters","I Just Want To Make Love To You","The Anthology 1947-1972"
+157,Wilbert Harrison,"Kansas City","Kansas City – Golden Classics"
+157,"The Zombies",Summertime,"The Zombies"
+157,"Chuck Berry","Promised Land",Gold
+157,Faces,"Pool Hall Richard","The Best of Faces: Good Boys…When They're Asleep…"
+157,"Sir Douglas Quintet","She's About A Mover","The Best Of The Sir Douglas Quintet"
+157,"The Young Rascals","Slow Down","The Young Rascals"
+157,"The Everly Brothers","Stick With Me Baby","Walk Right Back: The Everly Brothers on WB 1960 to 1969"
+157,"Crabby Appleton","Go Back","Crabby Appleton"
+157,Traffic,"Freedom Rider","John Barleycorn Must Die (Deluxe Edition)"
 158,"The Rolling Stones","Miss Amanda Jones","Between The Buttons"
 158,"Ray Charles","I Don't Need No Doctor",Anthology
 158,"Bobby Freeman","C'mon And Swim","Do You Wanna Dance?"
@@ -3112,100 +3112,100 @@ showId,artist,title,album
 158,"Paul Revere & The Raiders","Steppin' Out","Greatest Hits"
 158,"Quicksilver Messenger Service","Dino's Song","Quicksilver Messenger Service"
 158,"The Pyramids",Penetration,"Rock Instrumental Classics, Volume 5: Surf"
-159,The Rolling Stones,Back Of My Hand,Bigger Bang
-159,Son Volt,Drown,A Retrospective: 1995-2000
-159,Small Faces,All Or Nothing,Ultimate Collection
-159,Sly & The Family Stone,Sing A Simple Song,The Essential Sly & The Family Stone
-159,Arthur Conley,Funky Street,Sock It To 'Em Soul – 60's Club Soul Classics"
-159,Badfinger,I'll Be The One,Straight Up"
-159,The Beatles,Mr. Moonlight,Beatles For Sale
-159,Ritchie Valens,"Come On, Let's Go",The Very Best of Ritchie Valens
-159,The Beach Boys,Farmer's Daughter,Surfin' USA
-159,Sonny Boy Williamson,Help Me,His Best
-159,Rod Stewart,Only A Hobo,Gasoline Alley
-159,Howlin' Wolf,Do The Do,The London Howlin' Wolf Sessions
-159,The Vaughan Brothers,Brothers,Family Style
-159,The Who,"Anyway, Anyhow, Anywhere",The Ultimate Collection
-159,Jet,Are You Gonna Be My Girl,Get Born
-159,Iggy Pop,Five Foot One,New Values
-159,Emitt Rhodes,Really Wanted You,The Emitt Rhodes Recordings (1969-1973)
-159,Jerry Lee Lewis,Just A Little Bit,Killer: The Mercury Years Volume 3: 1973-1977
-160,The Beatles,Bad Boy,Past Masters
-160,The Yardbirds,Lost Woman,Ultimate!
-160,Willie Dixon,29 Ways,Chess Blues Classics 1947 to 1956
-160,The Ventures,Diamond Head,Walk – Don't Run: The Best of The Ventures
-160,Van Morrison,Jackie Wilson Said (I'm In Heaven When You Smile),Saint Dominic's Preview
-160,The Temptations,Psychedelic Shack,Gold
-160,Taj Mahal,Keep Your Hands Off Her,Giant Step
-160,The Strangeloves,Night Time,I Want Candy: The Best of The Strangeloves
-160,Smiley Lewis,"Shame, Shame, Shame",The Best of Smiley Lewis: I Hear You Knocking
-160,Small Faces,Tin Soldier,Ultimate Collection
-160,Slim Harpo,I'm A King Bee,The Best of Slim Harpo
-160,The Rolling Stones,Shake Your Hips,Exile On Main Street (Deluxe Edition)
-160,Little Walter,Mellow Down Easy,His Best
-160,Lonesome Sundown,Don't Go,I'm A Mojo Man
-160,J.J. Cale,Don't Cry Sister,The Definitive Collection
-160,Ann Peebles,I Can't Stand The Rain,The Best of Ann Peebles – The Hi Records Years
-160,Bob Dylan,I Want You,Blonde On Blonde
-160,Fleetwood Mac,Tell Me All The Things You Do,Kiln House
-160,Freddie King,Lonesome Whistle Blues,Ultimate Collection
-160,Harry Nilsson,Jump Into The Fire,Schmilsson
-161,The Yardbirds,Happenings Ten Years Time Ago,Ultimate!
-161,Jimi Hendrix Experience,Ain't No Telling,Axis: Bold As Love
-161,Freddie King,Sugar Sweet,Burglar
-161,Alvin Robinson,I'm Gonna Put Some Hurt On You,The Red Bird Story
-161,The Rolling Stones,Down Home Girl,Now!
-161,Ricky Nelson,It's Late,Greatest Hits
-161,The Monkees,Let's Dance On,The Monkees
-161,Joe Tex,I Believe I'm Gonna Make It,Greatest Hits
-161,Love,Bummer In The Summer,Forever Changes
-161,Little Eva,The Loco-Motion,The Loco-Motion
-161,Piano Red,Rockin' With Red,Rocks
-161,James Brown,"It's A Man's, Man's, Man's World",40th Anniversary Collection
-161,Howlin' Wolf,I Ain't Superstitious,His Best
-161,Bob Dylan,Gotta Serve Somebody,Slow Train Coming
-161,Harry Nilsson,Spaceman,Son Of Schmilsson
-161,The Who,Young Man Blues (live),Live At Leeds (Deluxe Edition)
-161,Nirvana,The Man Who Sold The World (live),MTV Unplugged In New York
-161,Traffic,Don't Be Sad,Traffic
-162,George Harrison,Wah-Wah,All Things Must Pass (30th Anniversary Edition)
-161,Los Hombres,Let It Out (Let It All Hang Out),Nuggets: Original Artyfacts From The First Psychedelic Era 1965-1968                                                      
-161,The Staple Singers,Respect Yourself,Stax Profiles
-162,The Spencer Davis Group,I'm A Man,The Best of The Spencer Davis Group
-161,John Lennon,Cold Turkey,Shaved Fish
-161,Bo Diddley,You Don't Love Me (You Don't Care),His Best
-162,The Standells,Try It,The Best of The Standells
-161,Status Quo,Pictures Of Matchstick Men,Gold
-161,The Marvelettes,Playboy,The Definitive Collection
-162,T- Bone Walker,Strollin' With Bone,The Complete Imperial Recordings, 1950-1954
-162,Wilson Pickett,Land Of 1000 Dances,Wilson Pickett's Greatest Hits
-162,The Surfaris,Wipe Out,"Rock Instrumental Classics, Vol.5: Surf"
-162,Stealers Wheel,Stuck In The Middle With You,Stealers Wheel
-162,The Merry-Go-Round,You're A Very Lovely Woman,"Listen, Listen: The Definitive Collection"
-162,Bobby Fuller,Four Never To Be Forgotten,The Best of The Bobby Fuller Four
-162,Buffalo Springfield,Special Care,Last Time Around
-162,Slim Harpo,"Baby, Scratch My Back", The Best Of Slim Harpo
-162,The Small Faces, You Need Loving,Ultimate Collection
-163,The Rolling Stones,Not Fade Away,England's Newest Hit Makers
-163,The Rascals,See,See
-163,Stevie Ray Vaughan & Double Trouble (featuring Dick Dale),Pipeline,The Real Deal: Greatest Hits Volume 2
-163,The Small Faces, "Me, You And Us Too", Me You And Us Too: Best of The Immediate Years
-163,NRBQ,Still In School,Uncommon Denominators
-163,The Beatles,Thank You Girl,Past Masters / The Beatles In Mono
-163,Sonny Boy Williamson,Dissatisfied,The Real Folk Blues
-163,Crazy Horse,I Don't Want To Talk About,It Crazy Horse
-163,Crabby Appleton,Tomorrow's A New Day,Rotten To The Core
-163,Moby Grape,Fall On You,Moby Grape
-163,Ray Charles,Drown In My Own Tears,Genious: The Ultimate Collection
-163,The Monkees,Valleri,The Best of The Monkees
-163,Paul Revere & the Raiders,"Louie, Go Home",Greatest Hits
-163,MC5,Gotta Keep Movin',High Time
-163,Donovan (with Jeff Beck Group),Barabajagal,Essential
-163,The Marvelettes,Too Many Fish In The Sea,The Best of The Marvelettes
-163,The Shangri-Las,Give Him A Great Big Kiss,The Best of The Shangri-Las
-163,Lightnin' Hopkins,Mojo Hand,The American Folk Blues Festival 1962-1966
-163,Pretender,Message Of Love,Pretenders II
-163,Mike Bloomfield / Al Kooper / Stephen Stills,Albert's Shuffle,Super Session
+159,"The Rolling Stones","Back Of My Hand","Bigger Bang"
+159,"Son Volt",Drown,"A Retrospective: 1995-2000"
+159,"Small Faces","All Or Nothing","Ultimate Collection"
+159,"Sly & The Family Stone","Sing A Simple Song","The Essential Sly & The Family Stone"
+159,"Arthur Conley","Funky Street","Sock It To 'Em Soul – 60's Club Soul Classics"
+159,Badfinger,"I'll Be The One","Straight Up"
+159,"The Beatles","Mr. Moonlight","Beatles For Sale"
+159,"Ritchie Valens","Come On, Let's Go","The Very Best of Ritchie Valens"
+159,"The Beach Boys","Farmer's Daughter","Surfin' USA"
+159,"Sonny Boy Williamson","Help Me","His Best"
+159,"Rod Stewart","Only A Hobo","Gasoline Alley"
+159,"Howlin' Wolf","Do The Do","The London Howlin' Wolf Sessions"
+159,"The Vaughan Brothers",Brothers,"Family Style"
+159,"The Who","Anyway, Anyhow, Anywhere","The Ultimate Collection"
+159,Jet,"Are You Gonna Be My Girl","Get Born"
+159,"Iggy Pop","Five Foot One","New Values"
+159,"Emitt Rhodes","Really Wanted You","The Emitt Rhodes Recordings (1969-1973)"
+159,"Jerry Lee Lewis","Just A Little Bit","Killer: The Mercury Years Volume 3: 1973-1977"
+160,"The Beatles","Bad Boy","Past Masters"
+160,"The Yardbirds","Lost Woman",Ultimate!
+160,"Willie Dixon","29 Ways","Chess Blues Classics 1947 to 1956"
+160,"The Ventures","Diamond Head","Walk – Don't Run: The Best of The Ventures"
+160,"Van Morrison","Jackie Wilson Said (I'm In Heaven When You Smile)","Saint Dominic's Preview"
+160,"The Temptations","Psychedelic Shack",Gold
+160,"Taj Mahal","Keep Your Hands Off Her","Giant Step"
+160,"The Strangeloves","Night Time","I Want Candy: The Best of The Strangeloves"
+160,"Smiley Lewis","Shame, Shame, Shame","The Best of Smiley Lewis: I Hear You Knocking"
+160,"Small Faces","Tin Soldier","Ultimate Collection"
+160,"Slim Harpo","I'm A King Bee","The Best of Slim Harpo"
+160,"The Rolling Stones","Shake Your Hips","Exile On Main Street (Deluxe Edition)"
+160,"Little Walter","Mellow Down Easy","His Best"
+160,"Lonesome Sundown","Don't Go","I'm A Mojo Man"
+160,"J.J. Cale","Don't Cry Sister","The Definitive Collection"
+160,"Ann Peebles","I Can't Stand The Rain","The Best of Ann Peebles – The Hi Records Years"
+160,"Bob Dylan","I Want You","Blonde On Blonde"
+160,"Fleetwood Mac","Tell Me All The Things You Do","Kiln House"
+160,"Freddie King","Lonesome Whistle Blues","Ultimate Collection"
+160,"Harry Nilsson","Jump Into The Fire",Schmilsson
+161,"The Yardbirds","Happenings Ten Years Time Ago",Ultimate!
+161,"Jimi Hendrix Experience","Ain't No Telling","Axis: Bold As Love"
+161,"Freddie King","Sugar Sweet",Burglar
+161,"Alvin Robinson","I'm Gonna Put Some Hurt On You","The Red Bird Story"
+161,"The Rolling Stones","Down Home Girl",Now!
+161,"Ricky Nelson","It's Late","Greatest Hits"
+161,"The Monkees","Let's Dance On","The Monkees"
+161,"Joe Tex","I Believe I'm Gonna Make It","Greatest Hits"
+161,Love,"Bummer In The Summer","Forever Changes"
+161,"Little Eva","The Loco-Motion","The Loco-Motion"
+161,"Piano Red","Rockin' With Red",Rocks
+161,"James Brown","It's A Man's, Man's, Man's World","40th Anniversary Collection"
+161,"Howlin' Wolf","I Ain't Superstitious","His Best"
+161,"Bob Dylan","Gotta Serve Somebody","Slow Train Coming"
+161,"Harry Nilsson",Spaceman,"Son Of Schmilsson"
+161,"The Who","Young Man Blues (live)","Live At Leeds (Deluxe Edition)"
+161,Nirvana,"The Man Who Sold The World (live)","MTV Unplugged In New York"
+161,Traffic,"Don't Be Sad",Traffic
+162,"George Harrison",Wah-Wah,"All Things Must Pass (30th Anniversary Edition)"
+162,"Los Hombres","Let It Out (Let It All Hang Out)","Nuggets: Original Artyfacts From The First Psychedelic Era 1965-1968"
+162,"The Staple Singers","Respect Yourself","Stax Profiles"
+162,"The Spencer Davis Group","I'm A Man","The Best of The Spencer Davis Group"
+162,"John Lennon","Cold Turkey","Shaved Fish"
+162,"Bo Diddley","You Don't Love Me (You Don't Care)","His Best"
+162,"The Standells","Try It","The Best of The Standells"
+162,"Status Quo","Pictures Of Matchstick Men",Gold
+162,"The Marvelettes",Playboy,"The Definitive Collection"
+162,"T- Bone Walker","Strollin' With Bone","The Complete Imperial Recordings"
+162,"Wilson Pickett","Land Of 1000 Dances","Wilson Pickett's Greatest Hits"
+162,"The Surfaris","Wipe Out","Rock Instrumental Classics, Vol.5: Surf"
+162,"Stealers Wheel","Stuck In The Middle With You","Stealers Wheel"
+162,"The Merry-Go-Round","You're A Very Lovely Woman","Listen, Listen: The Definitive Collection"
+162,"Bobby Fuller","Four Never To Be Forgotten","The Best of The Bobby Fuller Four"
+162,"Buffalo Springfield","Special Care","Last Time Around"
+162,"Slim Harpo","Baby, Scratch My Back","The Best Of Slim Harpo"
+162,"The Small Faces","You Need Loving","Ultimate Collection"
+163,"The Rolling Stones","Not Fade Away","England's Newest Hit Makers"
+163,"The Rascals",See,See
+163,"Stevie Ray Vaughan & Double Trouble (featuring Dick Dale)",Pipeline,"The Real Deal: Greatest Hits Volume 2"
+163,"The Small Faces","Me, You And Us Too","Me You And Us Too: Best of The Immediate Years"
+163,NRBQ,"Still In School","Uncommon Denominators"
+163,"The Beatles","Thank You Girl","Past Masters / The Beatles In Mono"
+163,"Sonny Boy Williamson",Dissatisfied,"The Real Folk Blues"
+163,"Crazy Horse","I Don't Want To Talk About","It Crazy Horse"
+163,"Crabby Appleton","Tomorrow's A New Day","Rotten To The Core"
+163,"Moby Grape","Fall On You","Moby Grape"
+163,"Ray Charles","Drown In My Own Tears","Genious: The Ultimate Collection"
+163,"The Monkees",Valleri,"The Best of The Monkees"
+163,"Paul Revere & the Raiders","Louie, Go Home","Greatest Hits"
+163,MC5,"Gotta Keep Movin'","High Time"
+163,"Donovan (with Jeff Beck Group)",Barabajagal,Essential
+163,"The Marvelettes","Too Many Fish In The Sea","The Best of The Marvelettes"
+163,"The Shangri-Las","Give Him A Great Big Kiss","The Best of The Shangri-Las"
+163,"Lightnin' Hopkins","Mojo Hand","The American Folk Blues Festival 1962-1966"
+163,Pretender,"Message Of Love","Pretenders II"
+163,"Mike Bloomfield / Al Kooper / Stephen Stills","Albert's Shuffle","Super Session"
 164,"The Youngbloods","Darkness, Darkness","Get Together: The Essential Youngbloods"
 164,"The Raveonettes","Love In A Trashcan","Pretty In Black"
 164,"The Beatles","She Said She Said",Revolver
@@ -3226,197 +3226,197 @@ showId,artist,title,album
 164,"The Rolling Stones","Oh Baby (We Got a Good Thing Goin')",Now!
 164,"The Who","Pictures Of Lily","The Ultimate Collection"
 164,"The Who","The Seeker","The Ultimate Collection"
-165,Tommy James,Draggin' The Line,Christian Of The World
-165,Del Shannon,Stranger In Town,Greatest Hits"
-165,The Rolling Stones,Down The Road Apiece,Now!"
-165,Jimmy Reed,"Shame, Shame, Shame",The Essential Boss Man
-165,The Animals,Hey Gyp,Retrospective"
-165,The Band,Don't Do It (Live),Rock Of Ages"
-165,Aretha Franklin (w/Keith Richards),Jumpin' Jack Flash,Jewels In The Crown: All-Star Duets With The Queen
-165,Arthur ""Big Boy"" Cruddup,So Glad You're Mine,That's All Right Mama"
-165,Savoy Brown,She's Got A Ring In His Nose And A Ring on Her Hand,The Savoy Brown Collection"
-165,Bo Diddley,Diddy Wah Diddy,The Chess Box
-165,Big Joe Turner,Shake Rattle & Roll,Greatest Hits
-165,Bob Dylan,If Dogs Run Free,New Morning"
-165,Howlin' Wolf,How Many More Years,His Best
-165,Tina Turner,River Deep-Mountain High,River Deep-Mountain High
-165,Jorgen Ingmann & His Guitar,Apache,"Rock Instrumental Classic, Vol 2: The Sixties"
-165,Chuck Berry,Wee Wee Hours,Blues
-165,King Floyd,Groove Me,Choice Cuts
-165,Otis Redding,Satisfaction,The Very Best of Otis Redding
-166,Larry Willliams,Slow Down,Bad Boy
-166,Blur,Song 2,Blur: The Best Of
-166,Bo Diddley,I'm A Man,The Best of The Blues Rock Songbook
-166,The Box Tops,The Letter,The Letter
-166,Buddy Johnson,Please Mr. Johnson,Jukebox Hits 1940-1951
-166,Johnny Winter,Rollin' And Tumblin',The Best of Johnny Winter
-166,Arlo Guthrie,Coming Into Los Angeles,Running Down The Road
-166,Big Joe Turner,Honey Hush,The Very Best of Big Joe Turner
-166,The Kinks,Where Have All The Good Times Gone,Picture Book (Box Set)
-166,Bob Dylan,Highway 61 Revisited,Highway 61 Revisited
-166,Muddy Waters,Long Distance Call,Anthology 1947-1972
-166,Manfred Mann,Bring It To Jerome,Down The Road Apiece: Their EMI Recordings 1963-1966
-166,The Marvelettes,The Hunter Gets Captured By The Game,The Definitive Collection
-166,Rene Hall's Orchestra with Willie Joe,Twitchy,The Specialty Story
-166,Spirit,Gramophone Man,Spirit
-166,The Rolling Stones,2000 Light Years From Home,Their Satanic Majesties Request
-166,Otis Redding,Hard To Handle,Dreams To Remember: The Otis Redding Anthology
-166,Them,Here Comes The Night,Them Featuring Van Morrison
-166,Bob Marley & The Wailers,Jamming,One Love: The Very Best of Bob Marley & The Wailers
-167,Bettye Swann,Make Me Yours,Make Me Yours - Golden Classics
-167,The Rolling Stones,Rip This Joint,Exile On Main Street
-167,Bo Diddley,Hey Bo Diddley,His Best
-167,The Bobby Fuller Four,Let Her Dance,The Best of The Bobby Fuller Four
-167,Beau Brummels,Don't Talk To Strangers,Volume 2
-167,Wynonie Harris,Sittin' On It All The Time,The Best of Wynonie Harris
-167,Bob Dylan,Buckets Of Rain,Blood On The Tracks
-167,Sam Cooke,Jesus Gave Me Water,Portrait Of A Legend 1951-1964
-167,James Brown,I'll Go Crazy (live),Live At The Apollo (1962) Expanded Edition
-167,Joe Strummer & The Mescaleros,Johnny Appleseed,Global A Go-Go
-167,John Mayall & The Bluesbreakers,The Supernatural,A Hard Road (Deluxe Edition)
-167,The Zombies,I Want You Back Again,The Zombies
-167,The Yardbirds,Heart Full Of Soul,Ultimate!
-167,Jeff Beck Group,Spanish Boots,Beck-Ola
-167,T. Rex,Ride A White Swan,20th Century Boy: The Ultimate Collection
-167,Jerry Lee Lewis,Good Golly Miss Molly (live),Live At The Star-Club Hamburg
-167,Stephen Stills/Manassas,Johnny's Garden,Manassas
-167,Ricky Nelson,If You Can't Rock Me,Rockin' With Ricky
-167,James & Bobby Purify,I Take What I Want,The Best of James & Bobby Purify
-167,Howlin' Wolf,Evil (Is Going On),The Best of Howlin' Wolf
-167,The Searchers,Goodbye My Love,The Very Best of The Searchers
-168,The Rolling Stones,Casino Boogie,Exile On Main Street (Deluxe Edition)
-168,Ann Peebles,I'm Gonna Tear Your Playhouse Down,The Hi Records Years: The Best of Ann Peebles
-168,Clarence Carter,Too Weak To Fight,Snatching It Back
-168,The Dave Clark Five,Try Too Hard,The Hits
-168,The Beatles,Wait,Rubber Soul/The Beatles In Mono Box Set
-168,Bobby ""Blue"" Bland,I Pity The Fool,The Best of Bobby Bland
-168,Booker T. & The MGs,Soul Dressing,The Very Best of Booker T. & The MGs
-168,The Box Tops,Soul Deep,The Letter
-168,Buffalo Springfield,Questions,Last Time Around
-168,Buddy Holly,True Love Ways,Gold
-168,The Byrds,It's No Use,Mr. Tambourine Man
-168,Chuck Berry,Rockin' At The Philharmonic,The Chess Box: 1955-1958
-168,Chuck Berry,Nadine (Is It You?),Gold
-168,The Clash,Clampdown,London Calling
-168,Crazy Horse,Downtown,Crazy Horse
-168,The Coasters,Shoppin' For Clothes,The Very Best of The Coasters
-168,Cream,Rollin' & Tumblin',BBC Sessions
-168,Arthur ""Big Boy"" Crudup,That's All Right,That's All Right Mama
-168,David Bowie,Sorrow,Pin Ups
-168,Dick Dale and His Del-Tones,The Wedge,The Best of Dick Dale & His Del-Tones
-169,Chubby Checker,The Twist,The Best of Chubby Checker 1959-1963
-169,Jeff Beck Group,Plynth (Water Down The Drain),Beck-Ola
-169,Champion Jack Dupree,Can't Kick The Habit,Blues From The Gutter
-169,Dave Clark Five,Any Way You Want It,The Hits
-169,Carl Perkins,Glad All Over,The Very Best of Carl Perkins: Blue Suede Shoes
-169,The Byrds,Chestnut Mare,(Untitled) / (Unissued)
-169,Chuck Berry,Around And Around,Gold
-169,The Dixie Cups,Iko Iko,The Very Best of The Dixie Cups: Chapel Of Love
-169,Del Shannon,Handy Man,Greatest Hits
-169,The Rolling Stones,Congratulations,12 X 5
-169,Little Walter,Off The Wall,His Best
-169,Ann Peebles,I Pity The Fool,The Best of Ann Peebles: The Hi Records Years
-169,The Beatles,I Should Have Known Better,A Hard Day's Night
-169,Larry Williams,Dizzy Miss Lizzy,Bad Boy
-169,Little Richard,Rip It Up,Rocks
-169,Bob Dylan,I Threw It All Away,Nashville Skyline
-169,Bob Marley,"Get Up, Stand Up",Burnin'
-169,Spirit, Fresh-Garbage,The Best of Spirit
-169,Stan Webb & Chicken Shack,"Lost The Best Friend I Ever Had (live) Going Up, Going Down",The Anthology 1968-2001
-170,Spencer Davis Group,Keep On Running,Gimme Some Lovin'
-170,The Kinks,Who'll Be The Next In Line,Picture Book (Box Set)
-170,Little Milton,We're Gonna Make It,Greatest Hits
-170,Little Richard,"Good Golly, Miss Molly",The Very Best of Little Richard
-170,Ray Charles,(Night Time Is) The Right Time,The Best Of Ray Charles: The Atlantic Years
-170,The Rolling Stones,Live With Me (live),Get Yer Ya-Ya's Out! (Deluxe Editioon)
-170,The Rolling Stones,"Ride On, Baby",Flowers
-170,Sonny Boy Williamson,One Way Out,The Real Folk Blues
-170,Little Feat,Willlin',Sailin' Shoes
-170,Son Volt,Windfall,Trace
-170,Left Banke,Walk Away Renee,There's Gonna Be A Storm: The Complete Recordings 1966-1969
-170,Linda Lyndell,What A Man,The Complete Stax/Volt Soul Singles 1968-1971 (Box Set)
-170,Magic Sam,Magic Rocker,The Essential Magic Sam: Cobra & Chief Recordings 1957-1961
-170,Lucinda Williams,Joy,Car Wheels On A Gravel Road
-170,Ronnie Hawkins,Who Do You Love,The Best of Ronnie Hawkins & The Hawks
-170,Rockpile,Teacher Teacher,Seconds Of Pleasure
-170,Slim Harpo,Bobby Sox Baby,I'm A King Bee: The Early Swamp-Blues Classics
-170,Sam & Dave,Soothe Me (live),The Very Best of Sam & Dave
-170,Sam Cooke,Good Times,Portrait Of A Legend 1951-1964
-170,Leonard Cohen,Everybody Knows (live),Live In London
-171,Elvis Presley,I Feel So Bad,Hitstory
-171,Frankie Miller,Be Good To Yourself,Full House
-171,Ann Peebles,(You Keep Me) Hangin' On,The Best of Ann Peebles: The Hi Records Years
-171,The Beach Boys,Feel Flows,Surf's Up
-171,The Beatles,I'm Only Sleeping,Revolver (In Mono Box Set)
-171,The Beatles,And Your Bird Can Sing,Revolver
-171,Chuck Berry,Roll Over Beethoven,The Anthology
-171,Freddie King,My Feeling For The Blues,Ultimate Collection
-171,Paul Revere & The Raiders,I'm Not Your Steppin' Stone,Greatest Hits
-171,The Rolling Stones,Play With Fire,Out Of Our Heads
-171,MC5,Kick Out The Jams (Uncensored Version),Greatest Hits
-171,Jimi Hendrix Experience,"Rainy Day, Dream Day",Electric Ladyland
-171,Muddy Waters,Still A Fool,The Anthology 1947-1972
-171,Free,Songs Of Yesterday,Free
-171,Little Feat,Easy To Slip,Sailin' Shoes
-171,Robert Palmer,Sailing Shoes,Sneakin' Sally Through The Alley
-171,Cowboy,Please Be With Me,Best Of Cowboy - A Different Time
-171,Rod Stewart,Every Picture Tells A Story,Every Picture Tells A Story
-172,Bob Dylan,Positively 4th Street,The Essential Bob Dylan
-172,Dale Hawkins,Susie Q,Rock 'N' Roll Tornado
-172,The Animals,Bring It On Home To Me,Retrospective
-172,Elvis Presley,Good Rockin' Tonight,Elvis At Sun
-172,Arthur Alexander,You Better Move On,The Greatest
-172,The Band with Dr. John,Such A Night,The Last Waltz
-172,Elmore James,Fine Little Mama,The Best of Elmore James
-172,Don Covay,"Mercy, Mercy",Mercy
-172,Nick Lowe,7 Nights To Rock,Basher: The Best of Nick Lowe
-172,Eddie Cochran,Somethin' Else,Somethin' Else: The Fine Looking Hits of Eddie Cochran
-172,Gram Parsons,Love Hurts,Grievous Angel
-172,Freddy Cannon,Abigail Beecher,The Best of Freddy ""Boom-Boom"" Cannon!
-172,Neil Young & Crazy Horse,Oh Susannah,Americana
-172,J.J. Cale,I'll Make Love To You Anytime,5
-172,Jimmy Reed,"What's Wrong, Baby",Jimmy Reed At Carnegie Hall
-172,Jimi Hendrix,Freedom,First Rays of The New Rising Sun
-172,Jerry Lee Lewis,Wild One (Real Wild Child),Platinum & Gold Collection
-172,The Flirtations,Nothing But A Heartache,Sounds Like The Flirtations
-172,Dusty Springfield,I Only Want To Be With You,The Best of Dusty Springfield
-172,Gene Vincent & the Blue Caps,"Jump Back, Honey, Jump Back",The Screaming End: The Best of Gene Vincent & His Blue Caps
-173,The Moving Sidewalks,You Make Me Shake,The Complete Collection
-173,Badfinger,Sometimes,Straight Up
-173,Stealers Wheel,Star,Ferguslie Park
-173,The Animals,Gonna Send You Back To Walker,The Singles +
-173,Steppenwolf,Rock Me All Time,Greatest Hits
-173,Bo Diddley,I'm Looking For A Woman,His Best
-173,Junior Wells,Two Headed Woman,Messin' With The Kid
-173,The Kinks,A Long Way From Home,Lola Versus Powerman And The Moneygoround
-173,Little Walter,My Babe,His Best
-173,Manfred Mann,Sticks And Stones,Down The Road Apiece: Their EMI Recordings 1963-1966
-173,Link Wray & The Wraymen,Dance Contest Slinky!,The Epic Sessions '58-'61
-173,Marc Bolan & T. Rex,20th Century Boy,20th Century Boy: The Ultimate Collection
-173,The Marvelettes,Beechwood 4-5789,The Definitive Collection
-173,The Beatles,Please Mister Postman,With The Beatles
-173,Buddy Holly,Rock Me My Baby,Gold
-173,The Flying Burrito Brothers,Christine's Tune,The Gilded Palace Of Sin
-173,Howlin' Wolf,Who's Been Talkin',His Best
-173,The Zombies,You Make Me Feel So Good ,he Zombies
-173,Otis Redding,Day Tripper,Complete & Unbelievable: The Otis Redding Dictionary of Soul
-173,Van Morrison,Educating Archie,Born To Sing: No Plan B
-174,The Animals,It's My Life,Retrospective
-174,Booker T. & the MGs,Green Onions,Green Onions
-174,Fontella Bass & Bobby McClure,Don't Mess Up A Good Thing,Chess Soul - A Decade of Chicago's Finest
-174,The Monkees,Last Train To Clarksville,The Monkees
-174,Stealers Wheel,Good Businessman,Ferguslie Park
-174,Nirvana,Heart Shaped Box,In Utero
-174,Crazy Horse,I'll Get By,Crazy Horse
-174,The Rolling Stones,Factory Girl,Beggar's Banquet
-174,Free,The Hunter,Tons Of Sobs
-174,B.B. King,Gambler's Blues (live),Great Moments With B.B. King
-174,The Rascals,What Is The Reason,Anthology 1965-1972
-174,The Clash,London Calling,London Callings
-174,Dion,The Wanderer,The Essential Dion
-174,Mudcrutch,The Wrong Thing To Do,Mudcrutch
-174,Gene Pitney,It Hurts To Be In Love,The Best of Gene Pitney
-174,Beatles/Led Zeppelin,mash up Helter Skelter/Whole Lotta Love,in-studio mash up containing both songs
+165,"Tommy James","Draggin' The Line","Christian Of The World"
+165,"Del Shannon","Stranger In Town","Greatest Hits"
+165,"The Rolling Stones","Down The Road Apiece",Now!
+165,"Jimmy Reed","Shame, Shame, Shame","The Essential Boss Man"
+165,"The Animals","Hey Gyp",Retrospective
+165,"The Band","Don't Do It (Live)","Rock Of Ages"
+165,"Aretha Franklin (w/Keith Richards)","Jumpin' Jack Flash","Jewels In The Crown: All-Star Duets With The Queen"
+165,"Arthur """"Big Boy"""" Cruddup","So Glad You're Mine","That's All Right Mama"
+165,"Savoy Brown","She's Got A Ring In His Nose And A Ring on Her Hand","The Savoy Brown Collection"
+165,"Bo Diddley","Diddy Wah Diddy","The Chess Box"
+165,"Big Joe Turner","Shake Rattle & Roll","Greatest Hits"
+165,"Bob Dylan","If Dogs Run Free","New Morning"
+165,"Howlin' Wolf","How Many More Years","His Best"
+165,"Tina Turner","River Deep-Mountain High","River Deep-Mountain High"
+165,"Jorgen Ingmann & His Guitar",Apache,"Rock Instrumental Classic, Vol 2: The Sixties"
+165,"Chuck Berry","Wee Wee Hours",Blues
+165,"King Floyd","Groove Me","Choice Cuts"
+165,"Otis Redding",Satisfaction,"The Very Best of Otis Redding"
+166,"Larry Willliams","Slow Down","Bad Boy"
+166,Blur,"Song 2","Blur: The Best Of"
+166,"Bo Diddley","I'm A Man","The Best of The Blues Rock Songbook"
+166,"The Box Tops","The Letter","The Letter"
+166,"Buddy Johnson","Please Mr. Johnson","Jukebox Hits 1940-1951"
+166,"Johnny Winter","Rollin' And Tumblin'","The Best of Johnny Winter"
+166,"Arlo Guthrie","Coming Into Los Angeles","Running Down The Road"
+166,"Big Joe Turner","Honey Hush","The Very Best of Big Joe Turner"
+166,"The Kinks","Where Have All The Good Times Gone","Picture Book (Box Set)"
+166,"Bob Dylan","Highway 61 Revisited","Highway 61 Revisited"
+166,"Muddy Waters","Long Distance Call","Anthology 1947-1972"
+166,"Manfred Mann","Bring It To Jerome","Down The Road Apiece: Their EMI Recordings 1963-1966"
+166,"The Marvelettes","The Hunter Gets Captured By The Game","The Definitive Collection"
+166,"Rene Hall's Orchestra with Willie Joe",Twitchy,"The Specialty Story"
+166,Spirit,"Gramophone Man",Spirit
+166,"The Rolling Stones","2000 Light Years From Home","Their Satanic Majesties Request"
+166,"Otis Redding","Hard To Handle","Dreams To Remember: The Otis Redding Anthology"
+166,Them,"Here Comes The Night","Them Featuring Van Morrison"
+166,"Bob Marley & The Wailers",Jamming,"One Love: The Very Best of Bob Marley & The Wailers"
+167,"Bettye Swann","Make Me Yours","Make Me Yours - Golden Classics"
+167,"The Rolling Stones","Rip This Joint","Exile On Main Street"
+167,"Bo Diddley","Hey Bo Diddley","His Best"
+167,"The Bobby Fuller Four","Let Her Dance","The Best of The Bobby Fuller Four"
+167,"Beau Brummels","Don't Talk To Strangers","Volume 2"
+167,"Wynonie Harris","Sittin' On It All The Time","The Best of Wynonie Harris"
+167,"Bob Dylan","Buckets Of Rain","Blood On The Tracks"
+167,"Sam Cooke","Jesus Gave Me Water","Portrait Of A Legend 1951-1964"
+167,"James Brown","I'll Go Crazy (live)","Live At The Apollo (1962) Expanded Edition"
+167,"Joe Strummer & The Mescaleros","Johnny Appleseed","Global A Go-Go"
+167,"John Mayall & The Bluesbreakers","The Supernatural","A Hard Road (Deluxe Edition)"
+167,"The Zombies","I Want You Back Again","The Zombies"
+167,"The Yardbirds","Heart Full Of Soul",Ultimate!
+167,"Jeff Beck Group","Spanish Boots",Beck-Ola
+167,"T. Rex","Ride A White Swan","20th Century Boy: The Ultimate Collection"
+167,"Jerry Lee Lewis","Good Golly Miss Molly (live)","Live At The Star-Club Hamburg"
+167,"Stephen Stills/Manassas","Johnny's Garden",Manassas
+167,"Ricky Nelson","If You Can't Rock Me","Rockin' With Ricky"
+167,"James & Bobby Purify","I Take What I Want","The Best of James & Bobby Purify"
+167,"Howlin' Wolf","Evil (Is Going On)","The Best of Howlin' Wolf"
+167,"The Searchers","Goodbye My Love","The Very Best of The Searchers"
+168,"The Rolling Stones","Casino Boogie","Exile On Main Street (Deluxe Edition)"
+168,"Ann Peebles","I'm Gonna Tear Your Playhouse Down","The Hi Records Years: The Best of Ann Peebles"
+168,"Clarence Carter","Too Weak To Fight","Snatching It Back"
+168,"The Dave Clark Five","Try Too Hard","The Hits"
+168,"The Beatles",Wait,"Rubber Soul/The Beatles In Mono Box Set"
+168,"Bobby """"Blue"""" Bland","I Pity The Fool","The Best of Bobby Bland"
+168,"Booker T. & The MGs","Soul Dressing","The Very Best of Booker T. & The MGs"
+168,"The Box Tops","Soul Deep","The Letter"
+168,"Buffalo Springfield",Questions,"Last Time Around"
+168,"Buddy Holly","True Love Ways",Gold
+168,"The Byrds","It's No Use","Mr. Tambourine Man"
+168,"Chuck Berry","Rockin' At The Philharmonic","The Chess Box: 1955-1958"
+168,"Chuck Berry","Nadine (Is It You?)",Gold
+168,"The Clash",Clampdown,"London Calling"
+168,"Crazy Horse",Downtown,"Crazy Horse"
+168,"The Coasters","Shoppin' For Clothes","The Very Best of The Coasters"
+168,Cream,"Rollin' & Tumblin'","BBC Sessions"
+168,"Arthur """"Big Boy"""" Crudup","That's All Right","That's All Right Mama"
+168,"David Bowie",Sorrow,"Pin Ups"
+168,"Dick Dale and His Del-Tones","The Wedge","The Best of Dick Dale & His Del-Tones"
+169,"Chubby Checker","The Twist","The Best of Chubby Checker 1959-1963"
+169,"Jeff Beck Group","Plynth (Water Down The Drain)",Beck-Ola
+169,"Champion Jack Dupree","Can't Kick The Habit","Blues From The Gutter"
+169,"Dave Clark Five","Any Way You Want It","The Hits"
+169,"Carl Perkins","Glad All Over","The Very Best of Carl Perkins: Blue Suede Shoes"
+169,"The Byrds","Chestnut Mare","(Untitled) / (Unissued)"
+169,"Chuck Berry","Around And Around",Gold
+169,"The Dixie Cups","Iko Iko","The Very Best of The Dixie Cups: Chapel Of Love"
+169,"Del Shannon","Handy Man","Greatest Hits"
+169,"The Rolling Stones",Congratulations,"12 X 5"
+169,"Little Walter","Off The Wall","His Best"
+169,"Ann Peebles","I Pity The Fool","The Best of Ann Peebles: The Hi Records Years"
+169,"The Beatles","I Should Have Known Better","A Hard Day's Night"
+169,"Larry Williams","Dizzy Miss Lizzy","Bad Boy"
+169,"Little Richard","Rip It Up",Rocks
+169,"Bob Dylan","I Threw It All Away","Nashville Skyline"
+169,"Bob Marley","Get Up, Stand Up",Burnin'
+169,Spirit,Fresh-Garbage,"The Best of Spirit"
+169,"Stan Webb & Chicken Shack","Lost The Best Friend I Ever Had (live) Going Up, Going Down","The Anthology 1968-2001"
+170,"Spencer Davis Group","Keep On Running","Gimme Some Lovin'"
+170,"The Kinks","Who'll Be The Next In Line","Picture Book (Box Set)"
+170,"Little Milton","We're Gonna Make It","Greatest Hits"
+170,"Little Richard","Good Golly, Miss Molly","The Very Best of Little Richard"
+170,"Ray Charles","(Night Time Is) The Right Time","The Best Of Ray Charles: The Atlantic Years"
+170,"The Rolling Stones","Live With Me (live)","Get Yer Ya-Ya's Out! (Deluxe Editioon)"
+170,"The Rolling Stones","Ride On, Baby",Flowers
+170,"Sonny Boy Williamson","One Way Out","The Real Folk Blues"
+170,"Little Feat",Willlin',"Sailin' Shoes"
+170,"Son Volt",Windfall,Trace
+170,"Left Banke","Walk Away Renee","There's Gonna Be A Storm: The Complete Recordings 1966-1969"
+170,"Linda Lyndell","What A Man","The Complete Stax/Volt Soul Singles 1968-1971 (Box Set)"
+170,"Magic Sam","Magic Rocker","The Essential Magic Sam: Cobra & Chief Recordings 1957-1961"
+170,"Lucinda Williams",Joy,"Car Wheels On A Gravel Road"
+170,"Ronnie Hawkins","Who Do You Love","The Best of Ronnie Hawkins & The Hawks"
+170,Rockpile,"Teacher Teacher","Seconds Of Pleasure"
+170,"Slim Harpo","Bobby Sox Baby","I'm A King Bee: The Early Swamp-Blues Classics"
+170,"Sam & Dave","Soothe Me (live)","The Very Best of Sam & Dave"
+170,"Sam Cooke","Good Times","Portrait Of A Legend 1951-1964"
+170,"Leonard Cohen","Everybody Knows (live)","Live In London"
+171,"Elvis Presley","I Feel So Bad",Hitstory
+171,"Frankie Miller","Be Good To Yourself","Full House"
+171,"Ann Peebles","(You Keep Me) Hangin' On","The Best of Ann Peebles: The Hi Records Years"
+171,"The Beach Boys","Feel Flows","Surf's Up"
+171,"The Beatles","I'm Only Sleeping","Revolver (In Mono Box Set)"
+171,"The Beatles","And Your Bird Can Sing",Revolver
+171,"Chuck Berry","Roll Over Beethoven","The Anthology"
+171,"Freddie King","My Feeling For The Blues","Ultimate Collection"
+171,"Paul Revere & The Raiders","I'm Not Your Steppin' Stone","Greatest Hits"
+171,"The Rolling Stones","Play With Fire","Out Of Our Heads"
+171,MC5,"Kick Out The Jams (Uncensored Version)","Greatest Hits"
+171,"Jimi Hendrix Experience","Rainy Day, Dream Day","Electric Ladyland"
+171,"Muddy Waters","Still A Fool","The Anthology 1947-1972"
+171,Free,"Songs Of Yesterday",Free
+171,"Little Feat","Easy To Slip","Sailin' Shoes"
+171,"Robert Palmer","Sailing Shoes","Sneakin' Sally Through The Alley"
+171,Cowboy,"Please Be With Me","Best Of Cowboy - A Different Time"
+171,"Rod Stewart","Every Picture Tells A Story","Every Picture Tells A Story"
+172,"Bob Dylan","Positively 4th Street","The Essential Bob Dylan"
+172,"Dale Hawkins","Susie Q","Rock 'N' Roll Tornado"
+172,"The Animals","Bring It On Home To Me",Retrospective
+172,"Elvis Presley","Good Rockin' Tonight","Elvis At Sun"
+172,"Arthur Alexander","You Better Move On","The Greatest"
+172,"The Band with Dr. John","Such A Night","The Last Waltz"
+172,"Elmore James","Fine Little Mama","The Best of Elmore James"
+172,"Don Covay","Mercy, Mercy",Mercy
+172,"Nick Lowe","7 Nights To Rock","Basher: The Best of Nick Lowe"
+172,"Eddie Cochran","Somethin' Else","Somethin' Else: The Fine Looking Hits of Eddie Cochran"
+172,"Gram Parsons","Love Hurts","Grievous Angel"
+172,"Freddy Cannon","Abigail Beecher","The Best of Freddy """"Boom-Boom"""" Cannon!"
+172,"Neil Young & Crazy Horse","Oh Susannah",Americana
+172,"J.J. Cale","I'll Make Love To You Anytime",5
+172,"Jimmy Reed","What's Wrong, Baby","Jimmy Reed At Carnegie Hall"
+172,"Jimi Hendrix",Freedom,"First Rays of The New Rising Sun"
+172,"Jerry Lee Lewis","Wild One (Real Wild Child)","Platinum & Gold Collection"
+172,"The Flirtations","Nothing But A Heartache","Sounds Like The Flirtations"
+172,"Dusty Springfield","I Only Want To Be With You","The Best of Dusty Springfield"
+172,"Gene Vincent & the Blue Caps","Jump Back, Honey, Jump Back","The Screaming End: The Best of Gene Vincent & His Blue Caps"
+173,"The Moving Sidewalks","You Make Me Shake","The Complete Collection"
+173,Badfinger,Sometimes,"Straight Up"
+173,"Stealers Wheel",Star,"Ferguslie Park"
+173,"The Animals","Gonna Send You Back To Walker","The Singles +"
+173,Steppenwolf,"Rock Me All Time","Greatest Hits"
+173,"Bo Diddley","I'm Looking For A Woman","His Best"
+173,"Junior Wells","Two Headed Woman","Messin' With The Kid"
+173,"The Kinks","A Long Way From Home","Lola Versus Powerman And The Moneygoround"
+173,"Little Walter","My Babe","His Best"
+173,"Manfred Mann","Sticks And Stones","Down The Road Apiece: Their EMI Recordings 1963-1966"
+173,"Link Wray & The Wraymen","Dance Contest Slinky!","The Epic Sessions '58-'61"
+173,"Marc Bolan & T. Rex","20th Century Boy","20th Century Boy: The Ultimate Collection"
+173,"The Marvelettes","Beechwood 4-5789","The Definitive Collection"
+173,"The Beatles","Please Mister Postman","With The Beatles"
+173,"Buddy Holly","Rock Me My Baby",Gold
+173,"The Flying Burrito Brothers","Christine's Tune","The Gilded Palace Of Sin"
+173,"Howlin' Wolf","Who's Been Talkin'","His Best"
+173,"The Zombies","You Make Me Feel So Good","he Zombies"
+173,"Otis Redding","Day Tripper","Complete & Unbelievable: The Otis Redding Dictionary of Soul"
+173,"Van Morrison","Educating Archie","Born To Sing: No Plan B"
+174,"The Animals","It's My Life",Retrospective
+174,"Booker T. & the MGs","Green Onions","Green Onions"
+174,"Fontella Bass & Bobby McClure","Don't Mess Up A Good Thing","Chess Soul - A Decade of Chicago's Finest"
+174,"The Monkees","Last Train To Clarksville","The Monkees"
+174,"Stealers Wheel","Good Businessman","Ferguslie Park"
+174,Nirvana,"Heart Shaped Box","In Utero"
+174,"Crazy Horse","I'll Get By","Crazy Horse"
+174,"The Rolling Stones","Factory Girl","Beggar's Banquet"
+174,Free,"The Hunter","Tons Of Sobs"
+174,"B.B. King","Gambler's Blues (live)","Great Moments With B.B. King"
+174,"The Rascals","What Is The Reason","Anthology 1965-1972"
+174,"The Clash","London Calling","London Callings"
+174,Dion,"The Wanderer","The Essential Dion"
+174,Mudcrutch,"The Wrong Thing To Do",Mudcrutch
+174,"Gene Pitney","It Hurts To Be In Love","The Best of Gene Pitney"
+174,"Beatles/Led Zeppelin","mash up Helter Skelter/Whole Lotta Love","in-studio mash up containing both songs"
 175,"Howlin' Wolf","Wang Dang Doodle","His Best"
 175,"The Animals",Shake,Animalism
 175,"James Brown & The Famous Flames",Think,"The In Crowd: The Ultimate Mod Collection from the Original Style Movement 1958-1967"
@@ -3428,7 +3428,7 @@ showId,artist,title,album
 175,"Ramsey Lewis Trio","Wade In The Water","The In Crowd: The Ultimate Mod Collection from the Original Style Movement 1958-1967"
 175,"The Kinks","Nothin' In The World Can Stop Me Worryin' Bout That Girl","Kinda Kinks"
 175,"Bob Dylan","If Not For You","New Morning"
-175,"Jackie Brenston & His Delta Cats","Rocket ""88""","Loud, Fast & Out of Control: The Wild Sounds of '50s Rock"
+175,"Jackie Brenston & His Delta Cats","Rocket ""88","Loud, Fast & Out of Control: The Wild Sounds of '50s Rock"
 175,"Rufus Thomas","Walking The Dog","Instant Party: Whole Lotta Soul"
 175,"Buddy Holly & The Crickets","Maybe Baby",Gold
 175,"Shirley Ellis","The Clapping Song","The Complete Congress Recordings"
@@ -3478,7 +3478,7 @@ showId,artist,title,album
 177,"Paul Butterfield Blues Band","Blues With A Feeling","An Anthology: The Elektra Years"
 178,"Koko Taylor","(I Got) All You Need","What It Takes – The Chess Years (Expanded)"
 178,"Tommy Tucker","Hi-Heel Sneakers","The In Crowd: The Ultimate Mod Collection From the Original Style Movement 1958-1967"
-178,"The Rolling Stones","2120 South Michigan Avenue",12 X 5
+178,"The Rolling Stones","2120 South Michigan Avenue","12 X 5"
 178,"Bob Dylan","Stuck Inside of Mobile With the Memphis Blues Again","Blonde On Blonde"
 178,"Bo Diddley","Who Do You Love","His Best"
 178,"Ann Peebles","Give Me Some Credit","The Best of Ann Peebles: The Hi Records Years"
@@ -3750,7 +3750,7 @@ showId,artist,title,album
 191,"The Small Faces","Itchycoo Park","Here Comes The Nice (Box Set)"
 191,"Barbara Lynn","You'll Lose A Good Thing","The Jamie Singles Collection 1962-1965"
 191,Mudcrutch,"Crystal River (live)","Extended Play Live"
-192,"The Rolling Stones","Around And Around",12 X 5
+192,"The Rolling Stones","Around And Around","12 X 5"
 192,"Roy Orbison","Blue Angel","The Monument Singles Collection (1960-1964)"
 192,"Roy Head & The Traits","Treat Her Right","Treat Her Right: The Best of Roy Trait"
 192,"Little Richard","True, Fine Mama","Here's Little Richard"
@@ -3897,14 +3897,14 @@ showId,artist,title,album
 199,"Earl King","Baby You Can Get Your Gun","Earl's Pearls - The Very Best of Earl King (1955-1960)"
 199,"Dwight Twilley Band","I'm On Fire",Sincerely
 199,"The Beach Boys","Sail On, Sailor","Fifty Big Ones - Greatest Hits"
-199,"The Beach Boys",Forever,Sunflower
-199,"The Beach Boys",Marcella,"Carl and The Passions "
-199,"""So Tough""","Duane Eddy","(Dance With The) Guitar Man"
-199,"The Duane Eddy Anthology","Little Walter",Juke
-199,"The Essential Little Walter","Eddie Kirk","The Hawg (Part 2)"
-199,"4000 Volts of Stax & Satellite","Carl Perkins","Right String Baby But The Wrong Yo Yo"
-199,"The Very Best of Carl Perkins - Blue Suede Shoes","The Rolling Stones","Talkin' About You"
-199,"December's Children (and everybody's)","Led Zeppelin","You Shook Me"
+199,"The Beach Boys","Forever Sunflower","The Beach Boys"
+199,Marcella,"Carl and The Passions","So Tough"
+199,"Duane Eddy","(Dance With The) Guitar Man","The Duane Eddy Anthology"
+199,"Little Walter",Juke,"The Essential Little Walter",
+199,"Eddie Kirk","The Hawg (Part 2)","4000 Volts of Stax & Satellite"
+199,"Carl Perkins","Right String Baby But The Wrong Yo Yo","The Very Best of Carl Perkins - Blue Suede Shoes"
+199,"The Rolling Stones","Talkin' About You","December's Children (and everybody's)"
+199,"Led Zeppelin","You Shook Me"
 200,"The Rolling Stones","Route 66 (live)","December's Children (and everybody's)"
 200,"The Who","Out In The Street","My Generation (Deluxe Edition)"
 200,"The Beatles","Paperback Writer","Past Masters"
@@ -4409,7 +4409,7 @@ showId,artist,title,album
 226,"Maurice & Mac","You Left The Water Running","Chess Soul: A Decade Of Chicago’s Finest"
 226,"Electric Light Orchestra","Long Black Road","American Hustle (Original Motion Picture Soundtrack)"
 226,"Joe Cocker","Don’t Let Me Be Misunderstood","With A Little Help From My Friends"
-226,"Jackie Brenton & His Delta Cats","Rocket “88""","Loud, Fast & Out Of Control: The Wild Sounds of ‘50s Rock"
+226,"Jackie Brenton & His Delta Cats",Rocket “88,"Loud, Fast & Out Of Control: The Wild Sounds of ‘50s Rock"
 226,"Ann Peebles","99 Pounds","The Best of Ann Peebles: The Hi Records Years"
 226,"The White Stripes","Black Math",Elephant
 227,Traffic,"You Can All Join In",Traffic
@@ -4438,7 +4438,7 @@ showId,artist,title,album
 228,"Lonnie Mack",Memphis,"Memphis Wham!"
 228,"Lucinda Williams","Can’t Let Go","Car Wheels On A Gravel Road"
 228,Love,"You I’ll Be Following","Love (Expanded Edition)"
-228,"Rolling Stones","Empty Heart",12 X 5
+228,"Rolling Stones","Empty Heart","12 X 5"
 228,"Rolling Stones","I’m A King Bee","England’s Newest Hit Makers"
 228,"Lighting' Hopkins","Mojo Hand","The American Folk Blues Festival 1962-1966"
 228,"The Animals","Hey Gyp",Retrospective
@@ -4474,20 +4474,20 @@ showId,artist,title,album
 230,"James Brown & The Famous Flames","There Was A Time (live)","The Singles Volume Five: 1967-1969"
 230,"B.B. King","Whole Lotta Love","The Complete Singles As & Bs 1949-1962"
 230,"Jimmy McCracklin","Georgia Slop","The Mercury Recordings"
-230,"J.J. Cale","Thirteen Days","5"
-230,"The Coasters","Little Egypt","20 Greatest Hits",
+230,"J.J. Cale","Thirteen Days",5
+230,"The Coasters","Little Egypt","20 Greatest Hits"
 230,Pretenders,"The Wait","Pretenders (expanded edition)"
 230,"The Zombies",Indication,"The Singles As & Bs"
 230,"The Rolling Stones","Jumpin’ Jack Flash (live)","Get Yer Ya-Ya’s Out (expanded edition)"
 230,"Micky Dolenz","Good Morning Good Morning",Remember
-230,"The Who","Anyway, Anyhow, Anywhere","The Ultimate Collection",
+230,"The Who","Anyway, Anyhow, Anywhere","The Ultimate Collection"
 230,"Screamin’ Jay Hawkins","Little Demon","Loud, Fast & Out Of Control: The Wild Sound of ‘50s Rock"
 230,"Slim Harpo","Bobby Sox Baby","The Best Of Slim Harpo"
 230,"Lee Dorsey","Working In The Coal Mine","The Definitive Collection"
 230,"John Lee Hooker","Boogie Chillen'","The Very Best Of John Lee Hooker"
 230,"Bill Withers","Use Me","The Best Of Bill Withers: Lean On Me"
 230,"Barbara Lynn","You’ll Lose A Good Thing","The Jamie Singles Collection 1962-1965"
-230,Bob Dylan,Not Dark Yet,Time Out Of Mind
+230,"Bob Dylan","Not Dark Yet","Time Out Of Mind"
 231,"The Beatles","Doctor Robert",Revolver
 231,"Small Faces","Me, You And Us Too","Best of The Immediate Years"
 231,"Humble Pie","30 Days In The Hole",Smokin'
@@ -4876,4 +4876,3 @@ showId,artist,title,album
 251,Beatles,"I’m Looking Through You","Rubber Soul"
 251,Beatles,"There’s A Place","Please Please Me"
 251,"Mamas & The Papas","Got A Feelin'","If You Can Believe Your Eyes And Ears"
-
