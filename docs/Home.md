@@ -3,5 +3,5 @@ This site was created based off the playlists from [Tom Petty's Buried Treasure 
 
 Playlists can not be copyrighted, and the data on this site should be considered in the public domain.
 
-Found a problem with the site or data?  [Please let us know](/ContactUs).
+Found a problem with the data?  [Please let us know](/ContactUs). Problem with site? [Open an issue](https://github.com/phpfui/TomPettyBuriedTreasure/issues) or [PR](https://github.com/phpfui/TomPettyBuriedTreasure/pulls).
 
