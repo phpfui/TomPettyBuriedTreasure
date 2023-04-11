@@ -2,30 +2,32 @@
 
 namespace App\Tools;
 
+/**
+ * A simple CSV file reader.
+ *
+ * Emulates an array of records (arrays), implimented as an Iterator, so can be used in a foreach statements.
+ *
+ * - If your CSV file has headers (the default), then the keys of the returned array will be the header values.
+ * - You can also specify a different field delimiter, for example ("\t") for tabs.
+ * - Use rewind to reset to the top of the file.
+ * - The header record is NEVER returned as a record.  The first iteration will be the first record in the file, excluding the header record if specified.
+ *
+ * @implements \Iterator<array<string, string>>
+ */
 class CSVReader implements \Iterator
 	{
+	/** @var array<string, string> */
 	private array $current = [];
 
-	private string $delimiter = ',';
+	private $fh = null;
 
-	/**
-	 * @var closed-resource|false|null|resource
-	 */
-	private $fh;
-
-	private string $fileName;
-
-	private bool $headerRow = true;
-
+	/** @var array<string> */
 	private array $headers = [];
 
 	private int $index = 0;
 
-	public function __construct(string $fileName, bool $headerRow = true, string $delimiter = ',')
+	public function __construct(private readonly string $fileName, private readonly bool $headerRow = true, private readonly string $delimiter = ',')
 		{
-		$this->fileName = $fileName;
-		$this->headerRow = $headerRow;
-		$this->delimiter = $delimiter;
 		$this->rewind();
 		}
 
@@ -34,6 +36,7 @@ class CSVReader implements \Iterator
 		$this->closeFile();
 		}
 
+	/** @return array<string, string> */
 	public function current() : array
 		{
 		return $this->current;
@@ -91,22 +94,31 @@ class CSVReader implements \Iterator
 		$this->next();
 		}
 
-	public function setHeaders(array $headers) : void
+	/**
+	 * You can specify headers if your file does not include them.  The headers will be used as the key in the returned associative array for each record.
+	 *
+	 * @param array<string> $headers of strings
+	 */
+	public function setHeaders(array $headers) : static
 		{
 		$this->headers = $headers;
+
+		return $this;
 		}
 
-	public function valid()
+	public function valid() : bool
 		{
 		return $this->current && $this->fh;
 		}
 
-	private function closeFile() : void
+	private function closeFile() : static
 		{
 		if ($this->fh)
 			{
 			\fclose($this->fh);
 			$this->fh = null;
 			}
+
+		return $this;
 		}
 	}

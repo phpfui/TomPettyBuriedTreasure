@@ -1,5 +1,3 @@
-backup.sql
-Backups/
 www/phpinfo.php
 www/test.php
 files/
@@ -25,4 +23,6 @@ LICENSE.md
 /Sample
 /Slack/Tests
 /Symfony/Polyfill
+composer.lock
+.php-cs-fixer.cache
 
