@@ -26,7 +26,7 @@ class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoCla
 		{
 		if (null === $showId)
 			{
-			$this->redirect('/Admin/Shows/0');
+			$this->page->redirect('/Admin/Shows/0');
 
 			return;
 			}

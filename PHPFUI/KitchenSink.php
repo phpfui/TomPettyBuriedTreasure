@@ -839,24 +839,19 @@ class KitchenSink
 		return \gmdate('H:i:s') . ' ' . $id;
 		}
 
-	private function generateMenu(string $name, int $count, bool $active = false) : Menu
+	public static function subMenu() : Menu
 		{
-		$names = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
 		$menu = new \PHPFUI\Menu();
-		$count = \min($count, 10);
-
-		for ($i = 0; $i < $count; ++$i)
-			{
-			$item = new \PHPFUI\MenuItem($names[$i] . ' ' . $name, '#');
-			$item->setActive($active);
-			$active = false;
-			$menu->addMenuItem($item);
-			}
+		$menu->addMenuItem(new \PHPFUI\MenuItem('One A', '#'));
+		$menu->addMenuItem(new \PHPFUI\MenuItem('Two A', '#'));
+		$menu->addMenuItem(new \PHPFUI\MenuItem('Three A', '#'));
+		$menu->addSubMenu(new \PHPFUI\MenuItem('Four A', '#'), self::generateMenu('B', 3, true));
+		$menu->addSubMenu(new \PHPFUI\MenuItem('Five A', '#'), self::generateMenu('C', 10));
 
 		return $menu;
 		}
 
-	private function makeMenu(Menu $menu, string $name, ?string $class = '', ?\PHPFUI\Menu $subMenu = null) : Menu
+	public static function makeMenu(Menu $menu, string $name, ?string $class = '', ?\PHPFUI\Menu $subMenu = null) : Menu
 		{
 		$menu->addMenuItem(new \PHPFUI\MenuItem($name));
 		$menu->addMenuItem(new \PHPFUI\MenuItem('One', '#'));
@@ -883,6 +878,23 @@ class KitchenSink
 		return $menu;
 		}
 
+	private static function generateMenu(string $name, int $count, bool $active = false) : Menu
+		{
+		$names = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+		$menu = new \PHPFUI\Menu();
+		$count = \min($count, 10);
+
+		for ($i = 0; $i < $count; ++$i)
+			{
+			$item = new \PHPFUI\MenuItem($names[$i] . ' ' . $name, '#');
+			$item->setActive($active);
+			$active = false;
+			$menu->addMenuItem($item);
+			}
+
+		return $menu;
+		}
+
 	private function section(string $name) : Container
 		{
 		$container = new \PHPFUI\Container();
@@ -891,17 +903,5 @@ class KitchenSink
 		$container->add(new \PHPFUI\Header($name, 2));
 
 		return $container;
-		}
-
-	private function subMenu() : Menu
-		{
-		$menu = new \PHPFUI\Menu();
-		$menu->addMenuItem(new \PHPFUI\MenuItem('One A', '#'));
-		$menu->addMenuItem(new \PHPFUI\MenuItem('Two A', '#'));
-		$menu->addMenuItem(new \PHPFUI\MenuItem('Three A', '#'));
-		$menu->addSubMenu(new \PHPFUI\MenuItem('Four A', '#'), $this->generateMenu('B', 3, true));
-		$menu->addSubMenu(new \PHPFUI\MenuItem('Five A', '#'), $this->generateMenu('C', 10));
-
-		return $menu;
 		}
 	}
