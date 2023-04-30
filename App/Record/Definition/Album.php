@@ -17,7 +17,7 @@ abstract class Album extends \PHPFUI\ORM\Record
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
 		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'album' => ['varchar(255)', 'string', 255, false, false, "''", ],
+		'album' => ['varchar(255)', 'string', 255, false, false, '', ],
 		'albumId' => ['integer', 'int', 0, true, true, ],
 		'plays' => ['integer', 'int', 0, false, false, 0, ],
 		'rank' => ['integer', 'int', 0, false, false, 0, ],

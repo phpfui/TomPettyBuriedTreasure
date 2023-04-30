@@ -4,9 +4,9 @@ namespace App\Model;
 
 class Parse
 	{
-	private \App\Tools\CSVWriter $songWriter;
-
 	private \App\Tools\CSVWriter $showWriter;
+
+	private \App\Tools\CSVWriter $songWriter;
 
 //	private array $badParts = ['Click here', '(You must be', 'https://www', 'Buried Treasure'];
 

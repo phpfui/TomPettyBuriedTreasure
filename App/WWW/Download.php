@@ -4,15 +4,16 @@ namespace App\WWW;
 
 class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 	{
-	public function home() : void
+	public function album() : void
 		{
-		$this->page->addHeader('Download Buried Treasure Data');
-		$ul = new \PHPFUI\UnorderedList();
-		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/album', 'Albums', false)));
-		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/artist', 'Artists', false)));
-		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/show', 'Shows', false)));
-		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/title', 'Titles', false)));
-		$this->page->addPageContent($ul);
+		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureAlbums.csv');
+		$csvWriter->addHeaderRow();
+		$table = new \App\Table\Album();
+
+		foreach ($table->getArrayCursor() as $row)
+			{
+			$csvWriter->outputRow($row);
+			}
 		}
 
 	public function artist() : void
@@ -27,28 +28,15 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 			}
 		}
 
-	public function album() : void
+	public function home() : void
 		{
-		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureAlbums.csv');
-		$csvWriter->addHeaderRow();
-		$table = new \App\Table\Album();
-
-		foreach ($table->getArrayCursor() as $row)
-			{
-			$csvWriter->outputRow($row);
-			}
-		}
-
-	public function title() : void
-		{
-		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureTitles.csv');
-		$csvWriter->addHeaderRow();
-		$table = new \App\Table\Title();
-
-		foreach ($table->getArrayCursor() as $row)
-			{
-			$csvWriter->outputRow($row);
-			}
+		$this->page->addHeader('Download Buried Treasure Data');
+		$ul = new \PHPFUI\UnorderedList();
+		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/album', 'Albums', false)));
+		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/artist', 'Artists', false)));
+		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/show', 'Shows', false)));
+		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/title', 'Titles', false)));
+		$this->page->addPageContent($ul);
 		}
 
 	public function show(?\App\Record\Show $show = null) : void
@@ -75,6 +63,18 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 				unset($row['sequence'], $row['artistId'], $row['titleId'], $row['albumId']);
 				$csvWriter->outputRow($row);
 				}
+			}
+		}
+
+	public function title() : void
+		{
+		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureTitles.csv');
+		$csvWriter->addHeaderRow();
+		$table = new \App\Table\Title();
+
+		foreach ($table->getArrayCursor() as $row)
+			{
+			$csvWriter->outputRow($row);
 			}
 		}
 	}

@@ -10,7 +10,6 @@ namespace App\Record\Definition;
  * @property int $artistId MySQL type integer
  * @property \App\Record\Artist $artist related record
  * @property ?int $second_artistId MySQL type integer
- * @property \App\Record\SecondArtist $second_artist related record
  * @property int $sequence MySQL type integer
  * @property int $showId MySQL type integer
  * @property \App\Record\Show $show related record

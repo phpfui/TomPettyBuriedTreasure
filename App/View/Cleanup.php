@@ -4,9 +4,9 @@ namespace App\View;
 
 class Cleanup
 	{
-	private \App\UI\ContinuousScrollTable $view;
-
 	private string $lcType;
+
+	private \App\UI\ContinuousScrollTable $view;
 
 	public function __construct(private \App\View\Page $page, private \PHPFUI\ORM\Table $table)
 		{
@@ -45,27 +45,6 @@ class Cleanup
 		$this->view->setContinuousScroll();
 		}
 
-	public function relatedCallback(array $item, array $additionalData) : string
-		{
-		$currentField = $additionalData[0];
-
-		$id = $this->lcType . 'Id';
-		$sql = "select distinct {$currentField}.{$currentField},{$currentField}.{$currentField}Id from ShowSequence ss
-			left join {$currentField} on {$currentField}.{$currentField}Id=ss.{$currentField}Id where ss.{$id}=?";
-		$rows = \PHPFUI\ORM::getRows($sql, [$item[$id]]);
-		$text = '';
-		$results = [];
-
-		$url = \ucfirst($currentField);
-
-		foreach ($rows as $row)
-			{
-			$results[] = new \PHPFUI\Link("/Admin/{$url}s/edit/{$row[$currentField . 'Id']}", $row[$currentField], false);
-			}
-
-		return \implode('<br>', $results);
-		}
-
 	public function list() : \PHPFUI\Container
 		{
 		$container = new \PHPFUI\Container();
@@ -99,6 +78,32 @@ class Cleanup
 		return $container;
 		}
 
+	public function relatedCallback(array $item, array $additionalData) : string
+		{
+		$currentField = $additionalData[0];
+
+		$id = $this->lcType . 'Id';
+		$sql = "select distinct {$currentField}.{$currentField},{$currentField}.{$currentField}Id from ShowSequence ss
+			left join {$currentField} on {$currentField}.{$currentField}Id=ss.{$currentField}Id where ss.{$id}=?";
+		$rows = \PHPFUI\ORM::getRows($sql, [$item[$id]]);
+		$text = '';
+		$results = [];
+
+		$url = \ucfirst($currentField);
+
+		foreach ($rows as $row)
+			{
+			$results[] = new \PHPFUI\Link("/Admin/{$url}s/edit/{$row[$currentField . 'Id']}", $row[$currentField], false);
+			}
+
+		return \implode('<br>', $results);
+		}
+
+	private function combineCallback(array $row) : \PHPFUI\Input\CheckBox
+		{
+		return new \PHPFUI\Input\CheckBox('Combine[]', '', $row[$this->lcType . 'Id']);
+		}
+
 	private function editCallback(array $row) : \PHPFUI\Link
 		{
 		$url = \ucfirst($this->lcType);
@@ -118,10 +123,5 @@ class Cleanup
 	private function keepCallback(array $row) : \PHPFUI\Input\Radio
 		{
 		return new \PHPFUI\Input\Radio('Keep', '', $row[$this->lcType . 'Id']);
-		}
-
-	private function combineCallback(array $row) : \PHPFUI\Input\CheckBox
-		{
-		return new \PHPFUI\Input\CheckBox('Combine[]', '', $row[$this->lcType . 'Id']);
 		}
 	}

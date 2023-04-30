@@ -4,17 +4,17 @@ namespace App\View;
 
 class WWWBase implements \Stringable
 	{
-	protected \App\View\Page $page;
-
-	protected string $title;
-
-	protected string $type;
-
 	protected string $fieldName;
+
+	protected \App\View\Page $page;
 
 	protected string $recordClassName;
 
 	protected string $tableClassName;
+
+	protected string $title;
+
+	protected string $type;
 
 	public function __construct(protected \PHPFUI\Interfaces\NanoController $controller)
 		{

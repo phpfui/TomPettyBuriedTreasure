@@ -161,15 +161,13 @@ PHP;
 			case 'bool':
 			case 'datetime':
 			case 'string':
-				if ('CURRENT_TIMESTAMP' == $field->defaultValue)
+				if ('NULL' === $field->defaultValue || 'CURRENT_TIMESTAMP' == $field->defaultValue || 'CURRENT_DATE' == $field->defaultValue)
 					{
-					$defaultValue = '';
-					$allowNulls = 'true';
+					$defaultValue = 'NULL';
 					}
-
-				if (\str_contains($field->defaultValue ?? '', "'"))
+				elseif (\str_contains($field->defaultValue ?? '', "'") || \str_contains($field->defaultValue ?? '', '"'))
 					{
-					$defaultValue = "\"{$field->defaultValue}\"";
+					$defaultValue = $field->defaultValue;
 					}
 				elseif (null !== $field->defaultValue)
 					{
@@ -227,7 +225,12 @@ PHP;
 			if (! isset($commentedFields[$var]))
 				{
 				$table = \PHPFUI\ORM::getBaseClassName($var);
-				$block .= "\n * @property \\~~RECORD_NAMESPACE~~\\" . $table . ' $' . $var . ' related record';
+				$className = '\\' . \PHPFUI\ORM::$recordNamespace . "\\{$table}";
+
+				if (\class_exists($className))
+					{
+					$block .= "\n * @property \\~~RECORD_NAMESPACE~~\\" . $table . ' $' . $var . ' related record';
+					}
 				}
 			$commentedFields[$var] = true;
 			}

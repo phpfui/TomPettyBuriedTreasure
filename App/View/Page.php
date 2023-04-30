@@ -98,12 +98,34 @@ class Page extends \PHPFUI\Page
 		return true;
 		}
 
+	public function addPageContent($item)
+		{
+		$show = true;
+
+		if (! $this->getDone())
+			{
+			$this->mainColumn->add($item);
+			}
+
+		return $this;
+		}
+
 	public function getBaseURL() : string
 		{
 		// first character could be lower case, so upper case it to match class
 		$url = '/' . \ucfirst(\substr(parent::getBaseURL(), 1));
 
 		return $url;
+		}
+
+	public function getBody() : string
+		{
+		return "{$this->mainColumn}";
+		}
+
+	public function getDone() : bool
+		{
+		return $this->done;
 		}
 
 	/**
@@ -127,11 +149,6 @@ class Page extends \PHPFUI\Page
 		return '/' . \implode('/', $parts);
 		}
 
-	public function getDone() : bool
-		{
-		return $this->done;
-		}
-
 	public function isAuthorized(string $permission, ?string $menu = null) : bool
 		{
 		return true;
@@ -142,22 +159,5 @@ class Page extends \PHPFUI\Page
 		$this->done = $done;
 
 		return $this;
-		}
-
-	public function addPageContent($item)
-		{
-		$show = true;
-
-		if (! $this->getDone())
-			{
-			$this->mainColumn->add($item);
-			}
-
-		return $this;
-		}
-
-	public function getBody() : string
-		{
-		return "{$this->mainColumn}";
 		}
 	}

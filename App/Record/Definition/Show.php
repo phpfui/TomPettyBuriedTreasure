@@ -20,9 +20,9 @@ abstract class Show extends \PHPFUI\ORM\Record
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
 		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'airDate' => ['date', 'string', 10, false, true, 'NULL', ],
+		'airDate' => ['date', 'string', 10, false, true, null, ],
 		'episode' => ['integer', 'int', 0, false, false, 0, ],
-		'notes' => ['varchar(255)', 'string', 255, false, false, "''", ],
+		'notes' => ['varchar(255)', 'string', 255, false, false, '', ],
 		'repeat' => ['integer', 'int', 0, false, false, 0, ],
 		'season' => ['integer', 'int', 0, false, false, 0, ],
 		'showId' => ['integer', 'int', 0, true, true, ],

@@ -4,6 +4,21 @@ namespace App\WWW\Admin;
 
 class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoClass
 	{
+	public function edit(?\App\Record\Show $show = null) : void
+		{
+		if (! $show || $show->empty())
+			{
+			$this->page->redirect($this->page->getRelativeURL('home'));
+
+			return;
+			}
+
+		$this->addHeaderFromMethod(__METHOD__, 'Show ' . $show->showId);
+
+		$view = new \App\View\ShowEdit($this->page);
+		$this->page->addPageContent($view->edit($show));
+		}
+
 	public function editSequence(int $showId = 0, int $sequence = 0) : void
 		{
 		$showSequence = new \App\Record\ShowSequence();
@@ -69,20 +84,5 @@ class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoCla
 		$this->page->addPageContent($paginator);
 
 		$this->page->addPageContent($view);
-		}
-
-	public function edit(?\App\Record\Show $show = null) : void
-		{
-		if (! $show || $show->empty())
-			{
-			$this->page->redirect($this->page->getRelativeURL('home'));
-
-			return;
-			}
-
-		$this->addHeaderFromMethod(__METHOD__, 'Show ' . $show->showId);
-
-		$view = new \App\View\ShowEdit($this->page);
-		$this->page->addPageContent($view->edit($show));
 		}
 	}

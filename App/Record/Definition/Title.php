@@ -19,7 +19,7 @@ abstract class Title extends \PHPFUI\ORM\Record
 		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
 		'plays' => ['integer', 'int', 0, false, false, 0, ],
 		'rank' => ['integer', 'int', 0, false, false, 0, ],
-		'title' => ['varchar(255)', 'string', 255, false, false, "''", ],
+		'title' => ['varchar(255)', 'string', 255, false, false, '', ],
 		'titleId' => ['integer', 'int', 0, true, true, ],
 	];
 
