@@ -15,13 +15,13 @@ abstract class Migration extends \PHPFUI\ORM\Record
 
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'migrationId' => ['int(11)', 'int', 11, true, false, null, ],
-		'ran' => ['timestamp', 'string', 20, false, false, null, ],
+		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
+		'migrationId' => ['int(11)', 'int', 11, false, null, ],
+		'ran' => ['timestamp', 'string', 20, false, null, ],
 	];
 
-	/** @var array<string, true> */
-	protected static array $primaryKeys = ['migrationId' => true, ];
+	/** @var array<string> */
+	protected static array $primaryKeys = ['migrationId', ];
 
 	protected static string $table = 'migration';
 	}

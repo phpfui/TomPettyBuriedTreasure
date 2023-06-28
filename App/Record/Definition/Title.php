@@ -16,15 +16,15 @@ abstract class Title extends \PHPFUI\ORM\Record
 
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'plays' => ['integer', 'int', 0, false, false, 0, ],
-		'rank' => ['integer', 'int', 0, false, false, 0, ],
-		'title' => ['varchar(255)', 'string', 255, false, false, '', ],
-		'titleId' => ['integer', 'int', 0, true, true, ],
+		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
+		'plays' => ['integer', 'int', 0, false, 0, ],
+		'rank' => ['integer', 'int', 0, false, 0, ],
+		'title' => ['varchar(255)', 'string', 255, false, '', ],
+		'titleId' => ['integer', 'int', 0, true, ],
 	];
 
-	/** @var array<string, true> */
-	protected static array $primaryKeys = ['titleId' => true, ];
+	/** @var array<string> */
+	protected static array $primaryKeys = ['titleId', ];
 
 	protected static string $table = 'title';
 	}

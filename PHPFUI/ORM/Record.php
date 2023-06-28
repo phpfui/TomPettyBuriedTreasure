@@ -13,11 +13,9 @@ namespace PHPFUI\ORM;
  */
 abstract class Record extends DataObject
 	{
-	public const ALLOWS_NULL_INDEX = 4;
+	public const ALLOWS_NULL_INDEX = 3;
 
-	public const DEFAULT_INDEX = 5;
-
-	public const KEY_INDEX = 3;
+	public const DEFAULT_INDEX = 4;
 
 	public const LENGTH_INDEX = 2;
 
@@ -50,10 +48,12 @@ abstract class Record extends DataObject
 	/**
 	 * Construct a CRUD object
 	 *
+	 * Reads from the database based on the parameters passed to the constructor.  No parameters creates an empty object.
+	 *
 	 * ##### Possible $parameter types and values
 	 * - **int** primary key value, will load object values if the primary key value exists
 	 * - **string** primary key value, will load object values if the primary key value exists
-	 * - **array** object will be initialized to these values, but not read from the database
+	 * - **array** record is attempted to be read from database using the values of the fields provided.
 	 * - **null** (default) constructs an empty object
 	 */
 	public function __construct(int|array|null|string $parameter = null)
@@ -78,7 +78,7 @@ abstract class Record extends DataObject
 
 			case 'integer':
 
-				if (1 == \count(static::$primaryKeys) && 'int' == static::$fields[\array_key_first(static::$primaryKeys)][self::PHP_TYPE_INDEX])
+				if (1 == \count(static::$primaryKeys) && 'int' == static::$fields[static::$primaryKeys[0]][self::PHP_TYPE_INDEX])
 					{
 					$this->read($parameter);
 					}
@@ -88,7 +88,6 @@ abstract class Record extends DataObject
 					}
 
 				break;
-
 
 			case 'array':
 
@@ -143,12 +142,7 @@ abstract class Record extends DataObject
 		return (bool)(\array_key_exists($field, $this->current) || \array_key_exists($field, static::$virtualFields) || \array_key_exists($field . \PHPFUI\ORM::$idSuffix, $this->current));
 		}
 
-	/**
-	 * Allows for $object->field = $x syntax
-	 *
-	 * @return mixed  returns $value so you can string together assignments
-	 */
-	public function __set(string $field, $value)
+	public function __set(string $field, mixed $value) : void
 		{
 		$relationship = static::$virtualFields[$field] ?? false;
 
@@ -158,7 +152,7 @@ abstract class Record extends DataObject
 			$relationshipObject = new $relationshipClass($this, $field);
 			$relationshipObject->setValue($value, $relationship);
 
-			return $value;
+			return;
 			}
 
 		$id = $field . \PHPFUI\ORM::$idSuffix;
@@ -180,7 +174,7 @@ abstract class Record extends DataObject
 					$this->current[$id] = $value->{$id};
 					}
 
-				return $value;
+				return;
 				}
 
 			$haveType = \PHPFUI\ORM::getBaseClassName($haveType);
@@ -231,8 +225,6 @@ abstract class Record extends DataObject
 			}
 		$this->empty = false;
 		$this->current[$field] = $value;
-
-		return $value;
 		}
 
 	/**
@@ -367,7 +359,7 @@ abstract class Record extends DataObject
 		}
 
 	/**
-	 * @return array  primary keys
+	 * @return array<string>  primary keys
 	 */
 	public static function getPrimaryKeys() : array
 		{
@@ -381,7 +373,7 @@ abstract class Record extends DataObject
 		{
 		$retVal = [];
 
-		foreach (static::$primaryKeys as $key => $junk)
+		foreach (static::$primaryKeys as $key)
 			{
 			$retVal[$key] = $this->current[$key] ?? null;
 			}
@@ -525,7 +517,7 @@ abstract class Record extends DataObject
 		{
 		$keys = [];
 
-		foreach (static::$primaryKeys as $key => $junk)
+		foreach (static::$primaryKeys as $key)
 			{
 			if (\array_key_exists($key, $this->current))
 				{
@@ -534,6 +526,14 @@ abstract class Record extends DataObject
 			}
 
 		return $this->read($keys);
+		}
+
+	/**
+	 * Save the record, will either update if it exists or insert if not
+	 */
+	public function save() : int | bool
+		{
+		return $this->privateInsert(true);
 		}
 
 	/**
@@ -607,7 +607,7 @@ abstract class Record extends DataObject
 			{
 			if (isset(static::$fields[$field]))
 				{
-				if (! isset(static::$primaryKeys[$field]))
+				if (! \in_array($field, static::$primaryKeys))
 					{
 					if (empty($value) && \in_array(static::$fields[$field][self::MYSQL_TYPE_INDEX], $dateTimes))
 						{
@@ -713,9 +713,9 @@ abstract class Record extends DataObject
 		}
 
 	/**
-	 * removes all non-digits (0-9) and regex separators
+	 * removes all invalid characters. (0-9) and regex separators are valid.
 	 */
-	protected function cleanPhone(string $field, string $regExSeparators = '\\-\\.') : static
+	protected function cleanPhone(string $field, string $regExSeparators = '\\-\\. ') : static
 		{
 		if (isset($this->current[$field]))
 			{
@@ -785,7 +785,7 @@ abstract class Record extends DataObject
 
 		if (! \is_array($key))
 			{
-			$key = [\array_key_first(static::$primaryKeys) => $key];
+			$key = [static::$primaryKeys[0] => $key];
 			}
 		else
 			{ // if all primary keys are set, then use primary keys only
@@ -793,7 +793,7 @@ abstract class Record extends DataObject
 			$keys = [];
 			$all = true;
 
-			foreach (static::$primaryKeys as $keyField => $junk)
+			foreach (static::$primaryKeys as $keyField)
 				{
 				if (! isset($key[$keyField]))
 					{
@@ -853,7 +853,7 @@ abstract class Record extends DataObject
 					continue;
 					}
 
-				if (! static::$autoIncrement || ! (isset(static::$primaryKeys[$key]) && empty($value)))
+				if (! static::$autoIncrement || ! (\in_array($key, static::$primaryKeys) && empty($value)))
 					{
 					$sql .= $comma . '`' . $key . '`';
 					$input[] = $value;
@@ -882,7 +882,7 @@ abstract class Record extends DataObject
 						continue;
 						}
 
-					if (! isset(static::$primaryKeys[$key]))
+					if (! \in_array($key, static::$primaryKeys))
 						{
 						$updateSql .= $comma . '`' . $key . '` = ?';
 						$input[] = $value;
@@ -905,7 +905,7 @@ abstract class Record extends DataObject
 
 		if (static::$autoIncrement && $returnValue)
 			{
-			$this->current[\array_key_first(static::$primaryKeys)] = $returnValue = (int)\PHPFUI\ORM::lastInsertId(\array_key_first(static::$primaryKeys));
+			$this->current[static::$primaryKeys[0]] = $returnValue = (int)\PHPFUI\ORM::lastInsertId(static::$primaryKeys[0]);
 			}
 
 		$this->loaded = true;	// record is effectively read from the database now

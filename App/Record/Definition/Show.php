@@ -19,17 +19,17 @@ abstract class Show extends \PHPFUI\ORM\Record
 
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'airDate' => ['date', 'string', 10, false, true, null, ],
-		'episode' => ['integer', 'int', 0, false, false, 0, ],
-		'notes' => ['varchar(255)', 'string', 255, false, false, '', ],
-		'repeat' => ['integer', 'int', 0, false, false, 0, ],
-		'season' => ['integer', 'int', 0, false, false, 0, ],
-		'showId' => ['integer', 'int', 0, true, true, ],
+		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
+		'airDate' => ['date', 'string', 10, true, null, ],
+		'episode' => ['integer', 'int', 0, false, 0, ],
+		'notes' => ['varchar(255)', 'string', 255, false, '', ],
+		'repeat' => ['integer', 'int', 0, false, 0, ],
+		'season' => ['integer', 'int', 0, false, 0, ],
+		'showId' => ['integer', 'int', 0, true, ],
 	];
 
-	/** @var array<string, true> */
-	protected static array $primaryKeys = ['showId' => true, ];
+	/** @var array<string> */
+	protected static array $primaryKeys = ['showId', ];
 
 	protected static string $table = 'show';
 	}

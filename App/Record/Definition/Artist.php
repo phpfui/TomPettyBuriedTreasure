@@ -16,15 +16,15 @@ abstract class Artist extends \PHPFUI\ORM\Record
 
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'artist' => ['varchar(255)', 'string', 255, false, false, '', ],
-		'artistId' => ['integer', 'int', 0, true, true, ],
-		'plays' => ['integer', 'int', 0, false, false, 0, ],
-		'rank' => ['integer', 'int', 0, false, false, 0, ],
+		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
+		'artist' => ['varchar(255)', 'string', 255, false, '', ],
+		'artistId' => ['integer', 'int', 0, true, ],
+		'plays' => ['integer', 'int', 0, false, 0, ],
+		'rank' => ['integer', 'int', 0, false, 0, ],
 	];
 
-	/** @var array<string, true> */
-	protected static array $primaryKeys = ['artistId' => true, ];
+	/** @var array<string> */
+	protected static array $primaryKeys = ['artistId', ];
 
 	protected static string $table = 'artist';
 	}

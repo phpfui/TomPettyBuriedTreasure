@@ -31,10 +31,10 @@ abstract class ~~CLASS~~ extends \PHPFUI\ORM\Record
 
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
+		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
 ~~FIELD_ARRAY~~	];
 
-	/** @var array<string, true> */
+	/** @var array<string> */
 	protected static array $primaryKeys = ~~PRIMARY_KEY~~;
 
 	protected static string $table = '~~TABLE_NAME~~';
@@ -98,7 +98,7 @@ PHP;
 
 		foreach ($this->getPrimaryKeys($table) as $key)
 			{
-			$keys .= "'{$key}' => true, ";
+			$keys .= "'{$key}', ";
 			}
 		$keys .= ']';
 		$replaceVars = [$ucTable, $table, $fieldComments, $fieldArray, $keys, $autoIncrement, \PHPFUI\ORM::$recordNamespace, \PHPFUI\ORM::$tableNamespace, ];
@@ -190,7 +190,6 @@ PHP;
 			$defaultValue = (int)$field->defaultValue;
 			}
 
-		$retVal .= $this->line($field->primaryKey ? 'true' : 'false');
 		$retVal .= $this->line($allowNulls ? 'true' : 'false');
 
 		if (null !== $defaultValue)

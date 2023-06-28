@@ -21,6 +21,7 @@ class Children extends \PHPFUI\ORM\VirtualField
 	public function delete(array $parameters) : void
 		{
 		$table = $this->getTable(\array_shift($parameters));
+
 		foreach ($table->getRecordCursor() as $record)
 			{
 			$record->delete();
@@ -49,7 +50,7 @@ class Children extends \PHPFUI\ORM\VirtualField
 		$childTable = new $class();
 		$condition = new \PHPFUI\ORM\Condition();
 
-		foreach ($this->currentRecord->getPrimaryKeys() as $primaryKey => $junk)
+		foreach ($this->currentRecord->getPrimaryKeys() as $primaryKey)
 			{
 			$condition->and($primaryKey, $this->currentRecord->{$primaryKey});
 			}

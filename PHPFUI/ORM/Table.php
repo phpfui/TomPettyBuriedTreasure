@@ -69,7 +69,7 @@ abstract class Table implements \Countable
 				}
 			$type = $fields[$baseField][\PHPFUI\ORM\Record::PHP_TYPE_INDEX] ?? 'string';
 
-			if (\in_array($type, ['int', 'float', 'string', 'timestamp']))
+			if (\in_array($type, ['int', 'float', 'timestamp']))
 				{
 				if ($direction)
 					{
@@ -82,7 +82,7 @@ abstract class Table implements \Countable
 				}
 			elseif ('string' == $type && $value)
 				{
-				$condition->and($baseField, '%' . $parameters[$field] . '%', new \PHPFUI\ORM\Operator\Like());
+				$condition->and($baseField, '%' . $value . '%', new \PHPFUI\ORM\Operator\Like());
 				}
 			}
 		$this->setWhere($condition);
@@ -704,16 +704,6 @@ abstract class Table implements \Countable
 		}
 
 	/**
-	 * Inserts current data into table or ignores duplicate key if found
-	 *
-	 * @param array<\PHPFUI\ORM\Record> $records
-	 */
-	public function insertOrIgnore(array $records) : bool
-		{
-		return $this->insert($records, 'ignore ');
-		}
-
-	/**
 	 * Mass insertion.  Does not use a transaction, so surround by a transaction if needed
 	 *
 	 * @param array<\PHPFUI\ORM\Record> $records
@@ -766,6 +756,16 @@ abstract class Table implements \Countable
 		\PHPFUI\ORM::execute($this->lastSql, $this->lastInput);
 
 		return 0 == \PHPFUI\ORM::getLastErrorCode();
+		}
+
+	/**
+	 * Inserts current data into table or ignores duplicate key if found
+	 *
+	 * @param array<\PHPFUI\ORM\Record> $records
+	 */
+	public function insertOrIgnore(array $records) : bool
+		{
+		return $this->insert($records, 'ignore ');
 		}
 
 	public function setDistinct(string $distinct = 'DISTINCT') : static
@@ -826,6 +826,9 @@ abstract class Table implements \Countable
 		return $this->addOrderBy($field, $ascending);
 		}
 
+	/**
+	 * Set user defined select fields.
+	 */
 	public function setSelectFields(string $clause) : static
 		{
 		$fields = \explode(',', $clause);
@@ -955,7 +958,7 @@ abstract class Table implements \Countable
 
 		if (\count($primaryKeys))
 			{
-			$mainKey = \array_key_first($primaryKeys);
+			$mainKey = $primaryKeys[0];
 
 			foreach ($request[$mainKey] ?? [] as $existingKey => $index)
 				{

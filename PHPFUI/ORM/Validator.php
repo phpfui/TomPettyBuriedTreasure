@@ -207,6 +207,8 @@ abstract class Validator
 			{
 			$parts = \explode(':', (string)$validator);
 
+			$parameters = [];
+
 			if (\count($parts) > 1)
 				{
 				$parameters = \explode(',', $parts[1]);
@@ -797,7 +799,7 @@ abstract class Validator
 
 		if (1 == \count($primaryKeys))
 			{
-			$primaryKey = \array_key_first($primaryKeys);
+			$primaryKey = $primaryKeys[0];
 			$condition->and($primaryKey, $this->record->{$primaryKey}, new \PHPFUI\ORM\Operator\NotEqual());
 			}
 		$field = $this->currentField;

@@ -22,17 +22,17 @@ abstract class ShowSequence extends \PHPFUI\ORM\Record
 
 	/** @var array<string, array<mixed>> */
 	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, KEY, ALLOWS_NULL, DEFAULT
-		'albumId' => ['integer', 'int', 0, false, false, ],
-		'artistId' => ['integer', 'int', 0, false, false, ],
-		'second_artistId' => ['integer', 'int', 0, false, true, null, ],
-		'sequence' => ['integer', 'int', 0, true, false, ],
-		'showId' => ['integer', 'int', 0, true, false, ],
-		'titleId' => ['integer', 'int', 0, false, false, ],
+		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
+		'albumId' => ['integer', 'int', 0, false, ],
+		'artistId' => ['integer', 'int', 0, false, ],
+		'second_artistId' => ['integer', 'int', 0, true, null, ],
+		'sequence' => ['integer', 'int', 0, false, ],
+		'showId' => ['integer', 'int', 0, false, ],
+		'titleId' => ['integer', 'int', 0, false, ],
 	];
 
-	/** @var array<string, true> */
-	protected static array $primaryKeys = ['showId' => true, 'sequence' => true, ];
+	/** @var array<string> */
+	protected static array $primaryKeys = ['showId', 'sequence', ];
 
 	protected static string $table = 'showSequence';
 	}
