@@ -98,7 +98,7 @@ class Page extends \PHPFUI\Page
 		return true;
 		}
 
-	public function addPageContent($item)
+	public function addPageContent(mixed $item) : static
 		{
 		$show = true;
 
@@ -154,7 +154,7 @@ class Page extends \PHPFUI\Page
 		return true;
 		}
 
-	public function setDone($done = true) : Page
+	public function setDone(bool $done = true) : Page
 		{
 		$this->done = $done;
 

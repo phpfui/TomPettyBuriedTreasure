@@ -13,9 +13,9 @@ class Picker
 		}
 
 	/**
-	 * @return (mixed|string)[][][]
+	 * @param array<string,string> $parameters
 	 *
-	 * @psalm-return array{suggestions: list<array{value: string, data: mixed}>}
+	 * @return array<string, array<int, array<string, string>>>
 	 */
 	public function callback(array $parameters) : array
 		{

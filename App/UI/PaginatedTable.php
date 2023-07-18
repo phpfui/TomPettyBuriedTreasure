@@ -8,24 +8,29 @@ class PaginatedTable extends \PHPFUI\SortableTable
 
 	private bool $continuousScroll = false;
 
+	private string $csvDownloadName = '';
+
 	private ?\PHPFUI\ORM\ArrayCursor $cursor = null;
 
+	/** @var array<string,array<mixed>> */
 	private array $customColumns = [];
 
-	private string $cvsDownloadName = '';
-
+	/** @var array<string,string> */
 	private array $fieldTable = [];
 
 	private bool $filled = false;
 
 	private int $limitNumber = 25;
 
+	/** @var array<\PHPFUI\ORM\Operator> */
 	private array $operators = [];
 
 	private int $pageNumber = 0;
 
+	/** @var array<string,string> */
 	private array $parameters = [];
 
+	/** @var array<string,\App\UI\SearchField|\PHPFUI\Input\Input> */
 	private array $searchColumns = [];
 
 	private bool $showLimitSelect = true;
@@ -60,6 +65,9 @@ class PaginatedTable extends \PHPFUI\SortableTable
 			}
 		}
 
+	/**
+	 * @param array<mixed> $additionalData
+	 */
 	public function addCustomColumn(string $field, callable $callback, array $additionalData = []) : static
 		{
 		$this->customColumns[$field] = [$callback, $additionalData];
@@ -105,10 +113,24 @@ class PaginatedTable extends \PHPFUI\SortableTable
 			$this->dataTable->setLimit($this->limitNumber, $this->pageNumber);
 			}
 
+// possible pagination optimization
+//SELECT * FROM people
+//    INNER JOIN (
+//      -- Paginate the narrow subquery instead of the entire table
+//      SELECT id FROM people ORDER BY first_name, id LIMIT 10 OFFSET 450000
+//    ) AS tmp USING (id)
+//ORDER BY
+//  first_name, id
+
 		if ($this->sortColumn)
 			{
 			$this->setSortedColumnOrder($this->sortColumn, $this->sort);
 			$this->dataTable->setOrderBy($this->sortColumn, $this->sort);
+
+			foreach ($this->dataTable->getPrimaryKeys() as $field)
+				{
+				$this->dataTable->addOrderBy($field, $this->sort);
+				}
 			}
 
 		$this->cursor = $this->getRawArrayCursor();
@@ -141,7 +163,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 			{
 			if (\strlen((string)$value) && \str_starts_with($name, 's_'))
 				{
-				$fieldName = \str_replace('_', '.', \substr($name, 2));
+				$fieldName = \substr($name, 2);
 
 				if (isset($this->fieldTable[$fieldName]))
 					{
@@ -171,6 +193,9 @@ class PaginatedTable extends \PHPFUI\SortableTable
 		return $this->dataTable->getArrayCursor();
 		}
 
+	/**
+	 * @param ?array<string,string> $parameters
+	 */
 	public function getUrl(?array $parameters = null) : string
 		{
 		return $this->getBaseUrl() . '?' . \http_build_query($parameters ?? $this->parameters);
@@ -183,9 +208,9 @@ class PaginatedTable extends \PHPFUI\SortableTable
 		return $this;
 		}
 
-	public function setDownloadName(string $cvsDownloadName) : static
+	public function setDownloadName(string $csvDownloadName) : static
 		{
-		$this->cvsDownloadName = $cvsDownloadName;
+		$this->csvDownloadName = $csvDownloadName;
 
 		return $this;
 		}
@@ -193,7 +218,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 	/**
 	 * Specify column headers
 	 *
-	 * @param array $headers if the key is a string, then use it as a column name, and use the value for the title. Otherwise value is the field name and the title is capitalSplit from the value.
+	 * @param array<int|string,string|\PHPFUI\Input\Input> $headers if the key is a string, then use it as a column name, and use the value for the title. Otherwise value is the field name and the title is capitalSplit from the value.
 	 */
 	public function setHeaders(array $headers) : static
 		{
@@ -222,7 +247,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 	/**
 	 * Specify which columns are sortable.
 	 *
-	 * @param array $inputs if the key is a string, then value must be a PHPFUI\Input. If value is a string, then it is assumed a field name.
+	 * @param array<string|int,string|\PHPFUI\Input\Input> $inputs if the key is a string, then value must be a PHPFUI\Input. If value is a string, then it is assumed a field name.
 	 */
 	public function setSearchColumns(array $inputs) : static
 		{
@@ -374,9 +399,9 @@ class PaginatedTable extends \PHPFUI\SortableTable
 			{
 			unset($this->parameters['downloadCSV']);
 
-			if ($this->cvsDownloadName)
+			if ($this->csvDownloadName)
 				{
-				$fileName = $this->cvsDownloadName;
+				$fileName = $this->csvDownloadName;
 				}
 			else
 				{

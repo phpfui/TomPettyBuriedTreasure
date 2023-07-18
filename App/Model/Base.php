@@ -4,6 +4,9 @@ namespace App\Model;
 
 class Base
 	{
+	/**
+	 * @var array<string> $fields
+	 */
 	private array $fields = [];
 
 	public function __construct(protected string $type)
@@ -18,6 +21,9 @@ class Base
 		return $this;
 		}
 
+	/**
+	 * @param array<int,mixed> $merges
+	 */
 	public function merge(int $id, array $merges) : string
 		{
 		$className = "\\App\\Record\\{$this->type}";

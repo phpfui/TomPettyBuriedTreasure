@@ -78,6 +78,10 @@ class Cleanup
 		return $container;
 		}
 
+	/**
+	 * @param array<array<mixed>> $item
+	 * @param array<string> $additionalData
+	 */
 	public function relatedCallback(array $item, array $additionalData) : string
 		{
 		$currentField = $additionalData[0];
@@ -99,11 +103,17 @@ class Cleanup
 		return \implode('<br>', $results);
 		}
 
+	/**
+	 * @param array<string, int> $row
+	 */
 	private function combineCallback(array $row) : \PHPFUI\Input\CheckBox
 		{
 		return new \PHPFUI\Input\CheckBox('Combine[]', '', $row[$this->lcType . 'Id']);
 		}
 
+	/**
+	 * @param array<string, string> $row
+	 */
 	private function editCallback(array $row) : \PHPFUI\Link
 		{
 		$url = \ucfirst($this->lcType);
@@ -111,6 +121,9 @@ class Cleanup
 		return new \PHPFUI\Link("/Admin/{$url}s/edit/{$row[$this->lcType . 'Id']}", $row[$this->lcType], false);
 		}
 
+	/**
+	 * @param array<string, string> $row
+	 */
 	private function googleCallback(array $row) : \PHPFUI\FAIcon
 		{
 		$stripped = \str_replace('\'"', '', $this->lcType);
@@ -120,6 +133,9 @@ class Cleanup
 		return $icon;
 		}
 
+	/**
+	 * @param array<string, string> $row
+	 */
 	private function keepCallback(array $row) : \PHPFUI\Input\Radio
 		{
 		return new \PHPFUI\Input\Radio('Keep', '', $row[$this->lcType . 'Id']);

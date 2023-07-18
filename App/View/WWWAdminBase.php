@@ -48,6 +48,9 @@ class WWWAdminBase extends WWWBase implements \Stringable
 		$this->page->addPageContent($view);
 		}
 
+	/**
+	 * @param array<string,string> $row
+	 */
 	private function googleCallback(array $row) : \PHPFUI\FAIcon
 		{
 		$type = \lcfirst($this->type);
