@@ -6,7 +6,7 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 	{
 	public function album() : void
 		{
-		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureAlbums.csv');
+		$csvWriter = new \App\Tools\CSV\FileWriter('BuriedTreasureAlbums.csv');
 		$csvWriter->addHeaderRow();
 		$table = new \App\Table\Album();
 
@@ -18,7 +18,7 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 
 	public function artist() : void
 		{
-		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureArtists.csv');
+		$csvWriter = new \App\Tools\CSV\FileWriter('BuriedTreasureArtists.csv');
 		$csvWriter->addHeaderRow();
 		$table = new \App\Table\Artist();
 
@@ -45,7 +45,7 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 
 		if (! $show)
 			{
-			$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureShows.csv');
+			$csvWriter = new \App\Tools\CSV\FileWriter('BuriedTreasureShows.csv');
 			$csvWriter->addHeaderRow();
 
 			foreach ($showSequence->getShows() as $row)
@@ -55,7 +55,7 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 			}
 		elseif (! $show->empty())
 			{
-			$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureShow' . $show->showId . '.csv');
+			$csvWriter = new \App\Tools\CSV\FileWriter('BuriedTreasureShow' . $show->showId . '.csv');
 			$csvWriter->addHeaderRow();
 
 			foreach ($showSequence->getShow($show) as $row)
@@ -68,7 +68,7 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 
 	public function title() : void
 		{
-		$csvWriter = new \App\Tools\CSVWriter('BuriedTreasureTitles.csv');
+		$csvWriter = new \App\Tools\CSV\FileWriter('BuriedTreasureTitles.csv');
 		$csvWriter->addHeaderRow();
 		$table = new \App\Table\Title();
 

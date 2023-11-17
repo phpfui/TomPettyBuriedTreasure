@@ -3,7 +3,7 @@
 include '../commonbase.php';
 
 $csvReader = new \App\Tools\CSVReader(PROJECT_ROOT . '/data/TomPettyShowSongs.csv');
-$csvWriter = new \App\Tools\CSVWriter('TomPettyShowSongsClean.csv', ',', false);
+$csvWriter = new \App\Tools\CSV\FileWriter('TomPettyShowSongsClean.csv', ',', false);
 $csvWriter->addHeaderRow();
 
 $artists = [];
