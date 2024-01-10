@@ -42,7 +42,6 @@ class Cleanup
 		$headers[] = 'Search';
 
 		$this->view->setSearchColumns($sortableColumns)->setHeaders($headers)->setSortableColumns($sortableColumns);
-		$this->view->setContinuousScroll();
 		}
 
 	public function list() : \PHPFUI\Container

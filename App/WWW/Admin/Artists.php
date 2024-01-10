@@ -4,7 +4,7 @@ namespace App\WWW\Admin;
 
 class Artists extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoClass
 	{
-	public function edit(?\App\Record\Artist $artist = new \App\Record\Artist()) : void
+	public function edit(\App\Record\Artist $artist = new \App\Record\Artist()) : void
 		{
 		if ($artist->empty())
 			{

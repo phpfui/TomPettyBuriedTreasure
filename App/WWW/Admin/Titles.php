@@ -4,7 +4,7 @@ namespace App\WWW\Admin;
 
 class Titles extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoClass
 	{
-	public function edit(?\App\Record\Title $title = new \App\Record\Title()) : void
+	public function edit(\App\Record\Title $title = new \App\Record\Title()) : void
 		{
 		if ($title->empty())
 			{

@@ -33,7 +33,7 @@ class WWWAdminBase extends WWWBase implements \Stringable
 
 		$className = $this->tableClassName;
 		$table = new $className();
-		$view = new \App\UI\PaginatedTable($this->page, $table);
+		$view = new \App\UI\ContinuousScrollTable($this->page, $table);
 		$headers = [$this->fieldName, 'plays', 'rank', 'Search'];
 
 		$fieldName = $this->fieldName;
@@ -43,7 +43,6 @@ class WWWAdminBase extends WWWBase implements \Stringable
 		$view->addCustomColumn('Search', $this->googleCallback(...));
 
 		$view->setSearchColumns($headers)->setHeaders($headers)->setSortableColumns($headers);
-		$view->setContinuousScroll();
 
 		$this->page->addPageContent($view);
 		}

@@ -4,9 +4,9 @@ namespace App\WWW\Admin;
 
 class Albums extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoClass
 	{
-	public function edit(?\App\Record\Album $album = null) : void
+	public function edit(\App\Record\Album $album = new \App\Record\Album()) : void
 		{
-		if (! $album || $album->empty())
+		if (! $album->loaded())
 			{
 			$this->page->redirect($this->page->getRelativeURL('home'));
 

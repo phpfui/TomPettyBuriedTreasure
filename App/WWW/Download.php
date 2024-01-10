@@ -28,12 +28,26 @@ class Download extends \App\View\WWWBase implements \PHPFUI\Interfaces\NanoClass
 			}
 		}
 
+	public function episodes() : void
+		{
+		$showTable = new \App\Table\Show();
+
+		$csvWriter = new \App\Tools\CSV\FileWriter('BuriedTreasureEpisodes.csv');
+		$csvWriter->addHeaderRow();
+
+		foreach ($showTable->getArrayCursor() as $row)
+			{
+			$csvWriter->outputRow($row);
+			}
+		}
+
 	public function home() : void
 		{
 		$this->page->addHeader('Download Buried Treasure Data');
 		$ul = new \PHPFUI\UnorderedList();
 		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/album', 'Albums', false)));
 		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/artist', 'Artists', false)));
+		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/episodes', 'Episodes', false)));
 		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/show', 'Shows', false)));
 		$ul->addItem(new \PHPFUI\ListItem(new \PHPFUI\Link('/Download/title', 'Titles', false)));
 		$this->page->addPageContent($ul);

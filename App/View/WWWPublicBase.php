@@ -10,7 +10,7 @@ class WWWPublicBase extends WWWBase implements \Stringable
 
 		$className = $this->tableClassName;
 		$table = new $className();
-		$view = new \App\UI\PaginatedTable($this->page, $table);
+		$view = new \App\UI\ContinuousScrollTable($this->page, $table);
 		$headers = [$this->fieldName, 'plays', 'rank'];
 
 		$fieldName = $this->fieldName;
@@ -19,7 +19,6 @@ class WWWPublicBase extends WWWBase implements \Stringable
 		$view->addCustomColumn($this->fieldName, static fn (array $row) => new \PHPFUI\Link("/{$title}/shows/{$row[$fieldName . 'Id']}", $row[$fieldName], false));
 
 		$view->setSearchColumns($headers)->setHeaders($headers)->setSortableColumns($headers);
-		$view->setContinuousScroll();
 
 		$this->page->addPageContent($view);
 		}

@@ -2,7 +2,7 @@
 
 namespace App\View;
 
-class ShowEdit
+class Show
 	{
 	public function __construct(private \App\View\Page $page)
 		{

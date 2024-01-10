@@ -14,9 +14,9 @@ class Parse
 
 	public function __construct()
 		{
-		$this->songWriter = new \App\Tools\CSV\FileWriter('TomPettyShowSongs.csv', ',', false);
+		$this->songWriter = new \App\Tools\CSV\FileWriter('TomPettyShowSongs.csv', true);
 		$this->songWriter->outputRow(['showId', 'artist', 'title', 'album']);
-		$this->showWriter = new \App\Tools\CSV\FileWriter('TomPettyShows.csv', ',', false);
+		$this->showWriter = new \App\Tools\CSV\FileWriter('TomPettyShows.csv', true);
 		$this->showWriter->addHeaderRow();
 
 //	for ($i = 1; $i <= 12; ++$i)

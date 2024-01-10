@@ -399,6 +399,8 @@ abstract class Table implements \Countable
 
 	/**
 	 * Return an array of the explain query
+	 *
+	 * @return array<array<string,mixed>>
 	 */
 	public function getExplainRows() : array
 		{
@@ -1008,6 +1010,7 @@ abstract class Table implements \Countable
 				{
 				$data = [];
 
+				$record = new static::$className($existingKey);
 				foreach ($fields as $field => $typeInfo)
 					{
 					if (isset($request[$field]))
@@ -1022,7 +1025,7 @@ abstract class Table implements \Countable
 							}
 						}
 					}
-				$this->instance->setEmpty()->setFrom($data)->insertOrUpdate();
+				$record->setFrom($data)->insertOrUpdate();
 				}
 			}
 

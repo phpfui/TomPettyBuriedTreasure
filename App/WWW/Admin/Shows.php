@@ -4,9 +4,9 @@ namespace App\WWW\Admin;
 
 class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoClass
 	{
-	public function edit(?\App\Record\Show $show = null) : void
+	public function edit(\App\Record\Show $show = new \App\Record\Show()) : void
 		{
-		if (! $show || $show->empty())
+		if (! $show->loaded())
 			{
 			$this->page->redirect($this->page->getRelativeURL('home'));
 
@@ -15,7 +15,7 @@ class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoCla
 
 		$this->addHeaderFromMethod(__METHOD__, 'Show ' . $show->showId);
 
-		$view = new \App\View\ShowEdit($this->page);
+		$view = new \App\View\Show($this->page);
 		$this->page->addPageContent($view->edit($show));
 		}
 
@@ -33,7 +33,7 @@ class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoCla
 
 		$this->addHeaderFromMethod(__METHOD__, "{$showSequence->showId} Position {$showSequence->sequence}");
 
-		$view = new \App\View\ShowEdit($this->page);
+		$view = new \App\View\Show($this->page);
 		$this->page->addPageContent($view->editSequence($showSequence));
 		}
 
@@ -82,6 +82,9 @@ class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoCla
 		$paginator->setWindow(4);
 		$paginator->setFastForward(25);
 		$this->page->addPageContent($paginator);
+
+		$episodeView = new \App\View\Episode($this->page);
+		$this->page->addPageContent($episodeView->edit($show));
 
 		$this->page->addPageContent($view);
 		}

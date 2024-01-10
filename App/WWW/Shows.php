@@ -67,6 +67,9 @@ class Shows extends \App\View\WWWPublicBase implements \PHPFUI\Interfaces\NanoCl
 		$paginator->setFastForward(25);
 		$this->page->addPageContent($paginator);
 
+		$episodeView = new \App\View\Episode($this->page);
+		$this->page->addPageContent($episodeView->showDetails($show));
+
 		$this->page->addPageContent($view);
 		}
 	}
