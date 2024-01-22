@@ -4,40 +4,43 @@ class ComposerUpdate
 	{
 	private string $baseDir = '';
 
-	private string $vendorDir = 'vendor/';
+	private array $ignored = [];
 
 	private string $noNameSpaceDir = 'NoNameSpace/';
 
 	private array $skipFiles = ['changelog', 'changes', 'license', 'conduct', 'contribut', 'upgrad', 'security', 'license', 'bug',  ];
 
-	private array $ignored = [];
+	private string $vendorDir = 'vendor/';
 
-	public function setBaseDirectory(string $baseDir) : static
+	public function copyDirectory(string $source, string $dest) : void
 		{
-		$this->baseDir = $this->appendSlash($baseDir);
+		if (! \is_dir($dest))
+			{
+			\mkdir($dest, 0755, true);
+			}
+		$iterator = new \RecursiveIteratorIterator(
+			new \RecursiveDirectoryIterator($source, \RecursiveDirectoryIterator::SKIP_DOTS),
+			\RecursiveIteratorIterator::SELF_FIRST
+		);
 
-		return $this;
-		}
+		foreach ($iterator as $item)
+			{
+			$file = $dest . DIRECTORY_SEPARATOR . $iterator->getSubPathName();
+			$file = \str_replace('\\', '/', $file);
+			$file = \str_replace('//', '/', $file);
 
-	public function setVendorDirectory(string $dir) : static
-		{
-		$this->vendorDir = $this->appendSlash($dir);
-
-		return $this;
-		}
-
-	public function setNoNameSpaceDirectory(string $dir) : static
-		{
-		$this->noNameSpaceDir = $this->appendSlash($dir);
-
-		return $this;
-		}
-
-	public function setIgnoredRepos(array $ignored) : static
-		{
-		$this->ignored = $ignored;
-
-		return $this;
+			if ($item->isDir())
+				{
+				if (! \is_dir($file))
+					{
+					\mkdir($file, 0755, true);
+					}
+				}
+			else
+				{
+				\copy($item, $file);
+				}
+			}
 		}
 
 	public function copyFileFiltered(string $item, string $file, bool $phpFiles) : bool
@@ -109,6 +112,28 @@ class ComposerUpdate
 			}
 		}
 
+	public function copyPath(string $name, array $sources, string $destDir) : void
+		{
+		foreach ($sources as $sourceDir)
+			{
+			//echo $name . ": sourceDir {$sourceDir} => destDir {$destDir}\n";
+
+			if ($destDir)
+				{
+				$localDestDir = \str_replace('\\', '/', $this->baseDir . $destDir);
+				$localDestDir = \substr($destDir, 0, \strlen($localDestDir) - 1);
+				$sourceDir = $this->vendorDir . $name . '/' . $sourceDir;
+				$this->copyFiles($sourceDir, $localDestDir);
+				}
+			}
+
+		if ($destDir)
+			{
+			// copy project .md files
+			$this->copyFiles('vendor/' . $name, $destDir, false);
+			}
+		}
+
 	public function deleteFileInNamespace(string $nameSpace, string $file) : void
 		{
 		$path = \str_replace('\\', '/', $this->baseDir . $nameSpace);
@@ -147,26 +172,32 @@ class ComposerUpdate
 			}
 		}
 
-	public function copyPath(string $name, array $sources, string $destDir) : void
+	public function setBaseDirectory(string $baseDir) : static
 		{
-		foreach ($sources as $sourceDir)
-			{
-			//echo $name . ": sourceDir {$sourceDir} => destDir {$destDir}\n";
+		$this->baseDir = $this->appendSlash($baseDir);
 
-			if ($destDir)
-				{
-				$localDestDir = \str_replace('\\', '/', $this->baseDir . $destDir);
-				$localDestDir = \substr($destDir, 0, \strlen($localDestDir) - 1);
-				$sourceDir = $this->vendorDir . $name . '/' . $sourceDir;
-				$this->copyFiles($sourceDir, $localDestDir);
-				}
-			}
+		return $this;
+		}
 
-		if ($destDir)
-			{
-			// copy project .md files
-			$this->copyFiles('vendor/' . $name, $destDir, false);
-			}
+	public function setIgnoredRepos(array $ignored) : static
+		{
+		$this->ignored = $ignored;
+
+		return $this;
+		}
+
+	public function setNoNameSpaceDirectory(string $dir) : static
+		{
+		$this->noNameSpaceDir = $this->appendSlash($dir);
+
+		return $this;
+		}
+
+	public function setVendorDirectory(string $dir) : static
+		{
+		$this->vendorDir = $this->appendSlash($dir);
+
+		return $this;
 		}
 
 	public function update() : void
@@ -175,21 +206,12 @@ class ComposerUpdate
 
 		foreach ($installed['packages'] as $install)
 			{
-			$use = true;
-
 			foreach ($this->ignored as $ignore)
 				{
 				if (false !== \str_starts_with($install['name'], $ignore))
 					{
-					$use = false;
-
-					break;
+					continue 2;
 					}
-				}
-
-			if (! $use)
-				{
-				continue;
 				}
 
 			if (isset($install['autoload']))
@@ -233,9 +255,62 @@ class ComposerUpdate
 					{
 					foreach ($autoload['classmap'] as $file)
 						{
-						$from = 'vendor/' . $install['name'] . '/' . $file;
-						$to = $this->noNameSpaceDir . $file;
-						\copy(\str_replace('\\', '/', $from), \str_replace('\\', '/', $to));
+						$fromDir = 'vendor/' . $install['name'] . '/' . $file;
+
+						if (\is_file($fromDir))
+							{
+							$phpFile = \file_get_contents($fromDir);
+							$namespacePos = \strpos($phpFile, 'namespace');
+
+							if (false !== $namespacePos)
+								{
+								$namespacePos += 10;
+								$semicolin = \strpos($phpFile, ';', $namespacePos);
+								$namespace = \trim(\substr($phpFile, $namespacePos, $semicolin - $namespacePos));
+								$targetDir = \str_replace('\\', '/', $namespace) . '/';
+								}
+							else
+								{
+								$targetDir = \str_replace('\\', '/', $this->noNameSpaceDir);
+								}
+							$classPos = \strpos($phpFile, 'class ');
+
+							if (false === $classPos)
+								{
+								continue;
+								}
+							$parts = \explode(' ', \substr($phpFile, $classPos + 6));
+							$className = \array_shift($parts);
+							$parts = \explode("\n", $className);
+							$className = \array_shift($parts) . '.php';
+							$sourceFile = \str_replace('\\', '/', $fromDir);
+							\copy($sourceFile, $targetDir . $className);
+
+							continue;
+							}
+						$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($fromDir));
+
+						foreach ($iterator as $file)
+							{
+							$fileName = \strtolower($file->getFilename());
+
+							if ($file->isFile() && \str_ends_with($fileName, '.php'))
+								{
+								$phpFile = \file_get_contents($file->getPathname());
+								$namespacePos = \strpos($phpFile, 'namespace') + 10;
+								$semicolin = \strpos($phpFile, ';', $namespacePos);
+								$namespace = \trim(\substr($phpFile, $namespacePos, $semicolin - $namespacePos));
+								$sourceFile = \str_replace('\\', '/', $file->getPathname());
+								$targetDir = \str_replace('\\', '/', $namespace);
+
+								if (! \is_dir($targetDir))
+									{
+									\mkdir($targetDir, recursive:true);
+									}
+								$targetFile = $targetDir . '/' . $file->getFilename();
+								\copy($sourceFile, $targetFile);
+								}
+							}
 						}
 					}
 				}

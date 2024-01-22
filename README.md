@@ -1,4 +1,4 @@
-#### Welcome to the unofficial Tom Petty Buried Treasure site.
+#### Welcome to the unofficial Tom Petty Buried Treasure site
 This is the repository for the [Tom Petty Buried Treasure Playlists](http://buriedtreasure.phpfui.com) site.
 
 The site was created based off the playlists from [Tom Petty's Buried Treasure Show](https://www.siriusxm.com/channels/tom-pettys-buried-treasure) that airs on Sirius XM Radio. The data was scrapped from [Tom Petty](https://www.tompetty.com) and cleaned up to the form you see here.
@@ -6,7 +6,7 @@ The site was created based off the playlists from [Tom Petty's Buried Treasure S
 Playlists can not be copyrighted, and the data on this site should be considered in the public domain. This site is not associated with Tom Petty's estate or heirs.
 
 ## Requirements to run the website
-* PHP 8.1 or better
+* PHP 8.2 or better
 * SQLite 3
 * Apache
 * Linux or Windows
