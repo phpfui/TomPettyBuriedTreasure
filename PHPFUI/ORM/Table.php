@@ -58,6 +58,7 @@ abstract class Table implements \Countable
 		$this->lastInput = [];
 
 		$fields = $this->getFields();
+		$tableName = $this->getTableName() . '.';
 
 		$condition = $this->getWhereCondition();
 
@@ -83,16 +84,16 @@ abstract class Table implements \Countable
 				{
 				if ($direction)
 					{
-					$condition->and($baseField, $parameters[$field], 'min' == $direction ? new \PHPFUI\ORM\Operator\GreaterThanEqual() : new \PHPFUI\ORM\Operator\LessThanEqual());
+					$condition->and($tableName . $baseField, $parameters[$field], 'min' == $direction ? new \PHPFUI\ORM\Operator\GreaterThanEqual() : new \PHPFUI\ORM\Operator\LessThanEqual());
 					}
 				elseif ($parameters[$field])
 					{
-					$condition->and($baseField, $parameters[$field]);
+					$condition->and($tableName . $baseField, $parameters[$field]);
 					}
 				}
 			elseif ('string' == $type && $value)
 				{
-				$condition->and($baseField, '%' . $value . '%', new \PHPFUI\ORM\Operator\Like());
+				$condition->and($tableName . $baseField, '%' . $value . '%', new \PHPFUI\ORM\Operator\Like());
 				}
 			}
 		$this->setWhere($condition);
@@ -133,8 +134,13 @@ abstract class Table implements \Countable
 	 * Add a join with another table
 	 *
 	 * @param string $table name of the table to join, case sensitive
-	 * @param string | \PHPFUI\ORM\Condition $on condition.  If string, name of field on the $table.  Defaults to table name appended with Id. Or \PHPFUI\ORM\Condition for complex joins
-	 * @param string $type of join
+	 * @param string | \PHPFUI\ORM\Condition $on condition.
+	 *  - If $on is empty, then the following defaults are tried:
+	 *  	* Join on the primary key of the join table if it exists on both tables
+	 *  	* If field does not exist on both tables, then use the primary key of the main table
+	 *  - If $on is a non-empty string, use as the join field
+	 *  - Use \PHPFUI\ORM\Condition for complex joins
+	 * @param string $type of join (LEFT, INNER, OUTER, RIGHT, FULL, CROSS)
 	 */
 	public function addJoin(string $table, string | \PHPFUI\ORM\Condition $on = '', string $type = 'LEFT', string $as = '') : static
 		{
@@ -166,6 +172,24 @@ abstract class Table implements \Countable
 			if (empty($on))
 				{
 				$on = $joinField;
+				}
+			$thisFields = $this->getFields();
+			$joinFields = $joinTable->getFields();
+			$keys = $this->getPrimaryKeys();
+			$thisPrimaryKey = \array_shift($keys);
+
+			if (\array_key_exists($on, $thisFields) && \array_key_exists($on, $joinFields))
+				{
+				// do nothing here, just exclude this case
+				}
+			elseif (\array_key_exists($thisPrimaryKey, $joinFields))
+				{
+				// join on master table primary key
+				$on = $thisPrimaryKey;
+				}
+			else
+				{
+				throw new \PHPFUI\ORM\Exception("Table {$table} does not have a field to join on (tried {$on} and {$thisPrimaryKey})");
 				}
 			$onCondition = new \PHPFUI\ORM\Condition(new \PHPFUI\ORM\Field($table . '.' . $on), new \PHPFUI\ORM\Field($this->getTableName() . '.' . $on));
 			}
@@ -913,6 +937,10 @@ abstract class Table implements \Countable
 				$parts = \explode(' as ', $field);
 				$this->addSelect($parts[0], $parts[1]);
 				}
+			else
+				{
+				$this->addSelect($field);
+				}
 			}
 
 		return $this;
@@ -974,9 +1002,13 @@ abstract class Table implements \Countable
 	 */
 	public function update(array $variables) : static
 		{
-		$this->lastSql = 'UPDATE ' . $this->instance->getTableName() . ' SET';
-		$comma = '';
+		$this->lastSql = 'UPDATE ' . $this->instance->getTableName();
+
 		$this->lastInput = [];
+		$this->lastSql .= ' ' . $this->getJoins($this->lastInput);
+
+		$this->lastSql .= ' SET';
+		$comma = '';
 
 		foreach ($variables as $field => $value)
 			{
@@ -989,7 +1021,7 @@ abstract class Table implements \Countable
 		$orderBy = $this->getOrderBy();
 		$limit = $this->getLimitClause();
 
-		$this->lastSql .= $where . $orderBy . $limit;
+		$this->lastSql .= "{$where} {$orderBy} {$limit}";
 		\PHPFUI\ORM::execute($this->lastSql, $this->lastInput);
 
 		return $this;
@@ -1035,6 +1067,51 @@ abstract class Table implements \Countable
 			}
 
 		return $transation->commit();
+		}
+
+	/**
+	 * @param array<string,mixed> $request
+	 *
+	 * @return array<string,string> errors
+	 */
+	public function validateFromTable(array $request) : array
+		{
+		$fields = $this->instance->getFields();
+
+		$primaryKeys = $this->getPrimaryKeys();
+
+		$errors = [];
+
+		if (\count($primaryKeys))
+			{
+			$mainKey = $primaryKeys[0];
+
+			foreach ($request[$mainKey] ?? [] as $existingKey => $index)
+				{
+				$data = [];
+
+				$record = new static::$className($existingKey);
+
+				foreach ($fields as $field => $typeInfo)
+					{
+					if (isset($request[$field]))
+						{
+						if (\is_array($request[$field]))
+							{
+							$data[$field] = $request[$field][$index];
+							}
+						else
+							{
+							$data[$field] = $request[$field];
+							}
+						}
+					}
+				$record->setFrom($data);
+				$errors = \array_merge($errors, $record->validate());
+				}
+			}
+
+		return $errors;
 		}
 
 	private function doTranslation(string $text) : string

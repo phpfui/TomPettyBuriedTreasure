@@ -6,11 +6,32 @@ class ComposerUpdate
 
 	private array $ignored = [];
 
+	private array $installedVersions = [];
+
 	private string $noNameSpaceDir = 'NoNameSpace/';
 
 	private array $skipFiles = ['changelog', 'changes', 'license', 'conduct', 'contribut', 'upgrad', 'security', 'license', 'bug',  ];
 
 	private string $vendorDir = 'vendor/';
+
+	public function __construct()
+		{
+		$installed = \json_decode(\file_get_contents($this->vendorDir . '../composer.lock'), true);
+
+		foreach ($installed['packages'] as $install)
+			{
+			$packageName = $install['name'];
+
+			foreach ($this->ignored as $ignore)
+				{
+				if (false !== \str_starts_with($packageName, $ignore))
+					{
+					continue 2;
+					}
+				}
+			$this->installedVersions[$packageName] = $install['version'];
+			}
+		}
 
 	public function copyDirectory(string $source, string $dest) : void
 		{
@@ -206,12 +227,19 @@ class ComposerUpdate
 
 		foreach ($installed['packages'] as $install)
 			{
+			$packageName = $install['name'];
+
 			foreach ($this->ignored as $ignore)
 				{
-				if (false !== \str_starts_with($install['name'], $ignore))
+				if (false !== \str_starts_with($packageName, $ignore))
 					{
 					continue 2;
 					}
+				}
+
+			if (($this->installedVersions[$packageName] ?? '') == $install['version'])
+				{
+				continue;
 				}
 
 			if (isset($install['autoload']))
@@ -219,7 +247,12 @@ class ComposerUpdate
 				$autoload = $install['autoload'];
 				$sourceDir = '';
 
-				if (! empty($autoload['psr-4']))
+				if (! empty($autoload['files']))
+					{
+					$files = \str_replace('/', '\\', "vendor\\{$packageName}\\" . \implode(',', $autoload['files']));
+					echo "WARNING: Package {$packageName} contains an autoload files section ({$files})\n";
+					}
+				elseif (! empty($autoload['psr-4']))
 					{
 					foreach ($autoload['psr-4'] as $destDir => $sourceDir)
 						{
@@ -232,7 +265,7 @@ class ComposerUpdate
 							{
 							$sourceDir = [$sourceDir];
 							}
-						$this->copyPath($install['name'], $sourceDir, $destDir);
+						$this->copyPath($packageName, $sourceDir, $destDir);
 						}
 					}
 				elseif (! empty($autoload['psr-0']))
@@ -248,14 +281,14 @@ class ComposerUpdate
 							{
 							$sourceDir = [$sourceDir];
 							}
-						$this->copyPath($install['name'], $sourceDir, $destDir);
+						$this->copyPath($packageName, $sourceDir, $destDir);
 						}
 					}
 				elseif (! empty($autoload['classmap']))
 					{
 					foreach ($autoload['classmap'] as $file)
 						{
-						$fromDir = 'vendor/' . $install['name'] . '/' . $file;
+						$fromDir = 'vendor/' . $packageName . '/' . $file;
 
 						if (\is_file($fromDir))
 							{
