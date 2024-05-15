@@ -39,7 +39,7 @@ class Shows extends \App\View\WWWPublicBase implements \PHPFUI\Interfaces\NanoCl
 			return;
 			}
 
-		$this->page->addHeader("Show {$show->showId}");
+		$this->page->addHeader("Show {$show->showId} / Season {$show->season} / Episode {$show->episode} / {$show->airDate}");
 
 		$table = new \App\Table\ShowSequence();
 		$table->addJoin('title');
@@ -66,9 +66,6 @@ class Shows extends \App\View\WWWPublicBase implements \PHPFUI\Interfaces\NanoCl
 		$paginator->setWindow(4);
 		$paginator->setFastForward(25);
 		$this->page->addPageContent($paginator);
-
-		$episodeView = new \App\View\Episode($this->page);
-		$this->page->addPageContent($episodeView->showDetails($show));
 
 		$this->page->addPageContent($view);
 		}
