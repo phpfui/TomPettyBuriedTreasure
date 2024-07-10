@@ -8,6 +8,8 @@ class Field
 
 	public readonly ?string $defaultValue;
 
+	public readonly string $extra;
+
 	public readonly string $name;
 
 	public readonly bool $nullable;
@@ -29,6 +31,7 @@ class Field
 			$this->defaultValue = $fields['Default'];
 			$this->primaryKey = false;	// use indexes to find primary keys
 			$this->autoIncrement = \str_contains($fields['Extra'], 'auto_increment');
+			$this->extra = \str_replace('auto_increment', '', $fields['Extra']);
 
 			return;
 			}
@@ -39,5 +42,6 @@ class Field
 		$this->defaultValue = $fields['dflt_value'];
 		$this->primaryKey = (bool)$fields['pk'];
 		$this->autoIncrement = $autoIncrement && $this->primaryKey;
+		$this->extra = '';
 		}
 	}

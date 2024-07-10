@@ -13,6 +13,7 @@ use function is_int;
 use function is_string;
 use function sprintf;
 
+/** @final */
 class Timezone extends AbstractValidator
 {
     public const INVALID                       = 'invalidTimezone';
@@ -76,6 +77,8 @@ class Timezone extends AbstractValidator
 
     /**
      * Set the types
+     *
+     * @deprecated Since 2.60.0 All option setters and getters will be removed in v3.0
      *
      * @param int|array $type
      * @return void
@@ -149,6 +152,8 @@ class Timezone extends AbstractValidator
     }
 
     /**
+     * @deprecated Since 2.60.0 This method wil be removed in 3.0
+     *
      * @param array|int|string $type
      * @return float|int
      */
