@@ -26,7 +26,7 @@
         "phpfui/phpunit-syntax-coverage": "^1.0",
         "friendsofphp/php-cs-fixer": "^3.2",
         "phpstan/phpstan": "^1.8",
-        "phpunit/phpunit": "^9.5",
+        "phpunit/phpunit": "^11.0",
         "phpfui/html-unit-tester": "^1.0"
     }
 }
