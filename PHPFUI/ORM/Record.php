@@ -27,9 +27,6 @@ abstract class Record extends DataObject
 
 	protected static bool $deleteChildren = true;
 
-	/** @var array<string,array<callable>> */
-	protected static array $displayTransforms = [];
-
 	protected bool $empty = true;
 
 	/** @var array<string,array<mixed>> */
@@ -39,9 +36,6 @@ abstract class Record extends DataObject
 
 	/** @var array<string> */
 	protected static array $primaryKeys = [];
-
-	/** @var array<string,array<callable>> */
-	protected static array $setTransforms = [];
 
 	protected static string $table = '';
 
@@ -67,7 +61,7 @@ abstract class Record extends DataObject
 	public function __construct(int|array|null|string|\PHPFUI\ORM\DataObject $parameter = null)
 		{
 		$this->setEmpty();
-		$type = \get_debug_type($parameter);
+		$type = $parameter instanceof \PHPFUI\ORM\DataObject ? \PHPFUI\ORM\DataObject::class : \get_debug_type($parameter);
 
 		switch ($type)
 		  {
@@ -104,8 +98,7 @@ abstract class Record extends DataObject
 				break;
 
 			case \PHPFUI\ORM\DataObject::class:
-				$this->current = \array_intersect_key($parameter->current, static::$fields);
-				$this->empty = false;
+				$this->setFrom($parameter->current);
 
 				break;
 
@@ -129,32 +122,15 @@ abstract class Record extends DataObject
 			return $relationshipObject->getValue($relationship);
 			}
 
-		if (isset(static::$fields[$field]))
-			{
-			return $this->displayTransform($field);
-			}
-
-		$id = $field . \PHPFUI\ORM::$idSuffix;
-
-		if (\array_key_exists($id, $this->current))
-			{
-			$type = '\\' . \PHPFUI\ORM::$recordNamespace . '\\' . \PHPFUI\ORM::getBaseClassName($field);
-
-			if (\class_exists($type))
-				{
-				return new $type($this->current[$id]);
-				}
-			}
-
-		throw new \PHPFUI\ORM\Exception(static::class . "::{$field} is not a valid field");
+		return parent::__get($field);
 		}
 
 	/**
-	 * Allows for empty($object->field) to work correctly
+	 * @inherit
 	 */
 	public function __isset(string $field) : bool
 		{
-		return (bool)(\array_key_exists($field, $this->current) || \array_key_exists($field, static::$virtualFields) || \array_key_exists($field . \PHPFUI\ORM::$idSuffix, $this->current));
+		return (bool)(parent::__isset($field) || \array_key_exists($field, static::$virtualFields));
 		}
 
 	public function __set(string $field, mixed $value) : void
@@ -176,8 +152,14 @@ abstract class Record extends DataObject
 			{
 			$haveType = $value->getTableName();
 
-			if ($value instanceof \PHPFUI\ORM\Record && $field == $haveType)
+			if ($field == $haveType)
 				{
+				if ($value->empty())
+					{
+					$this->current[$id] = 0;
+
+					return;
+					}
 				$this->empty = false;
 
 				if (empty($value->{$id}))
@@ -201,16 +183,20 @@ abstract class Record extends DataObject
 			}
 
 		$this->validateFieldExists($field);
-
-		if (isset(static::$setTransforms[$field]))
-			{
-			$value = static::$setTransforms[$field]($value);
-			}
-
 		$expectedType = static::$fields[$field][self::PHP_TYPE_INDEX];
 		$haveType = \get_debug_type($value);
 
-		if (null !== $value && $haveType != $expectedType)
+		if (null === $value)
+			{
+			if (! static::$fields[$field][self::ALLOWS_NULL_INDEX])
+				{
+				$message = static::class . "::{$field} does not allow nulls";
+				\PHPFUI\ORM::log(\Psr\Log\LogLevel::WARNING, $message);
+
+				throw new \PHPFUI\ORM\Exception($message);
+				}
+			}
+		elseif ($haveType != $expectedType)
 			{
 			$message = static::class . "::{$field} is of type {$expectedType} but being assigned a type of {$haveType}";
 			\PHPFUI\ORM::log(\Psr\Log\LogLevel::WARNING, $message);
@@ -241,24 +227,6 @@ abstract class Record extends DataObject
 			}
 		$this->empty = false;
 		$this->current[$field] = $value;
-		}
-
-	/**
-	 * Add a transform for get.  Callback is passed value.
-	 */
-	public static function addDisplayTransform(string $field, callable $callback) : void
-		{
-		static::$displayTransforms[$field] = $callback;
-		}
-
-	/**
-	 * Add a transform for set.  Callback is passed value.
-	 */
-	public function addSetTransform(string $field, callable $callback) : static
-		{
-		static::$setTransforms[$field] = $callback;
-
-		return $this;
 		}
 
 	public function blankDate(?string $date) : string
@@ -320,24 +288,6 @@ abstract class Record extends DataObject
 		$sql = "delete from `{$table}` " . $where;
 
 		return \PHPFUI\ORM::execute($sql, $input);
-		}
-
-	/**
-	 * Transform a field for display
-	 */
-	public function displayTransform(string $field, mixed $value = null) : mixed
-		{
-		if (null === $value)
-			{
-			$value = $this->current[$field] ?? null;
-			}
-
-		if (! isset(static::$displayTransforms[$field]))
-			{
-			return $value;
-			}
-
-		return static::$displayTransforms[$field]($value);
 		}
 
 	/**
@@ -508,25 +458,6 @@ abstract class Record extends DataObject
 		return true;
 		}
 
-	/**
-	 * Low level get access to underlying data to implement ArrayAccess
-	 */
-	public function offsetGet($offset) : mixed
-		{
-		$this->validateFieldExists($offset);
-
-		return $this->current[$offset] ?? null;
-		}
-
-	/**
-	 * Low level set access to underlying data to implement ArrayAccess
-	 */
-	public function offsetSet($offset, $value) : void
-		{
-		$this->validateFieldExists($offset);
-		$this->current[$offset] = $value;
-		}
-
  /**
   * Read a record from the db. If more than one match, only the first is loaded.
   *
@@ -612,11 +543,6 @@ abstract class Record extends DataObject
 			if (isset(static::$fields[$field]))
 				{
 				$this->empty = false;
-
-				if (isset(static::$setTransforms[$field]))
-					{
-					$value = static::$setTransforms[$field]($value);
-					}
 				$this->current[$field] = $value;
 				}
 			}
@@ -804,6 +730,17 @@ abstract class Record extends DataObject
 		return \date('Y-m-d g:i a', $timeStamp);
 		}
 
+	protected function validateFieldExists(string $field) : void
+		{
+		if (! isset(static::$fields[$field]))
+			{
+			$message = static::class . "::{$field} is not a valid field";
+			\PHPFUI\ORM::log(\Psr\Log\LogLevel::ERROR, $message);
+
+			throw new \PHPFUI\ORM\Exception($message);
+			}
+		}
+
 	/**
 	 * Build a where clause
 	 *
@@ -814,11 +751,6 @@ abstract class Record extends DataObject
 	 */
 	private function buildWhere(array|int|string $key, array &$input) : string
 		{
-		if ('*' === $key)
-			{
-			return '';
-			}
-
 		if (! \is_array($key))
 			{
 			$key = [static::$primaryKeys[0] => $key];
@@ -947,16 +879,5 @@ abstract class Record extends DataObject
 		$this->loaded = true;	// record is effectively read from the database now
 
 		return $returnValue;
-		}
-
-	private function validateFieldExists(string $field) : void
-		{
-		if (! isset(static::$fields[$field]))
-			{
-			$message = static::class . "::{$field} is not a valid field";
-			\PHPFUI\ORM::log(\Psr\Log\LogLevel::ERROR, $message);
-
-			throw new \PHPFUI\ORM\Exception($message);
-			}
 		}
 	}

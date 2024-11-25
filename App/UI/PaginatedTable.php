@@ -27,7 +27,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 
 	private int $pageNumber = 0;
 
-	/** @var array<string,string> */
+	/** @var array<string,int|string> */
 	private array $parameters = [];
 
 	/** @var array<string,\App\UI\SearchField|\PHPFUI\Input\Input> */
@@ -161,7 +161,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 
 		foreach ($_GET as $name => $value)
 			{
-			if (\strlen((string)$value) && \str_starts_with($name, 's_'))
+			if (! \is_array($value) && \strlen((string)$value) && \str_starts_with($name, 's_'))
 				{
 				$fieldName = \substr($name, 2);
 
@@ -194,7 +194,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 		}
 
 	/**
-	 * @param ?array<string,string> $parameters
+	 * @param ?array<string,string|int> $parameters
 	 */
 	public function getUrl(?array $parameters = null) : string
 		{
@@ -232,7 +232,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 				$key = $value;
 				$value = $this->dataTable->translate($value);
 				}
-			elseif (\is_string($key) && $value instanceof \PHPFUI\Input\Input)
+			elseif ($value instanceof \PHPFUI\Input\Input)
 				{
 				$value = $this->dataTable->translate($key);
 				}
@@ -357,8 +357,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 
 		$paginator = new \PHPFUI\Pagination($this->pageNumber, $lastPage, $this->getUrl());
 
-		// @phpstan-ignore-next-line
-		if (! $this->continuousScroll)
+		if (! $this->continuousScroll) // @phpstan-ignore booleanNot.alwaysTrue
 			{
 			$paginator->alwaysShow($this->alwaysShowPaginator);
 			}
@@ -383,8 +382,7 @@ class PaginatedTable extends \PHPFUI\SortableTable
 		$limitSelectCell = new \PHPFUI\Cell();
 		$limitSelectCell->addClass('auto');
 
-		// @phpstan-ignore-next-line
-		if (! $this->continuousScroll && $this->showLimitSelect)
+		if (! $this->continuousScroll && $this->showLimitSelect) // @phpstan-ignore booleanNot.alwaysTrue
 			{
 			$limitSelectCell->add($limitSelect);
 			}
@@ -410,7 +408,6 @@ class PaginatedTable extends \PHPFUI\SortableTable
 				}
 
 			$csvWriter = new \App\Tools\CSV\FileWriter($fileName);
-			$csvWriter->addHeaderRow();
 
 			$this->dataTable->setLimit(0);
 
@@ -494,8 +491,7 @@ intersectionObserver.observe(document.querySelector('#{$footerId}'));";
 		$name = \array_pop($parts);
 		$permission = "Download {$name} CSV File";
 
-		// @phpstan-ignore-next-line
-		return $this->page->isAuthorized($permission);
+		return $this->page->isAuthorized($permission); // @phpstan-ignore method.notFound
 		}
 
 	private function fillTable() : void
@@ -512,11 +508,6 @@ intersectionObserver.observe(document.querySelector('#{$footerId}'));";
 			{
 			++$count;
 			$displayRow = $row;
-
-			foreach ($row as $field => $value)
-				{
-				$displayRow[$field] = $this->dataTable->displayTransform($field, $value);
-				}
 
 			foreach ($this->customColumns as $field => $callbackInfo)
 				{
