@@ -45,17 +45,19 @@ class Base
 			{
 			unset($merges[$id]);
 			}
-		$questionMarks = \array_fill(0, \count($merges), '?');
-		$input = \array_merge([$id], $merges);
+
+		$showSequenceTable = new \App\Table\ShowSequence();
+		$showSequenceTable->setWhere(new \PHPFUI\ORM\Condition("{$this->type}Id", $merges, new \PHPFUI\ORM\Operator\In()));
 
 		foreach ($this->fields as $field)
 			{
-			$sql = "update ShowSequence set {$field}=? where {$this->type}Id in (" . \implode(',', $questionMarks) . ')';
-			\PHPFUI\ORM::execute($sql, $input);
+			$showSequenceTable->update([$field => $id]);
 			}
 
-		$sql = "delete from {$this->type} where {$this->type}Id in (" . \implode(',', $questionMarks) . ')';
-		\PHPFUI\ORM::execute($sql, $merges);
+		$className = "\\App\\Table\\{$this->type}";
+		$deleteTable = new $className();
+		$deleteTable->setWhere(new \PHPFUI\ORM\Condition("{$this->type}Id", $merges, new \PHPFUI\ORM\Operator\In()));
+		$deleteTable->delete();
 
 		return '';
 		}

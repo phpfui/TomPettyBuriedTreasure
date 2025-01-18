@@ -86,9 +86,13 @@ class Cleanup
 		$currentField = $additionalData[0];
 
 		$id = $this->lcType . 'Id';
-		$sql = "select distinct {$currentField}.{$currentField},{$currentField}.{$currentField}Id from ShowSequence ss
-			left join {$currentField} on {$currentField}.{$currentField}Id=ss.{$currentField}Id where ss.{$id}=?";
-		$rows = \PHPFUI\ORM::getRows($sql, [$item[$id]]);
+		$showSequenceTable = new \App\Table\ShowSequence();
+		$showSequenceTable->setDistinct();
+		$showSequenceTable->addSelect("{$currentField}.{$currentField}");
+		$showSequenceTable->addSelect("{$currentField}.{$currentField}Id");
+		$showSequenceTable->addJoin($currentField);
+		$showSequenceTable->setWhere(new \PHPFUI\ORM\Condition("ShowSequence.{$id}", $item[$id]));
+		$rows = $showSequenceTable->getArrayCursor();
 		$text = '';
 		$results = [];
 
