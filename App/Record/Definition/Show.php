@@ -17,19 +17,28 @@ abstract class Show extends \PHPFUI\ORM\Record
 	{
 	protected static bool $autoIncrement = false;
 
-	/** @var array<string, array<mixed>> */
-	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
-		'airDate' => ['date', 'string', 10, true, null, ],
-		'episode' => ['integer', 'int', 0, false, 0, ],
-		'notes' => ['varchar(255)', 'string', 255, false, '', ],
-		'repeat' => ['integer', 'int', 0, false, 0, ],
-		'season' => ['integer', 'int', 0, false, 0, ],
-		'showId' => ['integer', 'int', 0, true, ],
-	];
+	/** @var array<string, \PHPFUI\ORM\FieldDefinition> */
+	protected static array $fields = [];
 
 	/** @var array<string> */
 	protected static array $primaryKeys = ['showId', ];
 
 	protected static string $table = 'show';
+
+	public function initFieldDefinitions() : static
+		{
+		if (! \count(static::$fields))
+			{
+			static::$fields = [
+				'airDate' => new \PHPFUI\ORM\FieldDefinition('date', 'string', 10, true, null, ),
+				'episode' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'notes' => new \PHPFUI\ORM\FieldDefinition('varchar(255)', 'string', 255, false, '', ),
+				'repeat' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'season' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'showId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, ),
+			];
+			}
+
+		return $this;
+		}
 	}

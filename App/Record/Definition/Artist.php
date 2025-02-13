@@ -14,17 +14,26 @@ abstract class Artist extends \PHPFUI\ORM\Record
 	{
 	protected static bool $autoIncrement = true;
 
-	/** @var array<string, array<mixed>> */
-	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
-		'artist' => ['varchar(255)', 'string', 255, false, '', ],
-		'artistId' => ['integer', 'int', 0, true, ],
-		'plays' => ['integer', 'int', 0, false, 0, ],
-		'rank' => ['integer', 'int', 0, false, 0, ],
-	];
+	/** @var array<string, \PHPFUI\ORM\FieldDefinition> */
+	protected static array $fields = [];
 
 	/** @var array<string> */
 	protected static array $primaryKeys = ['artistId', ];
 
 	protected static string $table = 'artist';
+
+	public function initFieldDefinitions() : static
+		{
+		if (! \count(static::$fields))
+			{
+			static::$fields = [
+				'artist' => new \PHPFUI\ORM\FieldDefinition('varchar(255)', 'string', 255, false, '', ),
+				'artistId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, ),
+				'plays' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'rank' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+			];
+			}
+
+		return $this;
+		}
 	}

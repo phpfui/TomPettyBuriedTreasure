@@ -20,19 +20,28 @@ abstract class ShowSequence extends \PHPFUI\ORM\Record
 	{
 	protected static bool $autoIncrement = false;
 
-	/** @var array<string, array<mixed>> */
-	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
-		'albumId' => ['integer', 'int', 0, false, ],
-		'artistId' => ['integer', 'int', 0, false, ],
-		'second_artistId' => ['integer', 'int', 0, true, null, ],
-		'sequence' => ['integer', 'int', 0, false, ],
-		'showId' => ['integer', 'int', 0, false, ],
-		'titleId' => ['integer', 'int', 0, false, ],
-	];
+	/** @var array<string, \PHPFUI\ORM\FieldDefinition> */
+	protected static array $fields = [];
 
 	/** @var array<string> */
 	protected static array $primaryKeys = ['showId', 'sequence', ];
 
 	protected static string $table = 'showSequence';
+
+	public function initFieldDefinitions() : static
+		{
+		if (! \count(static::$fields))
+			{
+			static::$fields = [
+				'albumId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
+				'artistId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
+				'second_artistId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, null, ),
+				'sequence' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
+				'showId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
+				'titleId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
+			];
+			}
+
+		return $this;
+		}
 	}

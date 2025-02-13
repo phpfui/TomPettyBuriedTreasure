@@ -14,17 +14,26 @@ abstract class Album extends \PHPFUI\ORM\Record
 	{
 	protected static bool $autoIncrement = true;
 
-	/** @var array<string, array<mixed>> */
-	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
-		'album' => ['varchar(255)', 'string', 255, false, '', ],
-		'albumId' => ['integer', 'int', 0, true, ],
-		'plays' => ['integer', 'int', 0, false, 0, ],
-		'rank' => ['integer', 'int', 0, false, 0, ],
-	];
+	/** @var array<string, \PHPFUI\ORM\FieldDefinition> */
+	protected static array $fields = [];
 
 	/** @var array<string> */
 	protected static array $primaryKeys = ['albumId', ];
 
 	protected static string $table = 'album';
+
+	public function initFieldDefinitions() : static
+		{
+		if (! \count(static::$fields))
+			{
+			static::$fields = [
+				'album' => new \PHPFUI\ORM\FieldDefinition('varchar(255)', 'string', 255, false, '', ),
+				'albumId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, ),
+				'plays' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'rank' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+			];
+			}
+
+		return $this;
+		}
 	}

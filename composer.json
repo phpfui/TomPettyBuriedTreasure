@@ -20,12 +20,12 @@
         "guzzlehttp/guzzle": "^7.5",
         "cebe/markdown": "^1.2",
         "gitonomy/gitlib": "^1.3",
-        "phpfui/orm": "^1.3"
+        "phpfui/orm": "^2.0"
     },
     "require-dev": {
         "phpfui/phpunit-syntax-coverage": "^1.0",
-        "friendsofphp/php-cs-fixer": "^3.2",
-        "phpstan/phpstan": "^1.8",
+        "friendsofphp/php-cs-fixer": "^3.68.5",
+        "phpstan/phpstan": "^2.0",
         "phpunit/phpunit": "^11.0",
         "phpfui/html-unit-tester": "^1.0"
     }

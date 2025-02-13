@@ -14,17 +14,26 @@ abstract class Title extends \PHPFUI\ORM\Record
 	{
 	protected static bool $autoIncrement = true;
 
-	/** @var array<string, array<mixed>> */
-	protected static array $fields = [
-		// MYSQL_TYPE, PHP_TYPE, LENGTH, ALLOWS_NULL, DEFAULT
-		'plays' => ['integer', 'int', 0, false, 0, ],
-		'rank' => ['integer', 'int', 0, false, 0, ],
-		'title' => ['varchar(255)', 'string', 255, false, '', ],
-		'titleId' => ['integer', 'int', 0, true, ],
-	];
+	/** @var array<string, \PHPFUI\ORM\FieldDefinition> */
+	protected static array $fields = [];
 
 	/** @var array<string> */
 	protected static array $primaryKeys = ['titleId', ];
 
 	protected static string $table = 'title';
+
+	public function initFieldDefinitions() : static
+		{
+		if (! \count(static::$fields))
+			{
+			static::$fields = [
+				'plays' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'rank' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
+				'title' => new \PHPFUI\ORM\FieldDefinition('varchar(255)', 'string', 255, false, '', ),
+				'titleId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, ),
+			];
+			}
+
+		return $this;
+		}
 	}

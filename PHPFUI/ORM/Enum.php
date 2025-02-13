@@ -5,13 +5,23 @@ namespace PHPFUI\ORM;
 class Enum extends \PHPFUI\ORM\VirtualField
 	{
 	/**
+	 * @param array<mixed> $parameters
+	 **/
+	public function fromPHPValue(mixed $value, array $parameters) : mixed
+		{
+		$enum = $parameters[0];
+
+		return $enum::from($value ?? 0);
+		}
+
+	/**
 	 * @param array<mixed> $parameters optional
 	 */
 	public function getValue(array $parameters) : mixed
 		{
 		$enum = $parameters[0];
 
-		return $enum::from($this->currentRecord->offsetGet($this->fieldName));
+		return $enum::from($this->currentRecord->offsetGet($this->fieldName) ?? 0);
 		}
 
 	/**
