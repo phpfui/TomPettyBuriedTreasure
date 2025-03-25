@@ -78,7 +78,7 @@ abstract class Reader implements \Iterator
 					}
 				else
 					{
-					$this->current = $array;
+					$this->current = $array;	// @phpstan-ignore-line
 					}
 				}
 			}
