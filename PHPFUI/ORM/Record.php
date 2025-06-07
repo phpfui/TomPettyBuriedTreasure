@@ -128,6 +128,17 @@ abstract class Record extends DataObject
 			return $this->current[$field] ?? null;
 			}
 
+		// could be a related record, see if has a matching Id
+		if (\array_key_exists($field . \PHPFUI\ORM::$idSuffix, static::$fields))
+			{
+			$type = '\\' . \PHPFUI\ORM::$recordNamespace . '\\' . \PHPFUI\ORM::getBaseClassName($field);
+
+			if (\class_exists($type))
+				{
+				return new $type($this->current[$field . \PHPFUI\ORM::$idSuffix] ?? null);
+				}
+			}
+
 		return parent::__get($field);
 		}
 
@@ -487,10 +498,6 @@ abstract class Record extends DataObject
 			{
 			if (null === $description->defaultValue)	// no default value
 				{
-				if ($description->nullable)	// can be null, so don't set
-					{
-					continue;
-					}
 				$this->current[$field] = null; // can't be null, so we can set to null, user must set
 				}
 			else	// has default value, if SQL default, set to null, otherwise default value
@@ -847,7 +854,7 @@ abstract class Record extends DataObject
 				{
 				$definition = static::$fields[$key];
 
-				if (null == $value && null != $definition->defaultValue)
+				if (null === $value && null !== $definition->defaultValue)
 					{
 					continue;
 					}
