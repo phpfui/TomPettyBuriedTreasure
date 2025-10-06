@@ -22,12 +22,14 @@ use const SORT_NUMERIC;
  * @psalm-type QueueElement = array{instance: ValidatorInterface, breakChainOnFailure: bool}
  * @implements IteratorAggregate<array-key, QueueElement>
  */
-final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInterface
+final class ValidatorChain implements Countable, IteratorAggregate, ValidatorChainInterface
 {
     /**
      * Default priority at which validators are added
+     *
+     * @deprecated Use ValidatorChainInterface::DEFAULT_PRIORITY instead.
      */
-    public const DEFAULT_PRIORITY = 1;
+    public const DEFAULT_PRIORITY = ValidatorChainInterface::DEFAULT_PRIORITY;
 
     /**
      * Validator chain
@@ -70,7 +72,8 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
      *
      * It is not subject to BC because it is marked as internal and the method may be removed in a minor release.
      *
-     * @internal \Laminas
+     * @psalm-internal \Laminas
+     * @psalm-internal \LaminasTest
      */
     public function getPluginManager(): ValidatorPluginManager
     {
@@ -87,7 +90,8 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
      * This method is retained for BC with laminas-inputfilter. It is internal and not subject to BC guarantees.
      * It may be removed in a minor release.
      *
-     * @internal \Laminas
+     * @psalm-internal \Laminas
+     * @psalm-internal \LaminasTest
      */
     public function setPluginManager(ValidatorPluginManager $plugins): void
     {
@@ -100,17 +104,19 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
      * This method is retained for BC with laminas-inputfilter. It is internal and not subject to BC guarantees.
      * It may be removed in a minor release.
      *
-     * @internal \Laminas
-     *
-     * @param string|class-string<T> $name    Name of validator to return
-     * @param array<string, mixed>   $options Options to pass to validator constructor
+     * @psalm-internal \Laminas
+     * @psalm-internal \LaminasTest
+     * @param string|class-string<T> $name Name of validator to return
+     * @param array<string, mixed> $options Options to pass to validator constructor
      *                                        (if not already instantiated)
      * @template T of ValidatorInterface
      * @return ($name is class-string<T> ? T : ValidatorInterface)
      */
     public function plugin(string $name, array $options = []): ValidatorInterface
     {
-        $plugin = $this->getPluginManager()->build($name, $options);
+        $plugin = $options === []
+            ? $this->getPluginManager()->get($name)
+            : $this->getPluginManager()->build($name, $options);
         assert($plugin instanceof ValidatorInterface);
 
         return $plugin;
@@ -126,7 +132,7 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
     public function attach(
         ValidatorInterface $validator,
         bool $breakChainOnFailure = false,
-        int $priority = self::DEFAULT_PRIORITY
+        int $priority = ValidatorChainInterface::DEFAULT_PRIORITY
     ): void {
         $this->validators->insert(
             [
@@ -145,7 +151,7 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
      */
     public function prependValidator(ValidatorInterface $validator, bool $breakChainOnFailure = false): void
     {
-        $priority = self::DEFAULT_PRIORITY;
+        $priority = ValidatorChainInterface::DEFAULT_PRIORITY;
 
         if (! $this->validators->isEmpty()) {
             $extractedNodes = $this->validators->toArray(PriorityQueue::EXTR_PRIORITY);
@@ -172,7 +178,7 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
         string $name,
         array $options = [],
         bool $breakChainOnFailure = false,
-        int $priority = self::DEFAULT_PRIORITY,
+        int $priority = ValidatorChainInterface::DEFAULT_PRIORITY,
     ): void {
         $bc = null;
         foreach (['break_chain_on_failure', 'breakchainonfailure'] as $key) {
@@ -192,7 +198,7 @@ final class ValidatorChain implements Countable, IteratorAggregate, ValidatorInt
      * Use the plugin manager to prepend a validator by name
      *
      * @param string|class-string<ValidatorInterface> $name
-     * @param array<string, mixed>                    $options
+     * @param array<string, mixed> $options
      */
     public function prependByName(string $name, array $options = [], bool $breakChainOnFailure = false): void
     {

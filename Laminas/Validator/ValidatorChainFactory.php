@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Laminas\Validator;
 
-use function assert;
-
 /**
  * @psalm-import-type ValidatorSpecification from ValidatorInterface
  */
@@ -15,17 +13,20 @@ final class ValidatorChainFactory
     {
     }
 
-    /** @param array<array-key, ValidatorSpecification> $specification */
+    /** @param array<array-key, ValidatorSpecification|ValidatorInterface> $specification */
     public function fromArray(array $specification): ValidatorChain
     {
         $chain = new ValidatorChain($this->pluginManager);
         foreach ($specification as $spec) {
-            $priority   = $spec['priority'] ?? ValidatorChain::DEFAULT_PRIORITY;
+            if ($spec instanceof ValidatorInterface) {
+                $chain->attach($spec);
+                continue;
+            }
+
+            $priority   = $spec['priority'] ?? ValidatorChainInterface::DEFAULT_PRIORITY;
             $breakChain = $spec['break_chain_on_failure'] ?? false;
             $options    = $spec['options'] ?? [];
-            $validator  = $this->pluginManager->build($spec['name'], $options);
-            assert($validator instanceof ValidatorInterface);
-            $chain->attach($validator, $breakChain, $priority);
+            $chain->attachByName($spec['name'], $options, $breakChain, $priority);
         }
 
         return $chain;
