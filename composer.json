@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "php": ">=8.2 <8.5",
+        "php": ">=8.2 <=8.5",
         "phpfui/phpfui": "^6.0",
         "laminas/laminas-uri": "^2.10",
         "psr-php7/log": "^1.0",
@@ -20,7 +20,7 @@
         "guzzlehttp/guzzle": "^7.5",
         "cebe/markdown": "^1.2",
         "gitonomy/gitlib": "^1.3",
-        "phpfui/orm": "^2.0"
+        "phpfui/orm": "^3.0"
     },
     "require-dev": {
         "phpfui/phpunit-syntax-coverage": "^1.0",
