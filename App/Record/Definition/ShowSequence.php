@@ -35,7 +35,7 @@ abstract class ShowSequence extends \PHPFUI\ORM\Record
 			static::$fields = [
 				'albumId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
 				'artistId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
-				'second_artistId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, null, ),
+				'second_artistId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, true, ),
 				'sequence' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
 				'showId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),
 				'titleId' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, ),

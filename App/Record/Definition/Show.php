@@ -30,7 +30,7 @@ abstract class Show extends \PHPFUI\ORM\Record
 		if (! \count(static::$fields))
 			{
 			static::$fields = [
-				'airDate' => new \PHPFUI\ORM\FieldDefinition('date', 'string', 10, true, null, ),
+				'airDate' => new \PHPFUI\ORM\FieldDefinition('date', 'string', 10, true, ),
 				'episode' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
 				'notes' => new \PHPFUI\ORM\FieldDefinition('varchar(255)', 'string', 255, false, '', ),
 				'repeat' => new \PHPFUI\ORM\FieldDefinition('integer', 'int', 0, false, 0, ),
