@@ -11,7 +11,7 @@ class Shows extends \App\View\WWWPublicBase implements \PHPFUI\Interfaces\NanoCl
 		$table = new \App\Table\Show();
 		$view = new \App\UI\PaginatedTable($this->page, $table);
 		$headers = ['showId', 'season', 'episode', 'airDate', 'notes'];
-		$view->addCustomColumn('showId', static function(array $row)
+		$view->addCustomColumn('showId', static function(array $row) : \PHPFUI\Link
 			{
 			$id = $row['showId'] - 1;
 
@@ -54,9 +54,9 @@ class Shows extends \App\View\WWWPublicBase implements \PHPFUI\Interfaces\NanoCl
 		$view->alwaysShowPaginator(false);
 		$headers = ['sequence', 'title', 'artist', 'album'];
 		$view->setHeaders($headers);
-		$view->addCustomColumn('title', static fn (array $row) => new \PHPFUI\Link("/Titles/shows/{$row['titleId']}", $row['title'], false));
-		$view->addCustomColumn('artist', static fn (array $row) => new \PHPFUI\Link("/Artists/shows/{$row['artistId']}", $row['artist'], false));
-		$view->addCustomColumn('album', static fn (array $row) => new \PHPFUI\Link("/Albums/shows/{$row['albumId']}", $row['album'], false));
+		$view->addCustomColumn('title', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Titles/shows/{$row['titleId']}", $row['title'], false));
+		$view->addCustomColumn('artist', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Artists/shows/{$row['artistId']}", $row['artist'], false));
+		$view->addCustomColumn('album', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Albums/shows/{$row['albumId']}", $row['album'], false));
 
 		$parts = \explode('\\', $view->getBaseUrl());
 		\array_pop($parts);

@@ -22,7 +22,7 @@ abstract class Writer
 	 *
 	 * @param resource $outputStream
 	 */
-	public function __construct(private $outputStream, private readonly string $separator, private readonly string $enclosure, private readonly string $escape, private readonly string $eol)
+	public function __construct(private $outputStream, private readonly string $separator, private readonly string $enclosure, private readonly string $escape, private readonly string $eol) // @mago-expect lint:parameter-type
 		{
 		}
 
@@ -31,7 +31,7 @@ abstract class Writer
 	 */
 	public function addHeaderRow(bool $headerRow = true) : static
 		{
-		$this->headerRow = true;
+		$this->headerRow = $headerRow;
 
 		return $this;
 		}

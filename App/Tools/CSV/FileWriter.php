@@ -3,7 +3,7 @@
 namespace App\Tools\CSV;
 
 /**
- * \PHPFUI\Tools\CSVWriter: a simple class to output a CSV file given data in an array
+ * \PHPFUI\Tools\CSV\CursorWriter: a simple class to output a CSV file given a data cursor
  *
  * Features:
  *  - User specified delimiter (default: comma)
@@ -15,7 +15,7 @@ class FileWriter extends Writer
 	/**
 	 * @var resource $out opened output file stream
 	 */
-	private $out;
+	private $out; // @mago-expect lint:property-type
 
 	/**
 	 * Make a \CSV\File\Writer.

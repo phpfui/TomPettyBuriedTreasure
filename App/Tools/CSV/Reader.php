@@ -17,7 +17,7 @@ namespace App\Tools\CSV;
  */
 abstract class Reader implements \Iterator
 	{
-	/** @var array<string, string> */
+	/** @var array<string, string> | array<string|null> */
 	private array $current = [];
 
 	/** @var array<string> */
@@ -28,12 +28,12 @@ abstract class Reader implements \Iterator
 	/**
 	 * @param ?resource $stream
 	 */
-	public function __construct(protected $stream, private readonly bool $headerRow, private readonly string $separator, private string $enclosure, private string $escape)
+	public function __construct(protected $stream, private readonly bool $headerRow, private readonly string $separator, private string $enclosure, private string $escape) // @mago-expect lint:parameter-type
 		{
 		$this->rewind();
 		}
 
-	/** @return array<string, string> */
+	/** @return array<string, string> | array<string|null> */
 	public function current() : array
 		{
 		return $this->current;
@@ -78,7 +78,7 @@ abstract class Reader implements \Iterator
 					}
 				else
 					{
-					$this->current = $array;	// @phpstan-ignore-line
+					$this->current = $array;
 					}
 				}
 			}
@@ -98,7 +98,12 @@ abstract class Reader implements \Iterator
 
 			if ($this->headerRow)
 				{
-				$this->headers = \fgetcsv($this->stream, 0, $this->separator, $this->enclosure, $this->escape);
+				$data = \fgetcsv($this->stream, 0, $this->separator, $this->enclosure, $this->escape);
+
+				if (\is_array($data))
+					{
+					$this->headers = $data;
+					}
 				}
 			}
 		$this->next();

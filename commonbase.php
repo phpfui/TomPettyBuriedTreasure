@@ -22,6 +22,20 @@ function autoload($className)
 		}
 	}
 
+function emailServerName() : string
+	{
+	$parts = explode('.', $_SERVER['SERVER_NAME'] ?? 'localhost');
+	while(\count($parts) > 2)
+		{
+		array_shift($parts);
+		}
+	if (count($parts) == 1)
+		{
+		$parts[] = 'example';
+		}
+
+	return strtolower(implode('.', $parts));
+	}
+
 spl_autoload_register('autoload');
 date_default_timezone_set('America/New_York');
-

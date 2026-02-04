@@ -16,7 +16,7 @@ class WWWPublicBase extends WWWBase implements \Stringable
 		$fieldName = $this->fieldName;
 
 		$title = $this->title;
-		$view->addCustomColumn($this->fieldName, static fn (array $row) => new \PHPFUI\Link("/{$title}/shows/{$row[$fieldName . 'Id']}", $row[$fieldName], false));
+		$view->addCustomColumn($this->fieldName, static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/{$title}/shows/{$row[$fieldName . 'Id']}", $row[$fieldName], false));
 
 		$view->setSearchColumns($headers)->setHeaders($headers)->setSortableColumns($headers);
 
@@ -56,9 +56,9 @@ class WWWPublicBase extends WWWBase implements \Stringable
 				continue;
 				}
 			$plural = \ucfirst($field . 's');
-			$view->addCustomColumn($field, static fn (array $row) => new \PHPFUI\Link("/{$plural}/shows/" . $row[$field . 'Id'], $row[$field], false));
+			$view->addCustomColumn($field, static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/{$plural}/shows/" . $row[$field . 'Id'], $row[$field], false));
 			}
-		$view->addCustomColumn('showId', static fn (array $row) => new \PHPFUI\Link('/Shows/info/' . ($row['showId'] - 1), $row['showId'], false));
+		$view->addCustomColumn('showId', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link('/Shows/info/' . ($row['showId'] - 1), $row['showId'], false));
 
 		$view->setSearchColumns($headers)->setHeaders($headers)->setSortableColumns($headers);
 

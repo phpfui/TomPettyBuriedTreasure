@@ -25,4 +25,4 @@ LICENSE.md
 /Symfony/Polyfill
 composer.lock
 .php-cs-fixer.cache
-
+mago.errors

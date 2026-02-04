@@ -4,7 +4,7 @@ namespace App\Model;
 
 class Session extends \PHPFUI\Session
 	{
-	public const DEBUG_BAR = 4;
+	public const int DEBUG_BAR = 4;
 
 	public static function destroy() : void
 		{

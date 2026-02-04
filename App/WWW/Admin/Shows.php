@@ -69,10 +69,10 @@ class Shows extends \App\View\WWWAdminBase implements \PHPFUI\Interfaces\NanoCla
 		$view->alwaysShowPaginator(false);
 		$headers = ['sequence', 'title', 'artist', 'album'];
 		$view->setHeaders($headers);
-		$view->addCustomColumn('sequence', static fn (array $row) => new \PHPFUI\Link("/Admin/Shows/editSequence/{$row['showId']}/{$row['sequence']}", $row['sequence'], false));
-		$view->addCustomColumn('title', static fn (array $row) => new \PHPFUI\Link("/Admin/Titles/edit/{$row['titleId']}", $row['title'], false));
-		$view->addCustomColumn('artist', static fn (array $row) => new \PHPFUI\Link("/Admin/Artists/edit/{$row['artistId']}", $row['artist'], false));
-		$view->addCustomColumn('album', static fn (array $row) => new \PHPFUI\Link("/Admin/Albums/edit/{$row['albumId']}", $row['album'], false));
+		$view->addCustomColumn('sequence', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Admin/Shows/editSequence/{$row['showId']}/{$row['sequence']}", $row['sequence'], false));
+		$view->addCustomColumn('title', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Admin/Titles/edit/{$row['titleId']}", $row['title'], false));
+		$view->addCustomColumn('artist', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Admin/Artists/edit/{$row['artistId']}", $row['artist'], false));
+		$view->addCustomColumn('album', static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Admin/Albums/edit/{$row['albumId']}", $row['album'], false));
 
 		$parts = \explode('\\', $view->getBaseUrl());
 		\array_pop($parts);

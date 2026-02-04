@@ -39,7 +39,7 @@ class WWWAdminBase extends WWWBase implements \Stringable
 		$fieldName = $this->fieldName;
 
 		$title = $this->title;
-		$view->addCustomColumn($this->fieldName, static fn (array $row) => new \PHPFUI\Link("/Admin/{$title}/edit/{$row[$fieldName . 'Id']}", $row[$fieldName], false));
+		$view->addCustomColumn($this->fieldName, static fn (array $row) : \PHPFUI\Link => new \PHPFUI\Link("/Admin/{$title}/edit/{$row[$fieldName . 'Id']}", $row[$fieldName], false));
 		$view->addCustomColumn('Search', $this->googleCallback(...));
 
 		$view->setSearchColumns($headers)->setHeaders($headers)->setSortableColumns($headers);
