@@ -1243,16 +1243,16 @@
         },
         {
             "name": "phpfui/phpfui",
-            "version": "V6.3.10",
+            "version": "V6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpfui/phpfui.git",
-                "reference": "a62aa95c1d53bd67e7076b41f11896d126513136"
+                "reference": "a088169d65cad8d9051e4b4572e58e01a109f59f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpfui/phpfui/zipball/a62aa95c1d53bd67e7076b41f11896d126513136",
-                "reference": "a62aa95c1d53bd67e7076b41f11896d126513136",
+                "url": "https://api.github.com/repos/phpfui/phpfui/zipball/a088169d65cad8d9051e4b4572e58e01a109f59f",
+                "reference": "a088169d65cad8d9051e4b4572e58e01a109f59f",
                 "shasum": ""
             },
             "require": {
@@ -1263,18 +1263,18 @@
                 "zurb/foundation": "^6.6"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "*",
+                "friendsofphp/php-cs-fixer": "^3.94",
                 "mheap/phpunit-github-actions-printer": "^1.5",
                 "phpfui/html-unit-tester": "^1.0",
                 "phpfui/phpunit-syntax-coverage": "dev-master",
                 "phpfui/recaptcha": "dev-PSR",
                 "phpstan/phpstan": "*",
-                "phpunit/phpunit": "^10.5|^11.0|^12.0",
+                "phpunit/phpunit": "^10.5|^11.0|^12.0|^13.0",
                 "roave/security-advisories": "dev-latest"
             },
             "suggest": {
                 "kwn/number-to-words": "Allows words in addition to numbers for MathCaptcha",
-                "phpfui/recaptcha": "Supports PHP 8.4 for Google ReCaptcha"
+                "phpfui/recaptcha": "Supports PHP 8.4+ for Google ReCaptcha"
             },
             "type": "library",
             "autoload": {
@@ -1308,9 +1308,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpfui/phpfui/issues",
-                "source": "https://github.com/phpfui/phpfui/tree/V6.3.10"
+                "source": "https://github.com/phpfui/phpfui/tree/V6.4.0"
             },
-            "time": "2025-11-17T16:35:07+00:00"
+            "time": "2026-03-19T19:56:46+00:00"
         },
         {
             "name": "phpfui/translation",
@@ -1993,16 +1993,16 @@
     "packages-dev": [
         {
             "name": "carthage-software/mago",
-            "version": "1.14.0",
+            "version": "1.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carthage-software/mago.git",
-                "reference": "197dae097f525914ed7451b3d2fd7432adf104a7"
+                "reference": "6caa9a633f012dd484bb5a394e97c01a451b129a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carthage-software/mago/zipball/197dae097f525914ed7451b3d2fd7432adf104a7",
-                "reference": "197dae097f525914ed7451b3d2fd7432adf104a7",
+                "url": "https://api.github.com/repos/carthage-software/mago/zipball/6caa9a633f012dd484bb5a394e97c01a451b129a",
+                "reference": "6caa9a633f012dd484bb5a394e97c01a451b129a",
                 "shasum": ""
             },
             "require": {
@@ -2037,7 +2037,7 @@
             ],
             "support": {
                 "issues": "https://github.com/carthage-software/mago/issues",
-                "source": "https://github.com/carthage-software/mago/tree/1.14.0"
+                "source": "https://github.com/carthage-software/mago/tree/1.15.2"
             },
             "funding": [
                 {
@@ -2045,7 +2045,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-09T20:07:15+00:00"
+            "time": "2026-03-19T02:27:43+00:00"
         },
         {
             "name": "clue/ndjson-react",
@@ -2783,26 +2783,26 @@
         },
         {
             "name": "phpfui/phpunit-syntax-coverage",
-            "version": "V1.0.20",
+            "version": "V1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpfui/PHPUnitSyntaxCoverage.git",
-                "reference": "84e5101092d4e952ffbaab9147ce9feabe979479"
+                "reference": "bdadee2b244471b8c0ad97cfb9c45b9f1e4224e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpfui/PHPUnitSyntaxCoverage/zipball/84e5101092d4e952ffbaab9147ce9feabe979479",
-                "reference": "84e5101092d4e952ffbaab9147ce9feabe979479",
+                "url": "https://api.github.com/repos/phpfui/PHPUnitSyntaxCoverage/zipball/bdadee2b244471b8c0ad97cfb9c45b9f1e4224e7",
+                "reference": "bdadee2b244471b8c0ad97cfb9c45b9f1e4224e7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1 <8.6"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.64",
+                "friendsofphp/php-cs-fixer": "*",
                 "nikic/php-parser": "^5.0",
-                "phpstan/phpstan": "^2.0",
-                "phpunit/phpunit": "^9.0|^10.0|^11.0|^12.0",
+                "phpstan/phpstan": "*",
+                "phpunit/phpunit": "<=13.9",
                 "roave/security-advisories": "dev-latest",
                 "symfony/translation-contracts": ">=2.3"
             },
@@ -2836,17 +2836,17 @@
             ],
             "support": {
                 "issues": "https://github.com/phpfui/PHPUnitSyntaxCoverage/issues",
-                "source": "https://github.com/phpfui/PHPUnitSyntaxCoverage/tree/V1.0.20"
+                "source": "https://github.com/phpfui/PHPUnitSyntaxCoverage/tree/V1.0.21"
             },
-            "time": "2025-11-07T02:03:40+00:00"
+            "time": "2026-03-17T00:57:14+00:00"
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.40",
+            "version": "2.1.42",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
-                "reference": "9b2c7aeb83a75d8680ea5e7c9b7fca88052b766b",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1279e1ce86ba768f0780c9d889852b4e02ff40d0",
+                "reference": "1279e1ce86ba768f0780c9d889852b4e02ff40d0",
                 "shasum": ""
             },
             "require": {
@@ -2891,7 +2891,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-23T15:04:35+00:00"
+            "time": "2026-03-17T14:58:32+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -4256,16 +4256,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "8.0.3",
+            "version": "8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "24a711b5c916efc6d6e62aa65aa2ec98fef77f68"
+                "reference": "7b8842c2d8e85d0c3a5831236bf5869af6ab2a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/24a711b5c916efc6d6e62aa65aa2ec98fef77f68",
-                "reference": "24a711b5c916efc6d6e62aa65aa2ec98fef77f68",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/7b8842c2d8e85d0c3a5831236bf5869af6ab2a11",
+                "reference": "7b8842c2d8e85d0c3a5831236bf5869af6ab2a11",
                 "shasum": ""
             },
             "require": {
@@ -4308,7 +4308,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
                 "security": "https://github.com/sebastianbergmann/environment/security/policy",
-                "source": "https://github.com/sebastianbergmann/environment/tree/8.0.3"
+                "source": "https://github.com/sebastianbergmann/environment/tree/8.0.4"
             },
             "funding": [
                 {
@@ -4328,7 +4328,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-12T14:11:56+00:00"
+            "time": "2026-03-15T07:05:40+00:00"
         },
         {
             "name": "sebastian/exporter",
