@@ -7,5 +7,7 @@ Tom Petty did two **Christmas shows**.  One on the first season, and another on 
 
 Thanks to Reddit user [tmwescott](https://www.reddit.com/user/tmwescott/), you can find most of the [Buried Treasure Songs on YouTube](https://music.youtube.com/playlist?list=PLQa_r4PpsFWoIzlbcltxsFv9d8BrX4nMu)!
 
+[Peter Frampton](https://en.wikipedia.org/wiki/Peter_Frampton), a fan of the Buried Treasure show, debuted his song [Buried Treasure](https://youtu.be/pEAY5fHNOfA?si=iQo7N0uEdiGsRAd1&t=205) at Chateau Ste Michelle, Woodinville WA, on June 13th, 2025
+
 Found a problem with the data?  [Please let us know](/ContactUs). Problem with site? [Open an issue](https://github.com/phpfui/TomPettyBuriedTreasure/issues) or [PR](https://github.com/phpfui/TomPettyBuriedTreasure/pulls).
 
