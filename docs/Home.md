@@ -3,6 +3,8 @@ This site was created based off the playlists from [Tom Petty's Buried Treasure 
 
 Playlists can not be copyrighted, and the data on this site should be considered in the public domain. This site is not associated with SiriusXM Radio, Tom Petty's estate or heirs.
 
+You can listen to all the Buried Treasure episodes for FREE by signing up to the [Tom Petty Fan Club](https://www.tompetty.com/pages/fanclub-join)! Then follow along on the show's playlist right here.
+
 Tom Petty did two **Christmas shows**.  One on the first season, and another on the third season. They are here for quick reference: [Show 21](/Shows/info/20) and [Show 58](/Shows/info/57]).
 
 Thanks to Reddit user [tmwescott](https://www.reddit.com/user/tmwescott/), you can find most of the [Buried Treasure Songs on YouTube](https://music.youtube.com/playlist?list=PLQa_r4PpsFWoIzlbcltxsFv9d8BrX4nMu)!
